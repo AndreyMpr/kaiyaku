@@ -1,0 +1,18 @@
+html, body {
+    box-sizing: border-box;
+}
+
+.top-block{
+    background-color: #9dffff;
+    height: 80px;
+}
+
+.mid-block{
+    background-color: #fff89d;
+    min-height: 180px;
+}
+
+.bottom-block{
+    background-color: #9dffc9;
+    height: 80px;
+}
