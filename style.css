@@ -1,10 +1,15 @@
 html, body {
     box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 .top-block{
     background-color: #9dffff;
     height: 80px;
+    position: fixed;
+    display: flex;
+    min-width: 100%;
 }
 
 .mid-block{
@@ -15,4 +20,21 @@ html, body {
 .bottom-block{
     background-color: #9dffc9;
     height: 80px;
+}
+
+p{
+    margin: 0px;
+}
+
+.top-banner{
+    background-image: url(https://www.a-hosho.co.jp/images/customer/cancel_bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 2rem;
+    color: aliceblue;
 }
