@@ -19,6 +19,7 @@ html, body {
 .mid-body{
     background-color: #e3eef3;
     min-height: 180px;
+    padding: 100px 0 200px;
 }
 
 .bottom-block{
@@ -48,4 +49,7 @@ p{
 }
 
 .mid-subtitle{
+    text-align: center;
+    padding-bottom: 70px;
+    border-bottom: 2px dotted #75A8C3;
 }
