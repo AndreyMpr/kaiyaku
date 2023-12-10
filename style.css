@@ -12,7 +12,7 @@ html, body {
 }
 
 .mid-block{
-    background-color: #fff;
+    background-color: #e3eef3;
     min-height: 180px;
 }
 
@@ -37,7 +37,11 @@ p{
     font-size: 2rem;
     color: aliceblue;
 }
-.body-title{
+.mid-title{
     margin: 100px;
     text-align: center;
+    background-color: #fff;
+}
+
+.mid-subtitle{
 }
