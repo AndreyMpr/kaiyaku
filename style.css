@@ -8,12 +8,11 @@ html, body {
     background-color: #9dffff;
     height: 80px;
     position: fixed;
-    display: flex;
     min-width: 100%;
 }
 
 .mid-block{
-    background-color: #fff89d;
+    background-color: #fff;
     min-height: 180px;
 }
 
@@ -30,11 +29,15 @@ p{
     background-image: url(https://www.a-hosho.co.jp/images/customer/cancel_bg.png);
     background-size: cover;
     background-position: center;
-    padding: 120px;
+    padding: 100px;
     text-align: center;
 }
 
 .banner-title{
     font-size: 2rem;
     color: aliceblue;
+}
+.body-title{
+    margin: 100px;
+    text-align: center;
 }
