@@ -11,7 +11,12 @@ html, body {
     min-width: 100%;
 }
 
-.mid-block{
+.mid-head{
+    background-color: #fff;
+    min-height: 180px;
+}
+
+.mid-body{
     background-color: #e3eef3;
     min-height: 180px;
 }
@@ -40,7 +45,6 @@ p{
 .mid-title{
     margin: 100px;
     text-align: center;
-    background-color: #fff;
 }
 
 .mid-subtitle{
