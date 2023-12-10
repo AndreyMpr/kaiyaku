@@ -22,6 +22,11 @@ html, body {
     padding: 100px 0 200px;
 }
 
+.mid-body-inside{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .bottom-block{
     background-color: #9dffc9;
     height: 80px;
@@ -50,6 +55,8 @@ p{
 
 .mid-subtitle{
     text-align: center;
+    color: #006CB8;
     padding-bottom: 70px;
     border-bottom: 2px dotted #75A8C3;
+    
 }
