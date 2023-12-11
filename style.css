@@ -27,6 +27,11 @@ html, body {
     margin: 0 auto;
 }
 
+.mid-content{
+    position: relative;
+    display: flex;
+}
+
 .content-left{
     width: 55%;
     padding-top: 70px;
@@ -47,7 +52,7 @@ html, body {
 }
 
 .content-right{
-    display: inline;
+    
 }
 
 .bottom-block{
