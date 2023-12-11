@@ -30,6 +30,7 @@ html, body {
 .mid-content{
     position: relative;
     display: flex;
+    padding-top: 70px;
 }
 
 .content-left{
@@ -52,7 +53,7 @@ html, body {
 }
 
 .content-right{
-    
+
 }
 
 .bottom-block{
