@@ -72,6 +72,16 @@ html, body {
     z-index: 2;
 }
 
+.cancel-flow{
+    text-align: center;
+    background-color: #fff;
+    margin-top: -25px;
+}
+
+.flow-img{
+    padding: 65px 0 40px;
+}
+
 .bottom-block{
     background-color: #9dffc9;
     height: 80px;
