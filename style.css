@@ -7,7 +7,6 @@ html, body {
 .top-block{
     background-color: #9dffff;
     height: 80px;
-    position: fixed;
     min-width: 100%;
 }
 
