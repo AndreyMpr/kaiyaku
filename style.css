@@ -82,6 +82,16 @@ html, body {
     padding: 65px 0 40px;
 }
 
+.flow-text{
+    text-align: justify;
+    padding: 0 70px 70px 55px;
+}
+
+.flow-asterisk-list{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
 .bottom-block{
     background-color: #9dffc9;
     height: 80px;
