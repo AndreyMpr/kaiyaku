@@ -3,3 +3,11 @@ html, body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.header-content {
+	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
+	background-size: cover;
+	height: 190px;
+	padding-top: 50px;
+	margin-bottom: 60px;
+}
