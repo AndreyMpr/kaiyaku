@@ -65,6 +65,10 @@ html, body {
 	margin-left: 5px;
 }
 
+ul {
+	list-style-type:none;
+}
+
 .checklist-title{
 	font-size: 20px;
 	font-weight: 700;
