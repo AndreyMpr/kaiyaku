@@ -4,10 +4,20 @@ html, body {
     font-family: sans-serif;
 }
 
+header {
+	margin-bottom: 60px;
+}
+
 .header-content {
 	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
 	background-size: cover;
 	height: 190px;
 	padding-top: 50px;
-	margin-bottom: 60px;
+}
+
+.logo {
+	background: #fff;
+	width: 180px;
+	padding: 5px 0;
+	text-align: center;
 }
