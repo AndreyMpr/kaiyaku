@@ -6,9 +6,10 @@ html, body {
 
 .head-wrapper {
 	margin-bottom: 60px;
-	padding-top: 50px;
+	padding: 50px 0;
 	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
 	background-size: cover;
+	max-height: 190px;
 }
 
 .header-content {
@@ -21,6 +22,21 @@ html, body {
 .logo {
 	background: #fff;
 	width: 180px;
-	padding: 5px 0;
+	padding: 1px 5px;
 	text-align: center;
+}
+
+.header-title{
+	font-size: 35px;
+	line-height: 41px;
+	color: #eb6321;
+	letter-spacing: 7px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.header-text{
+	font-size: 25.5px;
+	line-height: 41px;
+	font-weight: bold;
 }
