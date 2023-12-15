@@ -4,15 +4,18 @@ html, body {
     font-family: sans-serif;
 }
 
-header {
+.head-wrapper {
 	margin-bottom: 60px;
+	padding-top: 50px;
+	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
+	background-size: cover;
 }
 
 .header-content {
-	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
-	background-size: cover;
 	height: 190px;
-	padding-top: 50px;
+	max-width: 1070px;
+	padding: 0 10px;
+	margin: auto;
 }
 
 .logo {
