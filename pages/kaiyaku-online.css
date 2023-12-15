@@ -45,3 +45,22 @@ html, body {
 	width: 1070px;
 	margin: auto;
 }
+
+.check-note{
+	margin-bottom: 60px;
+	font-size: 18px;
+}
+
+.check-highlighted-text{
+	color: #eb6321;
+}
+
+.required-tag{
+	font-size: 15px;
+	line-height: 25.8px;
+	color: #FFF;
+	background: #CA492E;
+	padding: 2px 4px;
+	border-radius: 3px;
+	margin-left: 5px;
+}
