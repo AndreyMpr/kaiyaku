@@ -78,3 +78,10 @@ ul {
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
+
+.checkbox-text{
+	padding: 0 60px 0 43px;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
+}
