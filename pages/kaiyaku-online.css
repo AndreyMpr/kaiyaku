@@ -64,3 +64,13 @@ html, body {
 	border-radius: 3px;
 	margin-left: 5px;
 }
+
+.checklist-title{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 36px;
+	color: #eb6321;
+	border-bottom: 1px dotted #eb6321;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
