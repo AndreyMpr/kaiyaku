@@ -83,7 +83,7 @@ ul {
 	padding-left: 43px;
 	padding-right: 60px;
 	line-height: 28px;
-	padding-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .checklist-text-colored{
@@ -91,6 +91,7 @@ ul {
 	padding-left: 43px;
 	padding-right: 60px;
 	line-height: 28px;
+	margin-top: 0;
 }
 
 .checkbox-text-caution{
