@@ -79,6 +79,11 @@ ul {
 	margin-bottom: 10px;
 }
 
+.checklist-text{
+	padding-left: 43px;
+	padding-right: 60px;
+}
+
 .checkbox-text{
 	padding: 0 60px 0 43px;
 	font-size: 20px;
