@@ -94,6 +94,10 @@ ul {
 	margin-top: 0;
 }
 
+.checklist-inline-colored{
+	color: #eb6321;
+}
+
 .checkbox-text-caution{
 	font-size: 15px;
 	line-height: 24px;
