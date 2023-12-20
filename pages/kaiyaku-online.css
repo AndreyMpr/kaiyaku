@@ -120,6 +120,14 @@ ul {
 	padding: 0;
 }
 
+.privacypolicy{
+	width: 100%;
+	overflow: auto;
+	padding: 20px;
+	border: 1px solid #eb6321;
+	background: #F2F2F0;
+}
+
 li{
 	margin-bottom: 50px;
 }
