@@ -115,6 +115,11 @@ ul {
 	margin-bottom: 50px;
 }
 
+.bold-checklist-text{
+	font-weight: 700;
+	padding: 0;
+}
+
 li{
 	margin-bottom: 50px;
 }
