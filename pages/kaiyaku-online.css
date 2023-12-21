@@ -150,12 +150,12 @@ ul {
 .contact-content{
 	border-bottom: 1px solid #ffffff !important;
 	background: #7C744E;
-	font-weight: bold;
+	font-weight: 700;
 	border: 1px solid #7C744E;
 }
 
 .email{
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .privacy-policy table td {
@@ -168,7 +168,7 @@ ul {
 .privacy-policy table th {
 	background: #7C744E;
 	color: #FFFFFF;
-	font-weight: bold;
+	font-weight: 700;
 	border: 1px solid #7C744E;
 	padding: 10px 10px;
 }
