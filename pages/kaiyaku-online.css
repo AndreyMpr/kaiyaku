@@ -140,6 +140,39 @@ ul {
 	margin: 30px 0;
 }
 
+.contact{
+	clear: both;
+	margin: 0 auto 30px;
+	border: 1px solid #1F1F1F;
+	border-collapse: collapse;
+}
+
+.contact-content{
+	border-bottom: 1px solid #ffffff !important;
+	background: #7C744E;
+	font-weight: bold;
+	border: 1px solid #7C744E;
+}
+
+.email{
+	font-weight: bold;
+}
+
+.privacy-policy table td {
+	background: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10px 10px;
+}
+
+.privacy-policy table th {
+	background: #7C744E;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px solid #7C744E;
+	padding: 10px 10px;
+}
+
 li{
 	margin-bottom: 50px;
 }
