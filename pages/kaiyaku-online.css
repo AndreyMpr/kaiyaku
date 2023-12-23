@@ -195,6 +195,18 @@ ul {
 	line-height: 36px;
 }
 
+.warning-inline-colored{
+	font-weight: 700;
+	display: block;
+	font-size: 18px;
+	color: #eb6321;
+}
+
+.indented-text{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
 li{
 	margin-bottom: 50px;
 }
