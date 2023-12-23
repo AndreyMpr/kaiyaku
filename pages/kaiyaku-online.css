@@ -184,6 +184,17 @@ ul {
 	margin-bottom: 40px;
 }
 
+.warning-block{
+	line-height: 36px;
+	margin-bottom: 40px;
+}
+
+.warning-title{
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 36px;
+}
+
 li{
 	margin-bottom: 50px;
 }
