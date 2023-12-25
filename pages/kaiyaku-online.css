@@ -221,6 +221,44 @@ ul {
 	margin-bottom: 10px;
 }
 
+.guarantor-block{
+	border-top: 1px solid #D6822C;
+	padding-top: 15px;
+}
+
+.guarantor-block-title{
+	font-size: 18px;
+	line-height: 27px;
+	color: #D6822C;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.guarantor-block-title span {
+	font-size: 15px;
+	color: #000;
+	font-weight: normal;
+}
+
+.guarantor-block-info{
+	background: #FFF;
+	text-align: center;
+	padding: 20px 10px;
+}
+
+.guarantor-block-info-head{
+	color: #6E6E6E;
+	font-size: 19px;
+	line-height: 31px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+.phone {
+	font-size: 30px;
+	vertical-align: bottom;
+}
+
 li{
 	margin-bottom: 50px;
 }
