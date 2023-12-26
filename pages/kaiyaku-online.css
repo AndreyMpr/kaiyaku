@@ -270,16 +270,23 @@ ul {
 	text-align: center;
 }
 
+
+.next-page{
+	max-width: 1070px;
+	padding: 0 10px;
+	margin: auto;
+}
+
 .next-page-button{
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 24px;
 	color: #FFF;
 	text-decoration: none;
 	display: block;
 	width: 410px;
 	text-align: center;
-	background: #D6822C;
+	background: #eb6321;
 	padding: 19px 10px;
 	border-radius: 3px;
 	transition: all 0.3s ease;
