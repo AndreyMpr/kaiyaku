@@ -274,7 +274,7 @@ ul {
 .next-page{
 	max-width: 1070px;
 	padding: 0 10px;
-	margin: auto;
+	margin: 0 50%;
 }
 
 .next-page-button{
