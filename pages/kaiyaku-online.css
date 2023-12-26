@@ -263,6 +263,13 @@ ul {
 	vertical-align: bottom;
 }
 
+.bottom-check {
+	width: 1070px;
+	padding: 0 10px;
+	margin: auto;
+	text-align: center;
+}
+
 li{
 	margin-bottom: 50px;
 }
