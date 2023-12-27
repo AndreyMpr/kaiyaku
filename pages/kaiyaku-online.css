@@ -304,6 +304,11 @@ ul {
 	text-align: center;
 }
 
+.ssl-message{
+	margin: 90px;
+	text-align: center;
+}
+
 li{
 	margin-bottom: 50px;
 }
