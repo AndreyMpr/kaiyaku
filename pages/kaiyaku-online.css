@@ -292,11 +292,15 @@ ul {
 	transition: all 0.3s ease;
 }
 
-.agreement{
+.fill-trigger{
 	display: block;
-	margin-top: 15px;
+	margin: 15px 0;
 	color: #CA492E;
 	font-weight: 700;
+	text-align: center;
+}
+
+.fill-trigger-message{
 	text-align: center;
 }
 
