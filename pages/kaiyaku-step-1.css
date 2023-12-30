@@ -130,6 +130,13 @@ ol, ul {
 	left: 0;
 }
 
+.flow-list li:last-child::after {
+	display: none;
+  }
+  .flow-list li:first-child::before {
+	display: none;
+  }
+
 .flow-num-text {
 	font-size: 19px;
 	font-weight: 700;
