@@ -41,3 +41,21 @@ html, body {
 	padding-top: 50px;
 	margin-bottom: 60px;
 }
+
+#page-header h2 {
+	font-size: 35px;
+	line-height: 41px;
+	color: #eb6321;
+	letter-spacing: 7px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+#page-header.kaiyaku-pages {
+	padding-top: 130px;
+}
+
+#page-header.page-header-flow {
+	margin-bottom: 0;
+}
