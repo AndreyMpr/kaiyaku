@@ -119,6 +119,17 @@ ol, ul {
 	right: 0;
 }
 
+.flow-list li::before {
+	display: block;
+	content: "";
+	width: 50%;
+	height: 7.7px;
+	background: #B4B4B4;
+	position: absolute;
+	top: 20px;
+	left: 0;
+}
+
 .flow-list-orange .flow-num-text-current {
-	color: #eb6321;
+	color: #eb6321	;
 }
