@@ -33,3 +33,11 @@ html, body {
 .previous-page-button a span {
     font-size: 14px;
 }
+
+#page-header {
+	background: url(https://karinushi.a-hosho.co.jp/common/img/header_kaiyaku.jpg) no-repeat;
+	background-size: cover;
+	height: 190px;
+	padding-top: 50px;
+	margin-bottom: 60px;
+}
