@@ -59,3 +59,66 @@ html, body {
 #page-header.page-header-flow {
 	margin-bottom: 0;
 }
+
+.form-flow {
+	min-width: 1070px;
+	background: #F1F0E7;
+	position: relative;
+	padding: 40px 0;
+	margin-bottom: 55px;
+}
+
+.inner {
+	width: 1070px;
+	padding: 0 10px;
+	margin: auto;
+}
+
+.flow-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.flow-list li {
+	width: 16%;
+	position: relative;
+}
+
+.flow-list-orange .flow-num-current {
+	background: #eb6321;
+}
+
+.flow-num {
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+	color: #FFF;
+	background: #B4B4B4;
+	margin: 0 auto 15px;
+	position: relative;
+	z-index: 2;
+}
+
+.flow-list li::after {
+	display: block;
+	content: "";
+	width: 50%;
+	height: 7.7px;
+	background: #B4B4B4;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.flow-list-orange .flow-num-text-current {
+	color: #eb6321;
+}
