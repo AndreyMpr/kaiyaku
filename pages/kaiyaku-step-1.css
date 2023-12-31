@@ -202,3 +202,24 @@ ol, ul {
 	vertical-align: middle;
 	margin-left: 5px;
 }
+
+.layer-1 {
+	padding: 0 0 5px;
+	margin-top: 15px;
+}
+
+.form-radio {
+	display: block;
+	opacity: 0;
+	position: absolute;
+}
+
+.form-label-radio {
+	width: 100%;
+	display: flex;
+	background: url(https://karinushi.a-hosho.co.jp/common/img/radio_1_off.png) no-repeat;
+	background-size: 20px;
+	background-position: left center;
+	padding: 2px 0 2px 26px;
+	display: inline;
+}
