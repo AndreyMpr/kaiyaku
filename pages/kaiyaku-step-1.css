@@ -161,3 +161,18 @@ ol, ul {
 	border-radius: 3px;
 	margin-bottom: 40px;
 }
+
+.inner {
+	width: 1070px;
+	padding: 0 10px;
+	margin: auto;
+}
+
+.block-1 {
+	margin-bottom: 90px;
+}
+
+.e-check {
+	margin: 5px auto;
+	padding: 10px 5px;
+}
