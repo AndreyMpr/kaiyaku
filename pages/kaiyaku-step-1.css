@@ -176,3 +176,29 @@ ol, ul {
 	margin: 5px auto;
 	padding: 10px 5px;
 }
+
+.column-title {
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 25px;
+	position: relative;
+	padding-left: 17px;
+	margin-bottom: 10px;
+}
+
+.column-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.inquiry-tag {
+	font-size: 15px;
+	line-height: 25.8px;
+	color: #FFF;
+	background: #CA492E;
+	padding: 2px 4px;
+	border-radius: 3px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
