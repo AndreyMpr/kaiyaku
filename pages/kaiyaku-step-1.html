@@ -4,9 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STEP①「解約対象情報の入力」</title>
-    <link rel="stylesheet" href="kaiyaku-step-1.html" />
+    <link rel="stylesheet" href="kaiyaku-step-1.css" />
 </head>
 <body>
+    <div class="form-body">
+        <div class="previous-page-button">
+            <a href="./?token=">
+                前ページへ戻る
+                <span>
+                    <br>
+                    ブラウザの戻るボタン（画面左上の「←」ボタン）を使わないでください。
+                </span>
+            </a>
+        </div>
+        <header id="page-header" class="kaiyaku-pages page-header-flow">
+            <div class="page-header-inner">
+              <h2>ご入居者様専用 解約申込みサイト</h2>
+            </div>
+          </header>
+          <div class="form-flow">
+            <div class="inner">
+              <ul class="flow-list flow-list-orange">
+                <li>
+                  <div class="flow-num flow-num-current">
+                    <span>
+                      1
+                    </span>
+                  </div>
+                  <p class="flow-num-text flow-num-text-current">
+                    解約対象情報の入力
+                  </p>
+                </li>
+                <li>
+                  <div class="flow-num">
+                    <span>
+                      2
+                    </span>
+                  </div>
+                  <p class="flow-num-text">
+                    解約申込者情報の
+                    <br class="pc">
+                    入力
+                  </p>
+                </li>
+                <li>
+                  <div class="flow-num">
+                    <span>
+                      3
+                    </span>
+                  </div>
+                  <p class="flow-num-text">
+                    入力内容の確認
+                  </p>
+                </li>
+                <li>
+                  <div class="flow-num">
+                    <span>
+                      4
+                    </span>
+                  </div>
+                  <p class="flow-num-text">
+                    解約申込み完了
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form action="./conf.php" method="post" id="form">
+            <!--<input type="hidden" name="token" value="">-->
+            
+            <section class="block-1">
+              <div class="inner">
+                <div class="e-check">
+                </div>
+                <div class="bg-beige-text">解約対象と退去日を入力してください。</div>
+
+                <div class="comumn-box">
+                  <div class="column-title">
+                    <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column-img">
+                    解約対象
+                    <span class="inquiry-tag">
+                      必須
+                    </span>
+
+                  </div>
+                  <div id="layer-1-1" class="layer-1">
+                    <p>
+                      <input type="radio" name="cancel-target-l" class="validate[required] form-radio" id="radio-0-1" value="お部屋をご契約しているお客様">
+                      <label for="radio-0-1" class="form-label-radio">
+                        お部屋または付帯設備を解約したいお客様
+                      </label>
+                    </p>
+                  </div>
+                  
+                  <div id="layer-2-1" class="layer-2">
+                    <p>
+                      <input type="radio" name="cancel-target-l" class="validate[required] form-radio" id="radio-0-1" value="お部屋をご契約しているお客様">
+                      <label for="radio-0-1" class="form-label-radio">
+                        お部屋を解約する
+                      </label>
+                    </p>
+                  </div>
+
+                </div>
+
+          </form>
+    </div>
     
 </body>
 </html>
