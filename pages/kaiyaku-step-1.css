@@ -1,7 +1,7 @@
-html, body{
-    box-sizing: border-box;
-    margin: 0px;
-    font-family: sans-serif;
+html, body {
+        box-sizing: border-box;
+        margin: 0px;
+        font-family: sans-serif;
 }
 
 /*
@@ -10,12 +10,12 @@ html, body{
 }
 */
 
-.previous-page-button{
-    display: block;
-    position: fixed;
-    z-index: 99;
-    bottom: 0;
-    width: 100%;
+.previous-page-button {
+        display: block;
+        position: fixed;
+        z-index: 99;
+        bottom: 0;
+        width: 100%;
 }
 
 .previous-page-button a {
