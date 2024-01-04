@@ -4,11 +4,11 @@ html, body {
         font-family: sans-serif;
 }
 
-/*
-.form-body{
 
+.form-body {
+        box-sizing: border-box;
 }
-*/
+
 
 .previous-page-button {
         display: block;
