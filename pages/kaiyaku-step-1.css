@@ -231,3 +231,25 @@ ol, ul {
 	background-size: 20px;
 	background-position: left center;
 }
+
+.layer-3 {
+	padding: 0 0 0 25px;
+	margin-top: 15px;
+}
+
+.bold {
+	font-weight: 700;
+	letter-spacing: -.8px;
+}
+
+.sp-br {
+	display: none;
+}
+
+.columntitle-notes-2 {
+	font-size: 14px;
+	line-height: 25px;
+	color: #464646;
+	padding-left: 10px;
+	font-weight: 400;
+}
