@@ -268,3 +268,17 @@ ol, ul {
 	padding: 2px 0 2px 26px;
 	display: inline;
 }
+
+.input-orange {
+	border: 2px solid #eb6321;
+	border-radius: 3px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #464646;
+	padding: 9px 5px;
+	box-shadow: 0px 0px 7px 3px #efefef inset;
+}
+
+.input-size-8 {
+	width: 408px;
+}
