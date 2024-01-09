@@ -282,3 +282,15 @@ ol, ul {
 .input-size-8 {
 	width: 408px;
 }
+
+.margin-B05 {
+	margin-bottom: 5px !important;
+}
+
+.margin-T05 {
+	margin-top: 5px !important;
+}
+
+input[type="radio"]:disabled + label {
+	color: #bdbdbd;
+}
