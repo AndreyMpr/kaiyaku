@@ -264,9 +264,22 @@
 
                 <p>
                   <input type="radio" name="cancel-target-l" class="validate[required] form-radio" id="radio-0-3" style="display:none;" readonly="">
-                  </p>
+                </p>
 
               </div>    
+
+              
+        <!-- 退去日 -->
+        <div class="columnbox columnbox_taikyo" id="err_departure_date">
+                  <div class="columntitle">
+                    <img src="../../common/img/column_orange.png" class="column_img">退去日
+                    <span class="inquiryTag">必須</span>
+                  </div>
+                  <span class="columntitle_notes2">　&#x203B;一度ご通知いただいた退去日は変更できません。※明日以降の日付でご指定ください。</span>
+                  <div class="inputblock block_focus">
+                    <input  id="date" type="text" name="departure_date" value="" placeholder="2021/01/01" class="validate[required,future[NOW],funcCall[checkDate]] inputt_orange input_size9 zentohan">
+                  </div>
+                </div>
 
           </form>
     </div>
