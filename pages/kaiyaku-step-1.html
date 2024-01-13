@@ -213,50 +213,21 @@
 
                   <!--退去日-->
 
-                  <div id="err-departure-date" class="column-box column-box-taikyo" style="display: none;">
+                  <div class="columnbox columnbox-taikyo" id="err-departure-date">
                     <div class="column-title">
-                      <img class="column-img" src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png">
-                      解約日
-                      <span class="inquiry-tag">
+                      <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column-img">
+                      退去日
+                      <span class="inquiry-Tag">
                         必須
                       </span>
                     </div>
-                    <span class="column-title-notes-2">
-                      ※一度ご通知いただいた退去日は変更できません。※明日以降の日付でご指定ください。
-
+                    <span class="columntitle-notes-2">
+                      &#x203B;一度ご通知いただいた退去日は変更できません。※明日以降の日付でご指定ください。
                     </span>
+                    <div class="inputblock block-focus">
+                      <input  id="date" type="text" name="departure-date" value="" placeholder="2021/01/01" class="validate[required,future[NOW],funcCall[checkDate]] input-orange input-size9 zentohan">
+                    </div>
                   </div>
-
-                    <p>
-                      <input type="radio" name="cancel-target-l" class="validate[required] form-radio" id="radio-0-2" value="駐車場・駐輪場">
-                      <label for="radio-0-2" class="form-label-radio">
-                        お部屋の契約が無い単独の駐車場・駐輪場（バイク置き場含む）・トランクルームを解約したいお客様
-                      </label>
-
-                    </p>
-                  <div id="layer-2-3" class="layer-2" style="display: none;">
-                    <p>
-                      <input type="radio" name="cancel-target-s2" class="validate[required] form-radio" id="radio-4-1" value="駐車場を解約する" disabled="">
-                      <label for="radio-4-1" class="form-label-radio">
-                        駐車場を解約する
-                      </label>
-                    </p>
-                    <p class="margin-T10">
-                      <input type="radio" name="cancel-target-s2" class="validate[required] form-radio" id="radio-4-2" value="駐輪場（バイク置き場含む）を解約する" disabled="">
-                      <label for="radio-4-2" class="form-label-radio">
-                        駐輪場（バイク置き場含む）を解約する
-                      </label>
-                    </p>
-                    <p class="margin-T10">
-                      <input type="radio" name="cancel-target-s2" class="validate[required] form-radio" id="radio-4-3" value="トランクルームを解約する" disabled="">
-                      <label for="radio-4-3" class="form-label-radio">
-                        トランクルームを解約する
-                      </label>
-                    </p>
-
-                    <p>
-                      <input type="radio" name="cancel-target-s2" class="validate[required] form-radio" id="radio-4-4" style="display:none;" readonly="" disabled="">
-                      </p>
 
                   </div>
                 
@@ -269,7 +240,7 @@
               </div>    
 
               
-        <div class="columnbox columnbox-taikyo" id="err-departure-date">
+              <div class="columnbox columnbox-taikyo" id="err-departure-date">
                   <div class="column-title">
                     <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column-img">
                     退去日
@@ -283,8 +254,8 @@
                   <div class="inputblock block-focus">
                     <input  id="date" type="text" name="departure-date" value="" placeholder="2021/01/01" class="validate[required,future[NOW],funcCall[checkDate]] input-orange input-size9 zentohan">
                   </div>
-                </div>
-                <!-- Radioボタンのエラーメッセージ表示位置対策 -->
+              </div>
+            </div>
           </form>
     </div>
     
