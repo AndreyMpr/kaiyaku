@@ -213,7 +213,7 @@
 
                   <!--退去日-->
 
-                  <div class="columnbox columnbox-taikyo" id="err-departure-date">
+                  <div class="column-box column-box-taikyo" id="err-departure-date">
                     <div class="column-title">
                       <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column-img">
                       退去日
@@ -221,11 +221,27 @@
                         必須
                       </span>
                     </div>
-                    <span class="columntitle-notes-2">
+                    <span class="column-title-notes-2">
                       &#x203B;一度ご通知いただいた退去日は変更できません。※明日以降の日付でご指定ください。
                     </span>
-                    <div class="inputblock block-focus">
+                    <div class="input-block block-focus">
                       <input  id="date" type="text" name="departure-date" value="" placeholder="2021/01/01" class="validate[required,future[NOW],funcCall[checkDate]] input-orange input-size9 zentohan">
+                    </div>
+                  </div>
+                  <div class="column-box column-box-kaiyaku" id="err-departure-date">
+                    <div class="column-title">
+                      <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column-img">
+                      解約日
+                        <span class="inquiry-tag">
+                          必須
+                        </span>
+                        <!--<span class="columntitle_notes">&#x203B;一度ご通知いただいた解約日は変更できません。※本日以降の日付でご指定ください。</span>-->
+                    </div>
+                    <span class="column-title-notes-2">
+                      ※一度ご通知いただいた解約日は変更できません。※明日以降の日付でご指定ください。
+                    </span>
+                    <div class="input-block block-focus">
+                      <input id="date-2" type="text" name="departure-date" value="" placeholder="2021/01/01" class="validate[required,future[NOW],funcCall[checkDate2]] inputt-orange input-size-9 zentohan has-datepicker">
                     </div>
                   </div>
               </div>
