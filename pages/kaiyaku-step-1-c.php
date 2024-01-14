@@ -9,22 +9,22 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="robots" content="noindex , nofollow" />
   <title>解約対象情報の入力 | エイブル保証管理建物 ご契約者様向け 契約更新専用サイト</title>
-  <link rel="stylesheet" type="text/css" href="../../common/css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../common/css/kaiyaku.css">
-  <script type="text/javascript" src="../../common/js/jquery-3.5.1.min.js"></script>
-  <script type="text/javascript" src="../../common/js/function.js"></script>
-  <script type="text/javascript" src="../../common/js/fixedBack.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://karinushi.a-hosho.co.jp/common/css/common.css">
+  <link rel="stylesheet" type="text/css" href="https://karinushi.a-hosho.co.jp/common/css/kaiyaku.css">
+  <script type="text/javascript" src="https://karinushi.a-hosho.co.jp/common/js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="https://karinushi.a-hosho.co.jp/common/js/function.js"></script>
+  <script type="text/javascript" src="https://karinushi.a-hosho.co.jp/common/js/fixedBack.js"></script>
   <!-- DatePicker ここから-->
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js"></script>
 <!-- Moment ここから-->
-<script type="text/javascript" src="../../common/js/moment-with-locales.js"></script>
+<script type="text/javascript" src="https://karinushi.a-hosho.co.jp/common/js/moment-with-locales.js"></script>
   <!-- validateionEngine ここから-->
-<link rel="stylesheet" href="../../common/ve/validationEngine.jquery.css" type="text/css"/>
-<script src="../../common/ve/jquery.validationEngine-ja.js" type="text/javascript" charset="utf-8"></script>
-<script src="../../common/ve/jquery.validationEngine.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="https://karinushi.a-hosho.co.jp/common/ve/validationEngine.jquery.css" type="text/css"/>
+<script src="https://karinushi.a-hosho.co.jp/common/ve/jquery.validationEngine-ja.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://karinushi.a-hosho.co.jp/common/ve/jquery.validationEngine.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script>
     $(function(){
@@ -131,8 +131,6 @@ $(function(){
 }
 
 </style>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script type="text/javascript" src="/common/js/analytics.js"></script>
 </head>
 
 <body>
@@ -180,7 +178,7 @@ $(function(){
 
         <div class="columnbox">
           <div class="columntitle">
-            <img src="../../common/img/column_orange.png" class="column_img">解約対象
+            <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">解約対象
             <span class="inquiryTag">必須</span>
           </div>
           <div id="layer_1_1" class="layer_1">
@@ -297,7 +295,7 @@ $(function(){
         <div class="columnbox columnbox_taikyo
 " id="err_departure_date">
           <div class="columntitle">
-            <img src="../../common/img/column_orange.png" class="column_img">退去日
+            <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">退去日
             <span class="inquiryTag">必須</span>
 <!--            <span class="columntitle_notes">&#x203B;一度ご通知いただいた退去日は変更できません。※本日以降の日付でご指定ください。</span>-->
           </div>
@@ -311,7 +309,7 @@ $(function(){
         <div class="columnbox columnbox_kaiyaku
 " id="err_departure_date">
           <div class="columntitle">
-            <img src="../../common/img/column_orange.png" class="column_img">解約日
+            <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">解約日
             <span class="inquiryTag">必須</span>
 <!--            <span class="columntitle_notes">&#x203B;一度ご通知いただいた解約日は変更できません。※本日以降の日付でご指定ください。</span>-->
           </div>
@@ -334,7 +332,7 @@ $(function(){
 " id="err_building_mei_1">
 
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">建物名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">建物名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている建物名をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている建物名をご入力ください。</span>
@@ -345,7 +343,7 @@ $(function(){
           <div class="columnbox
 " id="err_room_name_1">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">部屋番号<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">部屋番号<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている部屋番号をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている部屋番号をご入力ください。</span>
@@ -361,7 +359,7 @@ $(function(){
           <div class="columnbox
 " id="err_building_mei_2">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">駐車場名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">駐車場名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている駐車場名をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている駐車場名をご入力ください。</span>
@@ -372,7 +370,7 @@ $(function(){
           <div class="columnbox
 " id="err_room_name_2">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている区画をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている区画をご入力ください。</span>
@@ -387,7 +385,7 @@ $(function(){
           <div class="columnbox
 " id="err_building_mei_3">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">駐輪場（バイク置き場含む）名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">駐輪場（バイク置き場含む）名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている駐輪場名をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている駐輪場（バイク置き場含む）名をご入力ください。</span>
@@ -398,7 +396,7 @@ $(function(){
           <div class="columnbox
 " id="err_room_name_3">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている区画をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている区画をご入力ください。</span>
@@ -413,7 +411,7 @@ $(function(){
           <div class="columnbox
 " id="err_building_mei_4">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">トランクルーム名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">トランクルーム名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されているトランクルームをご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されているトランクルームをご入力ください。</span>
@@ -424,7 +422,7 @@ $(function(){
           <div class="columnbox
 " id="err_room_name_4">
             <div class="columntitle">
-              <img src="../../common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
+              <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">区画名<span class="inquiryTag">必須</span>
 <!--              <span class="columntitle_notes">&#x203B;ご契約書に記載されている区画をご入力ください。</span>-->
             </div>
             <span class="columntitle_notes2">　&#x203B;ご契約書に記載されている区画をご入力ください。</span>
@@ -437,7 +435,7 @@ $(function(){
         <div class="columnbox columnbox_code
 " id="err_zipcode">
           <div class="columntitle">
-            <img src="../../common/img/column_orange.png" class="column_img">郵便番号<span class="inquiryTag">必須</span>
+            <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">郵便番号<span class="inquiryTag">必須</span>
           </div>
           <div class="inputblock block_focus">
             <span class="input_while">〒</span>
@@ -450,7 +448,7 @@ $(function(){
         <div class="columnbox
 " id="err_building_address">
           <div class="columntitle">
-            <img src="../../common/img/column_orange.png" class="column_img">所在地<span class="inquiryTag">必須</span>
+            <img src="https://karinushi.a-hosho.co.jp/common/img/column_orange.png" class="column_img">所在地<span class="inquiryTag">必須</span>
           </div>
           <div class="inputblock block_focus">
             <label class="selectarrow">
@@ -541,7 +539,7 @@ $(function(){
     </div>    
     <footer class="formfooter">
       <div class="inner">
-        <figure class="logoimg"><img src="../../common/img/logo.png" alt="エイブル保証株式会社"></figure>
+        <figure class="logoimg"><img src="https://karinushi.a-hosho.co.jp/common/img/logo.png" alt="エイブル保証株式会社"></figure>
         <p class="address">〒100-0013 東京都千代田区霞が関1-4-1 日土地ビル3階</p>
         <p class="copy">Copyright &copy; エイブル保証株式会社, All Rights Reserved.</p>
       </div>
@@ -549,7 +547,7 @@ $(function(){
 
   </div>
 
-  <script type="text/javascript" src="../../common/js/kaiyaku_input_01.js"></script>
+  <script type="text/javascript" src="https://karinushi.a-hosho.co.jp/common/js/kaiyaku_input_01.js"></script>
 <script>
 function ZenNum2HanNum(str) {
     return str.replace(/[０-９]/g, function(s) {
