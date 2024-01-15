@@ -41,6 +41,21 @@
             <input type="text" id="parking-number" name="parking-number" placeholder="01">
         </div>
 
+        <div>
+            <label for="phone-number">電話番号</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="048-729-8661">
+        </div>
+
+        <div>
+            <label for="move-out-date">退去予定日（立会日）</label>
+            <input type="date" id="move-out-date" name="move-out-date" >
+        </div>
+
+        <div>
+            <label for="move-out-time">立会希望時間</label>
+            <input type="time" id="move-out-time" name="move-out-time" >
+        </div>
+
     </form>
 </section>
 </body>
