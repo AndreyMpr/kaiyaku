@@ -31,6 +31,16 @@
             <input type="text" id="property-name" name="property-name" placeholder="桜木マンション">
         </div>
         
+        <div>
+            <label for="room-number">号室</label>
+            <input type="text" id="room-number" name="room-number" placeholder="101">
+        </div>
+
+        <div>
+            <label for="parking-number">駐車場・№</label>
+            <input type="text" id="parking-number" name="parking-number" placeholder="01">
+        </div>
+
     </form>
 </section>
 </body>
