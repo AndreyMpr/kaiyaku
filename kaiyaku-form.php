@@ -17,5 +17,12 @@
     <p>最短解約日：2ヶ月　or　1ヶ月　（契約書をご確認ください）</p>
     <p>例）7/21受付→9/21（2か月前）or　8/21（1ヶ月前）</p>
 </div>
+
+<section>
+    <form action="kaiyaku-form-handler.php" method="get">
+        <input type="text" id="contractor-name" name="contractor-name" placeholder="山田太郎">
+            
+    </form>
+</section>
 </body>
 </html>
