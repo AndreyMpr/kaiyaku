@@ -53,7 +53,22 @@
 
         <div>
             <label for="move-out-time">立会希望時間</label>
-            <input type="time" id="move-out-time" name="move-out-time" >
+            <input type="time" id="move-out-time" name="move-out-time">
+        </div>
+
+        <div>
+            <label for="reason">退去理由</label>
+            <input type="text" id="reason" name="reason" placeholder="県外への転勤">
+        </div>
+
+        <div>
+            <label for="reason">退去理由</label>
+            <input type="text" id="reason" name="reason" placeholder="県外への転勤">
+        </div>
+
+        <div>
+            <label for="reason">退去理由</label>
+            <input type="text" id="reason" name="reason" placeholder="県外への転勤">
         </div>
 
     </form>
