@@ -20,8 +20,17 @@
 
 <section>
     <form action="kaiyaku-form-handler.php" method="get">
-        <input type="text" id="contractor-name" name="contractor-name" placeholder="山田太郎">
-            
+
+        <div>
+            <label for="contractor-name">契約者氏名</label>
+            <input type="text" id="contractor-name" name="contractor-name" placeholder="山田太郎">
+        </div>
+
+        <div>
+            <label for="property-name">物件名</label>
+            <input type="text" id="property-name" name="property-name" placeholder="桜木マンション">
+        </div>
+        
     </form>
 </section>
 </body>
