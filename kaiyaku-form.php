@@ -104,8 +104,15 @@
         </div>
         
         <div>
-            <label for="bank-name">口座名義 </label>
+            <label for="bank-name">口座名義</label>
             <input type="text" id="bank-name" name="bank-name" placeholder="カ）サイタママルヤマコウムショ">
+        </div>
+
+        <div>
+            <label for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
+            <textarea id="comment" name="comment">
+                
+            </textarea>
         </div>
 
     </form>
