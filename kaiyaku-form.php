@@ -94,15 +94,19 @@
         </div>
 
         <div>
-            <label for="address">転居先住所 </label>
+            <label for="address">転居先住所</label>
             <input type="text" id="address" name="address">
         </div>
 
         <div>
-            <label for="bank">敷金等返金先口座 </label>
-            <input type="text" id="bank" name="bank" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
+            <label for="bank-account">敷金等返金先口座</label>
+            <input type="text" id="bank-account" name="bank-account" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
+        <div>
+            <label for="bank-name">口座名義 </label>
+            <input type="text" id="bank-name" name="bank-name" placeholder="カ）サイタママルヤマコウムショ">
+        </div>
 
     </form>
 </section>
