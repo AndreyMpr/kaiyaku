@@ -62,36 +62,38 @@
                 <p>差し支えなければ、転居の理由をお聞かせください。</p>
 
                 <input type="radio" id="work" name="reason">
-                <label for="kraken">仕事都合</label>
+                <label for="work">仕事都合</label>
                 <br>
                 <input type="radio" id="school" name="reason">
-                <label for="sasquatch">卒業・進学</label>
+                <label for="school">卒業・進学</label>
                 <br>
                 <input type="radio" id="house" name="reason">
-                <label for="mothman">自宅購入</label>
+                <label for="house">自宅購入</label>
                 <br>
                 <input type="radio" id="small" name="reason">
-                <label for="kraken">手狭</label>
+                <label for="small">手狭</label>
                 <br>
                 <input type="radio" id="parents" name="reason">
-                <label for="sasquatch">実家へ戻る</label>
+                <label for="parents">実家へ戻る</label>
                 <br>
                 <input type="radio" id="marriage" name="reason">
-                <label for="mothman">結婚</label>
+                <label for="marriage">結婚</label>
                 <br>
                 <input type="radio" id="malfunction" name="reason">
-                <label for="kraken">設備・管理に不満</label>
+                <label for="malfunction">設備・管理に不満</label>
                 <br>
                 <input type="radio" id="far" name="reason">
-                <label for="sasquatch">交通の便</label>
+                <label for="far">交通の便</label>
                 <br>
                 <input type="radio" id="neighbour" name="reason">
-                <label for="mothman">近隣トラブル</label>
+                <label for="neighbour">近隣トラブル</label>
                 <br>
-                <label for="mothman">その他</label>
+                <label for="other">その他</label>
                 <input type="text" id="other" name="reason" placeholder="県外への転勤の為">
             </fieldset>
         </div>
+
+
         
 
     </form>
