@@ -94,8 +94,13 @@
         </div>
 
         <div>
-            <label for="reason">転居先住所 </label>
-            <input type="text" id="reason" name="reason">
+            <label for="address">転居先住所 </label>
+            <input type="text" id="address" name="address">
+        </div>
+
+        <div>
+            <label for="bank">敷金等返金先口座 </label>
+            <input type="text" id="bank" name="bank" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
 
