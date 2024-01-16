@@ -93,7 +93,10 @@
             </fieldset>
         </div>
 
-
+        <div>
+            <label for="reason">転居先住所 </label>
+            <input type="text" id="reason" name="reason">
+        </div>
         
 
     </form>
