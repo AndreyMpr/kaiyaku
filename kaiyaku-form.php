@@ -141,6 +141,13 @@
             <input type="text" id="explanation" name="explanation">
         </div>
 
+        <div>
+            <label for="wishes">希望する設備やサービスは何かございましたか。</label>
+            <input type="text" id="wishes" name="wishes">
+        </div>
+
+
+
     </form>
 </section>
 </body>
