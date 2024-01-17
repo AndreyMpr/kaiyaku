@@ -136,6 +136,11 @@
             </fieldset>
         </div>
 
+        <div>
+            <label for="explanation">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</label>
+            <input type="text" id="explanation" name="explanation">
+        </div>
+
     </form>
 </section>
 </body>
