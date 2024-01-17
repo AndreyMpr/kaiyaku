@@ -146,7 +146,10 @@
             <input type="text" id="wishes" name="wishes">
         </div>
 
-
+        <div>
+            <label for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
+            <input type="text" id="other" name="other">
+        </div>
 
     </form>
 </section>
