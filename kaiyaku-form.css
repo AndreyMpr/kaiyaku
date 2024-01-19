@@ -18,4 +18,5 @@ html, body {
     box-shadow: 
       inset 2px 2px 5px #a3b6be, 
       inset -2px -2px 5px #ffffff;
+      /* Maybe delete "inset", if chan't make a nice looking gradient boeder. I looks better without "inset". */ 
 }
