@@ -3,3 +3,8 @@ html, body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.inner {
+    max-width: 1070px;
+    margin: auto;
+}
