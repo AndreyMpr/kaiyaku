@@ -29,32 +29,32 @@
 
         <div class="question">
             <label class="wide-label" for="property-name">物件名</label>
-            <input type="text" id="property-name" name="property-name" placeholder="桜木マンション">
+            <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="桜木マンション">
         </div>
         
         <div class="question">
             <label class="wide-label" for="room-number">号室</label>
-            <input type="text" id="room-number" name="room-number" placeholder="101">
+            <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="101">
         </div>
 
         <div class="question">
             <label class="wide-label" for="parking-number">駐車場・№</label>
-            <input type="text" id="parking-number" name="parking-number" placeholder="01">
+            <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="01">
         </div class="question">
 
         <div class="question">
             <label class="wide-label" for="phone-number">電話番号</label>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="048-729-8661">
+            <input class="wide-input" type="tel" id="phone-number" name="phone-number" placeholder="048-729-8661">
         </div>
 
         <div class="question">
             <label class="wide-label" for="move-out-date">退去予定日（立会日）</label>
-            <input type="date" id="move-out-date" name="move-out-date" >
+            <input class="wide-input" type="date" id="move-out-date" name="move-out-date" >
         </div>
 
         <div class="question">
             <label class="wide-label" for="move-out-time">立会希望時間</label>
-            <input type="time" id="move-out-time" name="move-out-time">
+            <input class="wide-input" type="time" id="move-out-time" name="move-out-time">
         </div>
 
         <div class="question">
@@ -96,17 +96,17 @@
 
         <div class="question">
             <label class="wide-label" for="address">転居先住所</label>
-            <input type="text" id="address" name="address">
+            <input class="wide-input" type="text" id="address" name="address">
         </div>
 
         <div class="question">
             <label class="wide-label" for="bank-account">敷金等返金先口座</label>
-            <input type="text" id="bank-account" name="bank-account" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
+            <input class="wide-input" type="text" id="bank-account" name="bank-account" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
         <div class="question">
             <label class="wide-label" for="bank-name">口座名義</label>
-            <input type="text" id="bank-name" name="bank-name" placeholder="カ）サイタママルヤマコウムショ">
+            <input class="wide-input" type="text" id="bank-name" name="bank-name" placeholder="カ）サイタママルヤマコウムショ">
         </div>
 
         <div class="question">
