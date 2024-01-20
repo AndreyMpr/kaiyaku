@@ -3,6 +3,7 @@ html, body {
     margin: 0px;
     font-family: sans-serif;
     background-color: #e3edf2;
+    padding: 12px;
 }
 
 .inner {
