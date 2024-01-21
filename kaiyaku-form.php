@@ -111,7 +111,7 @@
 
         <div class="question">
             <label class="wide-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
-            <textarea id="comment" name="comment">
+            <textarea class="wide-input" id="comment" name="comment">
                 
             </textarea>
         </div>
@@ -139,17 +139,17 @@
 
         <div class="question">
             <label class="wide-label" for="explanation">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</label>
-            <input type="text" id="explanation" name="explanation">
+            <input class="wide-input" type="text" id="explanation" name="explanation">
         </div>
 
         <div class="question">
             <label class="wide-label" for="wishes">希望する設備やサービスは何かございましたか。</label>
-            <input type="text" id="wishes" name="wishes">
+            <input class="wide-input" type="text" id="wishes" name="wishes">
         </div>
 
         <div class="question">
             <label class="wide-label" for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
-            <input type="text" id="other" name="other">
+            <input class="wide-input" type="text" id="other" name="other">
         </div>
 
     </form>
