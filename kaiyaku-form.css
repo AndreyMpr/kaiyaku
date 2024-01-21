@@ -32,4 +32,7 @@ html, body {
 
 .question .wide-input {
     width: 65%;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 4px;
 }
