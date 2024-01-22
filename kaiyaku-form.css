@@ -20,11 +20,11 @@ html {
 .question {
     margin: 60px 0;
     padding: 30px;
-    background-color: #c2d9e4;
+    background-color: #d3e2e9;
     border-radius: 12px;
     box-shadow: 
-      inset 2px 2px 5px #a3b6be, 
-      inset -2px -2px 5px #ffffff;
+      2px 2px 5px #a3b6be, 
+      -2px -2px 5px #ffffff;
     /*border-image: linear-gradient(#92a1b0, #f0f3f5) 30;
     border-width: 4px;
     border-style: solid;
@@ -45,8 +45,8 @@ html {
     border-radius: 4px;
     background-color: #f0f3f5;
     box-shadow: 
-      2px 2px 5px #a3b6be, 
-      -2px -2px 5px #ffffff;
+      inset 1px 1px 2px #a3b6be, 
+      inset -1px -1px 2px #ffffff;
 }
 
 fieldset label, fieldset input {
