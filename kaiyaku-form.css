@@ -1,10 +1,16 @@
 html, body {
-    box-sizing: border-box;
     margin: 0px;
     font-family: sans-serif;
     background-color: #e3edf2;
     padding: 12px;
 }
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 .inner {
     max-width: 1070px;
@@ -26,16 +32,16 @@ html, body {
 }
 
 .question .wide-label {
-    display: inline-block;
+    display: block;
     width: 30%;
+    padding-bottom: 10px;
 }
 
 .question .wide-input {
     height: 100%;
-    width: 60%;
+    width: 100%;
     font-size: 16px;
     padding: 5px;
-    margin-left: 20px;
     border-radius: 4px;
     background-color: #f0f3f5;
     box-shadow: 
