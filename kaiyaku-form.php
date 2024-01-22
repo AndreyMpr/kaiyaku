@@ -24,27 +24,27 @@
 
         <div class="question">
             <label class="wide-label" for="contractor-name">契約者氏名</label>
-            <input class="wide-input" type="text" id="contractor-name" name="contractor-name" placeholder="山田太郎">
+            <input class="wide-input" type="text" id="contractor-name" name="contractor-name" placeholder="例：山田太郎">
         </div>
 
         <div class="question">
             <label class="wide-label" for="property-name">物件名</label>
-            <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="桜木マンション">
+            <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="例：桜木マンション">
         </div>
         
         <div class="question">
             <label class="wide-label" for="room-number">号室</label>
-            <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="101">
+            <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="例：101">
         </div>
 
         <div class="question">
             <label class="wide-label" for="parking-number">駐車場・№</label>
-            <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="01">
+            <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="例：01">
         </div class="question">
 
         <div class="question">
             <label class="wide-label" for="phone-number">電話番号</label>
-            <input class="wide-input" type="tel" id="phone-number" name="phone-number" placeholder="048-729-8661">
+            <input class="wide-input" type="tel" id="phone-number" name="phone-number" placeholder="例：048-729-8661">
         </div>
 
         <div class="question">
@@ -101,12 +101,12 @@
 
         <div class="question">
             <label class="wide-label" for="bank-account">敷金等返金先口座</label>
-            <input class="wide-input" type="text" id="bank-account" name="bank-account" placeholder="埼玉りそな銀行　大宮西支店　普通　1474654">
+            <input class="wide-input" type="text" id="bank-account" name="bank-account" placeholder="例：埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
         <div class="question">
             <label class="wide-label" for="bank-name">口座名義</label>
-            <input class="wide-input" type="text" id="bank-name" name="bank-name" placeholder="カ）サイタママルヤマコウムショ">
+            <input class="wide-input" type="text" id="bank-name" name="bank-name" placeholder="例：カ）サイタママルヤマコウムショ">
         </div>
 
         <div class="question">
