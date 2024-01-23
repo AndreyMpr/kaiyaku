@@ -23,6 +23,7 @@
     <form action="kaiyaku-form-handler.php" method="get">
 
         <div class="question">
+            <p class="number">1.</p>
             <label class="wide-label" for="contractor-name">契約者氏名</label>
             <input class="wide-input" type="text" id="contractor-name" name="contractor-name" placeholder="例：山田太郎">
         </div>
