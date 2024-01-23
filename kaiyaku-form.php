@@ -29,37 +29,44 @@
         </div>
 
         <div class="question">
+            <p class="number">2.</p>
             <label class="wide-label" for="property-name">物件名</label>
             <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="例：桜木マンション">
         </div>
         
         <div class="question">
+            <p class="number">3.</p>
             <label class="wide-label" for="room-number">号室</label>
             <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="例：101">
         </div>
 
         <div class="question">
+            <p class="number">4.</p>
             <label class="wide-label" for="parking-number">駐車場・№</label>
             <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="例：01">
         </div class="question">
 
         <div class="question">
+            <p class="number">5.</p>
             <label class="wide-label" for="phone-number">電話番号</label>
             <input class="wide-input" type="tel" id="phone-number" name="phone-number" placeholder="例：048-729-8661">
         </div>
 
         <div class="question">
+            <p class="number">6.</p>
             <label class="wide-label" for="move-out-date">退去予定日（立会日）</label>
             <input class="wide-input" type="date" id="move-out-date" name="move-out-date" >
         </div>
 
         <div class="question">
+            <p class="number">7.</p>
             <label class="wide-label" for="move-out-time">立会希望時間</label>
             <input class="wide-input" type="time" id="move-out-time" name="move-out-time">
         </div>
 
         <div class="question">
             <fieldset>
+                <p class="number">8.</p>
                 <legend>退去理由</legend>
                 <p>差し支えなければ、転居の理由をお聞かせください。</p>
 
@@ -96,21 +103,25 @@
         </div>
 
         <div class="question">
+            <p class="number">9.</p>
             <label class="wide-label" for="address">転居先住所</label>
             <input class="wide-input" type="text" id="address" name="address">
         </div>
 
         <div class="question">
+            <p class="number">10.</p>
             <label class="wide-label" for="bank-account">敷金等返金先口座</label>
             <input class="wide-input" type="text" id="bank-account" name="bank-account" placeholder="例：埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
         <div class="question">
+            <p class="number">11.</p>
             <label class="wide-label" for="bank-name">口座名義</label>
             <input class="wide-input" type="text" id="bank-name" name="bank-name" placeholder="例：カ）サイタママルヤマコウムショ">
         </div>
 
         <div class="question">
+            <p class="number">12.</p>
             <label class="wide-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
             <textarea class="wide-input" id="comment" name="comment">
                 
@@ -119,8 +130,8 @@
 
         <div class="question">
             <fieldset>
+                <p class="number">13.</p>
                 <legend>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
-
                 <input type="radio" id="terrible" name="satisfaction">
                 <label for="terrible">不満足</label>
                 <br>
@@ -139,16 +150,19 @@
         </div>
 
         <div class="question">
+            <p class="number">14.</p>
             <label class="wide-label" for="explanation">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</label>
             <input class="wide-input" type="text" id="explanation" name="explanation">
         </div>
 
         <div class="question">
+            <p class="number">14.</p>
             <label class="wide-label" for="wishes">希望する設備やサービスは何かございましたか。</label>
             <input class="wide-input" type="text" id="wishes" name="wishes">
         </div>
 
         <div class="question">
+            <p class="number">15.</p>
             <label class="wide-label" for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
             <input class="wide-input" type="text" id="other" name="other">
         </div>
