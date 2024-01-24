@@ -26,7 +26,7 @@
             <p class="number">1.</p>
             <label class="wide-label" for="contractor-name">契約者氏名</label>
             <input class="wide-input" type="text" id="contractor-name" name="contractor-name" placeholder="例：山田太郎">
-            <p>
+            <p class="comment">
                 ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
                 生じた場合には、損害の請求をさせていただく場合がございます。
             </p>

@@ -38,7 +38,7 @@ html {
 }
 
 .question .wide-input {
-    margin-top: 20px;
+    margin: 20px 0;
     height: 100%;
     width: 100%;
     font-size: 16px;
@@ -64,4 +64,8 @@ input[type=radio] {
   margin: 0 10px 0 10px;
   display: inline;
   font-size: 22px;
+}
+
+.comment {
+  color: #485257;
 }
