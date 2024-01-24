@@ -34,6 +34,7 @@ html {
 .question .wide-label {
     width: 30%;
     padding-bottom: 10px;
+    font-size: 18px;
 }
 
 .question .wide-input {
@@ -60,5 +61,7 @@ input[type=radio] {
 }
 
 .number {
+  margin: 0 10px 0 10px;
   display: inline;
+  font-size: 22px;
 }
