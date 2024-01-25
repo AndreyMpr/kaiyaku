@@ -36,18 +36,30 @@
             <p class="number">2.</p>
             <label class="wide-label" for="property-name">物件名</label>
             <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="例：桜木マンション">
+            <p class="comment">
+                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
+                生じた場合には、損害の請求をさせていただく場合がございます。
+            </p>
         </div>
         
         <div class="question">
             <p class="number">3.</p>
             <label class="wide-label" for="room-number">号室</label>
             <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="例：101">
+            <p class="comment">
+                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
+                生じた場合には、損害の請求をさせていただく場合がございます。
+            </p>
         </div>
 
         <div class="question">
             <p class="number">4.</p>
             <label class="wide-label" for="parking-number">駐車場・№</label>
             <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="例：01">
+            <p class="comment">
+                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
+                生じた場合には、損害の請求をさせていただく場合がございます。
+            </p>
         </div class="question">
 
         <div class="question">
