@@ -139,9 +139,8 @@
         <div class="question">
             <p class="number">12.</p>
             <label class="wide-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
-            <textarea class="wide-input" id="comment" name="comment">
-                
-            </textarea>
+            <textarea class="wide-input" id="comment" name="comment"></textarea>
+
         </div>
 
         <div class="question">
