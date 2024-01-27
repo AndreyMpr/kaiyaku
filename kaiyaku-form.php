@@ -20,12 +20,12 @@
 </div>
 
 <section class="inner">
-    <form action="kaiyaku-form-handler.php" method="get">
+    <form action="kaiyaku-form-handler.php" method="post">
 
         <div class="question">
             <p class="number">1.</p>
             <label class="wide-label" for="contractor-name">契約者氏名</label>
-            <input class="wide-input" type="text" id="contractor-name" name="contractor-name" placeholder="例：山田太郎">
+            <input class="wide-input" type="text" id="contractor-name" name="contractorName" placeholder="例：山田太郎">
             <p class="comment">
                 ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
                 生じた場合には、損害の請求をさせていただく場合がございます。
@@ -35,7 +35,7 @@
         <div class="question">
             <p class="number">2.</p>
             <label class="wide-label" for="property-name">物件名</label>
-            <input class="wide-input" type="text" id="property-name" name="property-name" placeholder="例：桜木マンション">
+            <input class="wide-input" type="text" id="property-name" name="propertyName" placeholder="例：桜木マンション">
             <p class="comment">
                 ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
                 生じた場合には、損害の請求をさせていただく場合がございます。
@@ -45,7 +45,7 @@
         <div class="question">
             <p class="number">3.</p>
             <label class="wide-label" for="room-number">号室</label>
-            <input class="wide-input" type="text" id="room-number" name="room-number" placeholder="例：101">
+            <input class="wide-input" type="text" id="room-number" name="roomNumber" placeholder="例：101">
             <p class="comment">
                 ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
                 生じた場合には、損害の請求をさせていただく場合がございます。
@@ -55,7 +55,7 @@
         <div class="question">
             <p class="number">4.</p>
             <label class="wide-label" for="parking-number">駐車場・№</label>
-            <input class="wide-input" type="text" id="parking-number" name="parking-number" placeholder="例：01">
+            <input class="wide-input" type="text" id="parking-number" name="parkingNumber" placeholder="例：01">
             <p class="comment">
                 ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
                 生じた場合には、損害の請求をさせていただく場合がございます。
@@ -65,19 +65,19 @@
         <div class="question">
             <p class="number">5.</p>
             <label class="wide-label" for="phone-number">電話番号</label>
-            <input class="wide-input" type="tel" id="phone-number" name="phone-number" placeholder="例：048-729-8661">
+            <input class="wide-input" type="tel" id="phone-number" name="phoneNumber" placeholder="例：048-729-8661">
         </div>
 
         <div class="question">
             <p class="number">6.</p>
             <label class="wide-label" for="move-out-date">退去予定日（立会日）</label>
-            <input class="wide-input" type="date" id="move-out-date" name="move-out-date" >
+            <input class="wide-input" type="date" id="move-out-date" name="moveOutDate" >
         </div>
 
         <div class="question">
             <p class="number">7.</p>
             <label class="wide-label" for="move-out-time">立会希望時間</label>
-            <input class="wide-input" type="time" id="move-out-time" name="move-out-time">
+            <input class="wide-input" type="time" id="move-out-time" name="moveOutTime">
         </div>
 
         <div class="question">
@@ -127,13 +127,13 @@
         <div class="question">
             <p class="number">10.</p>
             <label class="wide-label" for="bank-account">敷金等返金先口座</label>
-            <input class="wide-input" type="text" id="bank-account" name="bank-account" placeholder="例：埼玉りそな銀行　大宮西支店　普通　1474654">
+            <input class="wide-input" type="text" id="bank-account" name="bankAccount" placeholder="例：埼玉りそな銀行　大宮西支店　普通　1474654">
         </div>
         
         <div class="question">
             <p class="number">11.</p>
             <label class="wide-label" for="bank-name">口座名義</label>
-            <input class="wide-input" type="text" id="bank-name" name="bank-name" placeholder="例：カ）サイタママルヤマコウムショ">
+            <input class="wide-input" type="text" id="bank-name" name="bankName" placeholder="例：カ）サイタママルヤマコウムショ">
         </div>
 
         <div class="question">
