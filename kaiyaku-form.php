@@ -20,7 +20,7 @@
 </div>
 
 <section class="inner">
-    <form action="kaiyaku-form-handler.php" method="post">
+    <form action="kaiyaku-handler.php" method="post">
 
         <div class="question">
             <p class="number">1.</p>
