@@ -1,11 +1,23 @@
 <?php
-require_once('./postToGooggleSheet.php');
+//require_once('./postToGooggleSheet.php');
 
-if (isset($_POST['submit'])) {
-    $name = filter_input(INPUT_POST, 'name', FILTER_UNSAFE_RAW);
-    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-    $phone = filter_input(INPUT_POST, 'phone', FILTER_UNSAFE_RAW);
-    $message =  filter_input(INPUT_POST, 'message', FILTER_UNSAFE_RAW);
-    
-    insertData('Sheet1', [$name, $email, $phone, $message, date("F j, Y, g:i a", time())]);
-    }
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    $contractorName = htmlspecialchars($_POST["contractorName"]);
+    $propertyName = htmlspecialchars($_POST["propertyName"]);
+    $roomNumber = htmlspecialchars($_POST["roomNumber"]);
+    $parkingNumber = htmlspecialchars($_POST["parkingNumber"]);
+    $phoneNumber = htmlspecialchars($_POST["phoneNumber"]);
+    $moveOutDate = htmlspecialchars($_POST["moveOutDate"]);
+    $moveOutTime = htmlspecialchars($_POST["moveOutTime"]);
+    $reason = htmlspecialchars($_POST["reason"]);
+    $address = htmlspecialchars($_POST["address"]);
+    $bankAccount = htmlspecialchars($_POST["bankAccount"]);
+    $bankName = htmlspecialchars($_POST["bankName"]);
+    $comment = htmlspecialchars($_POST["comment"]);
+    $satisfaction = htmlspecialchars($_POST["satisfaction"]);
+    $explanation = htmlspecialchars($_POST["explanation"]);
+    $wishes = htmlspecialchars($_POST["wishes"]);
+    $other = htmlspecialchars($_POST["other"]);
+
+}
