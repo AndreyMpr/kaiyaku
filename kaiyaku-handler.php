@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $reason = htmlspecialchars($_POST["reason"]);
     $address = htmlspecialchars($_POST["address"]);
     $bankAccount = htmlspecialchars($_POST["bankAccount"]);
-    $bankName = htmlspecialchars($_POST["bankName"]);
+    $bankName = htmlspecialchars($_POST["bankAccountName"]);
     $comment = htmlspecialchars($_POST["comment"]);
     $satisfaction = htmlspecialchars($_POST["satisfaction"]);
     $explanation = htmlspecialchars($_POST["explanation"]);

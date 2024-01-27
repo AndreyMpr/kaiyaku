@@ -133,7 +133,7 @@
         <div class="question">
             <p class="number">11.</p>
             <label class="wide-label" for="bank-name">口座名義</label>
-            <input class="wide-input" type="text" id="bank-name" name="bankName" placeholder="例：カ）サイタママルヤマコウムショ">
+            <input class="wide-input" type="text" id="bank-name" name="bankAccountName" placeholder="例：カ）サイタママルヤマコウムショ">
         </div>
 
         <div class="question">
