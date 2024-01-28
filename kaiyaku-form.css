@@ -65,3 +65,11 @@ input[type=radio] {
 .comment {
   color: #485257;
 }
+
+.submit-block {
+  text-align: center;
+}
+
+.submit-button {
+  font-size: 22px;
+}
