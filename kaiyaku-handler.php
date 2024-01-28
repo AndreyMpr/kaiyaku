@@ -20,4 +20,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $wishes = htmlspecialchars($_POST["wishes"]);
     $other = htmlspecialchars($_POST["other"]);
 
+    echo "Voila:";
+    echo "<br>";
+    echo $contractorName;
+    echo "<br>";
+    echo $propertyName;
+    echo "<br>";
+    echo $roomNumber;
+
 }
