@@ -182,8 +182,8 @@
             <input class="wide-input" type="text" id="other" name="other">
         </div>
 
-        <div class="submit">
-            <button type="submit">Submit</button>
+        <div class="submit-block">
+            <button class="submit-button" - type="submit">Submit</button>
         </div>
 
     </form>
