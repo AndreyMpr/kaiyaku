@@ -146,6 +146,7 @@
         <div class="question">
             <fieldset>
                 <p class="number">13.</p>
+                <br>
                 <legend>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
                 <input type="radio" id="terrible" name="satisfaction">
                 <label for="terrible">不満足</label>
@@ -171,19 +172,19 @@
         </div>
 
         <div class="question">
-            <p class="number">14.</p>
+            <p class="number">15.</p>
             <label class="wide-label" for="wishes">希望する設備やサービスは何かございましたか。</label>
             <input class="wide-input" type="text" id="wishes" name="wishes">
         </div>
 
         <div class="question">
-            <p class="number">15.</p>
+            <p class="number">16.</p>
             <label class="wide-label" for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
             <input class="wide-input" type="text" id="other" name="other">
         </div>
 
         <div class="submit-block">
-            <button class="submit-button" - type="submit">Submit</button>
+            <button class="submit-button" - type="submit">登録</button>
         </div>
 
     </form>
