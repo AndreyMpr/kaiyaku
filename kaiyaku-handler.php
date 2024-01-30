@@ -19,6 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $wishes = htmlspecialchars($_POST["wishes"]);
     $other = htmlspecialchars($_POST["other"]);
 
+    $client = new Google_Client();
+
+
     echo "Voila:";
     echo "<br>";
     echo $contractorName;
