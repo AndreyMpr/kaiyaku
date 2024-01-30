@@ -1,5 +1,4 @@
 <?php
-//require_once('./postToGooggleSheet.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
