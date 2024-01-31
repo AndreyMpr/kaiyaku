@@ -27,8 +27,7 @@
             <label class="wide-label" for="contractor-name">契約者氏名</label>
             <input class="wide-input" type="text" id="contractor-name" name="contractorName" required placeholder="例：山田太郎">
             <p class="comment">
-                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
-                生じた場合には、損害の請求をさせていただく場合がございます。
+                ※ご契約書に記載されている契約者名をご入力ください。
             </p>
         </div>
 
@@ -37,8 +36,7 @@
             <label class="wide-label" for="property-name">物件名</label>
             <input class="wide-input" type="text" id="property-name" name="propertyName" required placeholder="例：桜木マンション">
             <p class="comment">
-                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
-                生じた場合には、損害の請求をさせていただく場合がございます。
+                ※ご契約書に記載されている建物名をご入力ください。
             </p>
         </div>
         
@@ -47,8 +45,7 @@
             <label class="wide-label" for="room-number">号室</label>
             <input class="wide-input" type="text" id="room-number" name="roomNumber" required placeholder="例：101">
             <p class="comment">
-                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
-                生じた場合には、損害の請求をさせていただく場合がございます。
+                ※ご契約書に記載されている部屋番号をご入力ください。
             </p>
         </div>
 
