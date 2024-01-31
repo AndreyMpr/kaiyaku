@@ -54,8 +54,7 @@
             <label class="wide-label" for="parking-number">駐車場・№</label>
             <input class="wide-input" type="text" id="parking-number" name="parkingNumber" placeholder="例：01">
             <p class="comment">
-                ご家族を含め、ご契約者様以外からのお申込みにより、ご契約者様または弊社に何等かの損害が
-                生じた場合には、損害の請求をさせていただく場合がございます。
+        　　    ※お部屋の契約が無い単独の駐車場・駐輪場（バイク置き場含む）・トランクルームを解約したいお客様。
             </p>
         </div class="question">
 
