@@ -62,6 +62,9 @@
             <p class="number">5.</p>
             <label class="wide-label" for="phone-number">電話番号</label>
             <input class="wide-input" type="tel" id="phone-number" name="phoneNumber" required placeholder="例：048-729-8661">
+            <p class="comment">
+        　　    ※入居者様の電話番号ををご入力ください。
+            </p>
         </div>
 
         <div class="question">
