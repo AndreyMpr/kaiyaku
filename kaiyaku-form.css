@@ -56,10 +56,11 @@ input[type=radio] {
     height: 1.5em;
 }
 
-#other {
-  margin-left: 26px;
+#other-label {
+  text-align: center;
+  width: 10%;
+  display: inline-block;
 }
-
 
 .number {
   margin: 0 10px 0 10px;
