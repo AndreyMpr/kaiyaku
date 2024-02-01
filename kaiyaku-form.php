@@ -111,7 +111,7 @@
                 <input type="radio" id="neighbour" name="reason">
                 <label for="neighbour">近隣トラブル</label>
                 <br>
-                <label for="other">その他</label>
+                <label id="other-label" for="other">その他</label>
                 <input type="text" id="other" name="reason" placeholder="県外への転勤の為">
             </fieldset>
         </div>
