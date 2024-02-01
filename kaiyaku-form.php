@@ -143,9 +143,7 @@
 
         <div class="question">
             <fieldset>
-                <p class="number">13.</p>
-                <br>
-                <legend>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
+                <legend><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
                 <input type="radio" id="terrible" name="satisfaction">
                 <label for="terrible">不満足</label>
                 <br>
