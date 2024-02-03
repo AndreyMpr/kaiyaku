@@ -12,6 +12,10 @@ html {
     box-sizing: inherit;
   }
 
+  h1 {
+    text-align: center;
+  }
+
 .inner {
     max-width: 1070px;
     margin: auto;
