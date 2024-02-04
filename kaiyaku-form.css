@@ -72,6 +72,11 @@ input[type=radio] {
   display: inline-block;
 }
 
+#other {
+  font-size: 16px;
+  border-radius: 4px;
+}
+
 .number {
   margin: 0 10px 0 10px;
   display: inline;
