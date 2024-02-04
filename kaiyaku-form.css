@@ -70,7 +70,8 @@ input[type=radio] {
   margin-top: 5px;
   text-align: center;
   width: 10%;
-  display: inline-block;
+  display: inline-table;
+  white-space: nowrap;
 }
 
 #other {
