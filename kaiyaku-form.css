@@ -57,9 +57,13 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  .question{
+  .question .wide-label {
     font-size: 14px;
-  }  
+  }
+
+  .question .wide-input {
+    font-size: 12px;
+  }
 }
 
 fieldset label, fieldset input {
