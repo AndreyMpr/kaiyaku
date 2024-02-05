@@ -89,14 +89,32 @@ input[type=radio] {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 768px) {
+  #other {
+    font-size: 14px;
+  }
+}
+
 .number {
   margin: 0 10px 0 10px;
   display: inline;
   font-size: 22px;
 }
 
+@media screen and (max-width: 768px) {
+  .number {
+    font-size: 20px;
+  }
+}
+
 .comment {
   color: #485257;
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    font-size: 14px;
+  }
 }
 
 .submit-block {
