@@ -12,10 +12,10 @@ html {
     box-sizing: inherit;
   }
 
-  h1 {
-    text-align: center;
-    margin: 50px;
-    white-space: nowrap;
+h1 {
+  text-align: center;
+  margin: 50px;
+  white-space: nowrap;
   }
 
 .inner {
@@ -54,6 +54,12 @@ html {
     box-shadow: 
       inset 1px 1px 2px #a3b6be, 
       inset -1px -1px 2px #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .question{
+    font-size: 14px;
+  }  
 }
 
 fieldset label, fieldset input {
