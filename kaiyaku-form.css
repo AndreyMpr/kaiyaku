@@ -25,6 +25,14 @@ h1 {
 
 .explanation {
   max-width: 670px; 
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .explanation {
+    font-size: 14px;  
+}
+  } 
 }
 
 .question {
