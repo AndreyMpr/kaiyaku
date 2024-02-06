@@ -141,3 +141,13 @@ input[type=radio] {
 form {
   margin-bottom: 50px;
 }
+
+.round-legend {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .round-legend {
+    font-size: 14px;
+  }
+}

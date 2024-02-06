@@ -81,7 +81,7 @@
 
         <div class="question">
             <fieldset>
-                <legend><p class="number">8.</p>退去理由</legend>
+                <legend class="round-legend"><p class="number">8.</p>退去理由</legend>
                 <p class="comment">※差し支えなければ、転居の理由をお聞かせください。</p>
 
                 <input type="radio" id="work" name="reason">
