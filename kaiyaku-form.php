@@ -70,7 +70,12 @@
         <div class="question">
             <p class="number">6.</p>
             <label class="wide-label" for="move-out-date">退去予定日（立会日）</label>
-            <input class="wide-input" type="date" id="move-out-date" required name="moveOutDate" >
+            <input class="wide-input" type="date" id="move-out-date" required name="moveOutDate">
+            <p class="comment">
+            ※借主・貸主が退去する部屋の状態を一緒に確認することです。
+            <br>
+            部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。
+            </p>
         </div>
 
         <div class="question">
