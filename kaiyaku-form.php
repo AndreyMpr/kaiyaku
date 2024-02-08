@@ -86,7 +86,7 @@
 
         <div class="question">
             <fieldset>
-                <legend class="round-legend"><p class="number">8.</p>退去理由</legend>
+                <legend class="radio-legend"><p class="number">8.</p>退去理由</legend>
                 <p class="comment">※差し支えなければ、転居の理由をお聞かせください。</p>
 
                 <input type="radio" id="work" name="reason">
@@ -148,7 +148,7 @@
 
         <div class="question">
             <fieldset>
-                <legend><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
+                <legend class="radio-legend"><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
                 <input type="radio" id="terrible" name="satisfaction">
                 <label for="terrible">不満足</label>
                 <br>
