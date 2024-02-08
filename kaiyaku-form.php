@@ -54,7 +54,7 @@
             <label class="wide-label" for="parking-number">駐車場・№</label>
             <input class="wide-input" type="text" id="parking-number" name="parkingNumber" placeholder="例：01">
             <p class="comment">
-        　　    ※お部屋の契約が無い単独の駐車場・駐輪場（バイク置き場含む）・トランクルームを解約したいお客様。
+                ※お部屋の契約が無い単独の駐車場・駐輪場（バイク置き場含む）・トランクルームを解約したいお客様。
             </p>
         </div class="question">
 
@@ -63,7 +63,7 @@
             <label class="wide-label" for="phone-number">電話番号</label>
             <input class="wide-input" type="tel" id="phone-number" name="phoneNumber" required placeholder="例：048-729-8661">
             <p class="comment">
-        　　    ※入居者様の電話番号ををご入力ください。
+                ※入居者様の電話番号ををご入力ください。
             </p>
         </div>
 
