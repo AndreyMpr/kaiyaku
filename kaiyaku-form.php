@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="kaiyaku-form.css" />
 </head>
 <body>
-
+    <div>
+        <a>en</a>
+        <a>中文​</a>
+        <a>Tiếng Việt</a>
+    </div>
 <h1>解約受付フォーム</h1>
 <div class="inner explanation">
     <p>解約をご希望の際は、当フォームより解約申請をお願い致します。</p>
