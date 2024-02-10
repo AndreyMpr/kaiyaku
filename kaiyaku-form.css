@@ -163,3 +163,7 @@ form {
   max-width: 1070px;
   text-align: right;
 }
+
+.lang a {
+  margin: 0 10px;
+}

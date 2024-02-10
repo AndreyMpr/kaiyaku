@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="lang">
-        <a>en</a>
+        <a>English</a>
         <a>中文​</a>
         <a>Tiếng Việt</a>
     </div>
