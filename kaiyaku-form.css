@@ -167,10 +167,11 @@ form {
 .lang a {
   margin: 0 10px;
   color: #6b8492;
+  transition: 0.5s;
 }
 
 a:hover {
   color: #000;
-  transition: 0.5s;
   cursor: pointer;
+  text-shadow: #647f8d 1px 0 3px;
 }
