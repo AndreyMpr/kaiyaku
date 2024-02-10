@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="kaiyaku-form.css" />
 </head>
 <body>
-    <div>
+    <div class="lang">
         <a>en</a>
         <a>中文​</a>
         <a>Tiếng Việt</a>
