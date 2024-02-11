@@ -164,6 +164,12 @@ form {
   text-align: right;
 }
 
+@media screen and (max-width: 768px) {
+  .lang {
+    font-size: 14px;
+  }
+}
+
 .lang a {
   margin: 0 10px;
   color: #6b8492;
