@@ -8,11 +8,11 @@
 </head>
 <body>
     <div class="lang">
-        <a>English</a>
-        <a>中文​</a>
-        <a>Tiếng Việt</a>
+        <a id="langEn">English</a>
+        <a id="langCh">中文​</a>
+        <a id="LangVn">Tiếng Việt</a>
     </div>
-<h1 id="mainTitle">解約受付フォーム</h1>
+<h1 id="formTitle">解約受付フォーム</h1>
 <div class="inner explanation">
     <p>解約をご希望の際は、当フォームより解約申請をお願い致します。</p>
     <p>転居先のご住所等、未定の項目は「未定」とご記入ください。</p>
