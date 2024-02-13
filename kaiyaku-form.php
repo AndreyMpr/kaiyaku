@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="jp">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>解約受付フォーム</title>
     <link rel="stylesheet" href="kaiyaku-form.css" />
 </head>
+
 <body>
     <div class="lang">
         <a id="langEn">English</a>
         <a id="langCh">中文​</a>
         <a id="LangVn">Tiếng Việt</a>
     </div>
+
 <h1 id="formTitle">解約受付フォーム</h1>
+
 <div class="inner explanation">
     <p>解約をご希望の際は、当フォームより解約申請をお願い致します。</p>
     <p>転居先のご住所等、未定の項目は「未定」とご記入ください。</p>
     <p>解約を受付後、ご入力いただいたお電話番号へ弊社より、ご連絡をさせていただきます。</p>
 </div>
+
 <div class="inner explanation">
     <p>最短解約日：2ヶ月　or　1ヶ月　（契約書をご確認ください）</p>
     <p>例）7/21受付→9/21（2か月前）or　8/21（1ヶ月前）</p>
@@ -147,7 +152,6 @@
             <p class="number">12.</p>
             <label class="wide-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
             <textarea class="wide-input" id="comment" name="comment"></textarea>
-
         </div>
 
         <div class="question">
