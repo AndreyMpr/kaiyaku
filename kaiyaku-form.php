@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -133,7 +133,7 @@
         <div class="question">
             <p class="number">9.</p>
             <label class="wide-label" for="address">転居先住所</label>
-            <input class="wide-input" type="text" id="address" name="address">
+            <input class="wide-input" type="text" id="address" name="address" placeholder="埼玉県さいたま市大宮区大成町1-518-2">
         </div>
 
         <div class="question">
