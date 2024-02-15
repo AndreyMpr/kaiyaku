@@ -64,10 +64,6 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  .question .wide-label {
-    font-size: 14px;
-  }
-
   .question .wide-input {
     font-size: 12px;
   }
@@ -160,7 +156,7 @@ form {
 }
 
 .lang {
-  margin-right: 5%;
+  max-width: 1070px;
   text-align: right;
 }
 
