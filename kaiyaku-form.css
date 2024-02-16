@@ -162,11 +162,13 @@ form {
   font-size: 18px;
 }
 
+/*
 @media screen and (max-width: 768px) {
   .radio-legend {
     font-size: 14px;
   }
 }
+*/
 
 .lang {
   max-width: 1070px;
