@@ -4,13 +4,15 @@ body {
     background-color: #e3edf2;
     padding: 24px;
     border-radius: 20px;
+    margin-bottom: 2vh;
 }
 
 html {
-  margin: 2vh;
+    margin: 2vh;
     box-sizing: border-box;
     background-color: #fff;
   }
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
