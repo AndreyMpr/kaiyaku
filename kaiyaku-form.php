@@ -10,7 +10,7 @@
 
 <body>
     <div class="lang">
-        <a id="langJp">日本語<a>
+        <a id="langJp">日本語</a>
         <a id="langEn">English</a>
         <a id="langCh">中文​</a>
         <a id="LangVn">Tiếng Việt</a>
