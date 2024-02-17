@@ -50,6 +50,12 @@ h1 {
     font-size: 18px;
 }
 
+@media screen and (max-width: 768px) {
+  .question .wide-label {
+    font-size: 14px;
+  }
+}
+
 .question .wide-input {
     margin: 20px 0;
     height: 100%;
