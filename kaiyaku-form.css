@@ -160,6 +160,12 @@ input[type=radio] {
     -2px -2px 5px #ffffff;
 }
 
+@media screen and (max-width: 768px) {
+  .submit-button {
+    font-size: 18px;
+  }
+}
+
 form {
   margin-bottom: 50px;
 }
