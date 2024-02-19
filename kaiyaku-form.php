@@ -92,6 +92,9 @@
             <p class="number">7.</p>
             <label class="wide-label" for="move-out-time">立会希望時間</label>
             <input class="wide-input" type="time" id="move-out-time" name="moveOutTime">
+            <p class="comment">
+                ※ご契約書に記載されている建物名をご入力ください。
+            </p>
         </div>
 
         <div class="question">
