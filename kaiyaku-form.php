@@ -138,6 +138,9 @@
             <p class="number">9.</p>
             <label class="wide-label" for="address">転居先住所</label>
             <input class="wide-input" type="text" id="address" name="address" placeholder="埼玉県さいたま市大宮区大成町1-518-2">
+            <p class="comment">
+                ※ご契約書に記載されている建物名をご入力ください。
+            </p>
         </div>
 
         <div class="question">
