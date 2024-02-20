@@ -204,6 +204,7 @@
         </div>
 
     </form>
+    <a id="privacy-policy">個人情報保護方針</a>
 </section>
 </body>
 </html>
