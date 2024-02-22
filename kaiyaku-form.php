@@ -41,9 +41,9 @@
 
             <div class="question">
                 <p class="number">1.</p>
-                <label class="wide-label" for="contractor-name">契約者氏名</label>
+                <label class="wide-label" id="contractor-name-label" for="contractor-name">契約者氏名</label>
                 <input class="wide-input" type="text" id="contractor-name" name="contractorName" required placeholder="例：山田太郎">
-                <p class="comment">
+                <p class="comment"  id="contractor-name-comment">
                     ※ご契約書に記載されている契約者名をご入力ください。
                 </p>
             </div>
