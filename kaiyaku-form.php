@@ -106,11 +106,8 @@
 
             <div class="question">
                 <fieldset>
-                    <legend class="radio-legend">
-                        <p class="number">8.</p>
-                        退去理由
-                    </legend>
-                    <p class="comment">
+                    <legend class="radio-legend" id="reason-legend"><p class="number">8.</p>退去理由</legend>
+                    <p class="comment" id="reason-comment">
                         ※差し支えなければ、転居の理由をお聞かせください。
                     </p>
                     <input type="radio" id="work" name="reason">
@@ -147,34 +144,43 @@
 
             <div class="question">
                 <p class="number">9.</p>
-                <label class="wide-label" for="address">転居先住所</label>
+                <label class="wide-label" id="address-label" for="address">転居先住所</label>
                 <input class="wide-input" type="text" id="address" name="address" placeholder="埼玉県さいたま市大宮区大成町1-518-2">
-                <p class="comment">
+                <p class="comment" id="address-comment">
                     ※ご契約書に記載されている建物名をご入力ください。
                 </p>
             </div>
 
             <div class="question">
                 <p class="number">10.</p>
-                <label class="wide-label" for="bank-account">敷金等返金先口座</label>
+                <label class="wide-label" id="bank-account-label" for="bank-account">敷金等返金先口座</label>
                 <input class="wide-input" type="text" id="bank-account" name="bankAccount" required placeholder="例：埼玉りそな銀行　大宮西支店　普通　1474654">
+                <p class="comment"  id="bank-account-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
             
             <div class="question">
                 <p class="number">11.</p>
-                <label class="wide-label" for="bank-name">口座名義</label>
+                <label class="wide-label" id="bank-name-label" for="bank-name">口座名義</label>
                 <input class="wide-input" type="text" id="bank-name" name="bankAccountName" required placeholder="例：カ）サイタママルヤマコウムショ">
+                <p class="comment" id="bank-name-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
 
             <div class="question">
                 <p class="number">12.</p>
-                <label class="wide-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
+                <label class="wide-label" id="comment-label" for="comment">お住まいいただいていた期間に何か不具合がございましたか。</label>
                 <textarea class="wide-input" id="comment" name="comment"></textarea>
+                <p class="comment" id="comment-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
 
             <div class="question">
                 <fieldset>
-                    <legend class="radio-legend"><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
+                    <legend class="radio-legend" id="satisfaction-legend"><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
                     <input type="radio" id="terrible" name="satisfaction">
                     <label for="terrible">不満足</label>
                     <br>
@@ -194,20 +200,29 @@
 
             <div class="question">
                 <p class="number">14.</p>
-                <label class="wide-label" for="explanation">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</label>
+                <label class="wide-label" id="explanation-label" for="explanation">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</label>
                 <input class="wide-input" type="text" id="explanation" name="explanation">
+                <p class="comment" id="explanation-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
 
             <div class="question">
                 <p class="number">15.</p>
-                <label class="wide-label" for="wishes">希望する設備やサービスは何かございましたか。</label>
+                <label class="wide-label" id="wishes-label" for="wishes">希望する設備やサービスは何かございましたか。</label>
                 <input class="wide-input" type="text" id="wishes" name="wishes">
+                <p class="comment" id="wishes-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
 
             <div class="question">
                 <p class="number">16.</p>
-                <label class="wide-label" for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
+                <label class="wide-label" id="other-label" for="other">その他ご質問等がございましたら、ご自由にご記入ください。</label>
                 <input class="wide-input" type="text" id="other" name="other">
+                <p class="comment" id="other-comment">
+                    ※ご契約書に記載されている建物名をご入力ください。
+                </p>
             </div>
 
             <div class="submit-block">
