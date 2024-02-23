@@ -43,52 +43,52 @@
                 <p class="number">1.</p>
                 <label class="wide-label" id="contractor-name-label" for="contractor-name">契約者氏名</label>
                 <input class="wide-input" type="text" id="contractor-name" name="contractorName" required placeholder="例：山田太郎">
-                <p class="comment"  id="contractor-name-comment">
+                <p class="comment" id="contractor-name-comment">
                     ※ご契約書に記載されている契約者名をご入力ください。
                 </p>
             </div>
 
             <div class="question">
                 <p class="number">2.</p>
-                <label class="wide-label" for="property-name">物件名</label>
+                <label class="wide-label" id="property-name-label" for="property-name">物件名</label>
                 <input class="wide-input" type="text" id="property-name" name="propertyName" required placeholder="例：桜木マンション">
-                <p class="comment">
+                <p class="comment" id="property-name-comment">
                     ※ご契約書に記載されている建物名をご入力ください。
                 </p>
             </div>
             
             <div class="question">
                 <p class="number">3.</p>
-                <label class="wide-label" for="room-number">号室</label>
+                <label class="wide-label" id="room-number-label" for="room-number">号室</label>
                 <input class="wide-input" type="text" id="room-number" name="roomNumber" required placeholder="例：101">
-                <p class="comment">
+                <p class="comment" id="room-number-comment">
                     ※ご契約書に記載されている部屋番号をご入力ください。
                 </p>
             </div>
 
             <div class="question">
                 <p class="number">4.</p>
-                <label class="wide-label" for="parking-number">駐車場・№</label>
+                <label class="wide-label" id="parking-number-label" for="parking-number">駐車場・№</label>
                 <input class="wide-input" type="text" id="parking-number" name="parkingNumber" placeholder="例：01">
-                <p class="comment">
+                <p class="comment" id="parking-number-comment">
                     ※お部屋の契約が無い単独の駐車場・駐輪場（バイク置き場含む）・トランクルームを解約したいお客様。
                 </p>
             </div class="question">
 
             <div class="question">
                 <p class="number">5.</p>
-                <label class="wide-label" for="phone-number">電話番号</label>
+                <label class="wide-label" id="phone-number-label" for="phone-number">電話番号</label>
                 <input class="wide-input" type="tel" id="phone-number" name="phoneNumber" required placeholder="例：048-729-8661">
-                <p class="comment">
+                <p class="comment" id="phone-number-comment">
                     ※入居者様の電話番号ををご入力ください。
                 </p>
             </div>
 
             <div class="question">
                 <p class="number">6.</p>
-                <label class="wide-label" for="move-out-date">退去予定日（立会日）</label>
+                <label class="wide-label" id="move-out-date-label" for="move-out-date">退去予定日（立会日）</label>
                 <input class="wide-input" type="date" id="move-out-date" required name="moveOutDate">
-                <p class="comment">
+                <p class="comment" id="move-out-date-comment">
                 ※借主・貸主が退去する部屋の状態を一緒に確認することです。
                 <br>
                 部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。
@@ -97,9 +97,9 @@
 
             <div class="question">
                 <p class="number">7.</p>
-                <label class="wide-label" for="move-out-time">立会希望時間</label>
+                <label class="wide-label" id="move-out-time-label" for="move-out-time">立会希望時間</label>
                 <input class="wide-input" type="time" id="move-out-time" name="moveOutTime">
-                <p class="comment">
+                <p class="comment" id="move-out-time-comment">
                     ※ご契約書に記載されている建物名をご入力ください。
                 </p>
             </div>
@@ -107,8 +107,9 @@
             <div class="question">
                 <fieldset>
                     <legend class="radio-legend"><p class="number">8.</p>退去理由</legend>
-                    <p class="comment">※差し支えなければ、転居の理由をお聞かせください。</p>
-
+                    <p class="comment">
+                        ※差し支えなければ、転居の理由をお聞かせください。
+                    </p>
                     <input type="radio" id="work" name="reason">
                     <label for="work">仕事都合</label>
                     <br>
