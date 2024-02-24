@@ -6,5 +6,10 @@ window.onload = function() {
         document.getElementById("contractor-name-label").textContent = "Contractor Name";
         document.getElementById("contractor-name").placeholder = "e.g. John Doe";
         document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";
+        document.getElementById("property-name-label").textContent = "Name of the property (building/parking)";
+        document.getElementById("property-name").placeholder = "e.g. Sakura mansion";
+        document.getElementById("property-name-comment").textContent = "Please enter the property name as listed on your contract.";
+
+
     }, 100);
 };
