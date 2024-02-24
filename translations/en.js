@@ -9,6 +9,9 @@ window.onload = function() {
         document.getElementById("property-name-label").textContent = "Name of the property (building/parking)";
         document.getElementById("property-name").placeholder = "e.g. Sakura mansion";
         document.getElementById("property-name-comment").textContent = "Please enter the property name as listed on your contract.";
+        document.getElementById("room-number-label").textContent = "Room number";
+        document.getElementById("room-number").placeholder = "e.g. 101";
+        document.getElementById("room-number-comment").textContent = "Please enter the room number as listed on your contract.";
 
 
     }, 100);
