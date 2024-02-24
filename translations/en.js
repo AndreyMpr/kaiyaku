@@ -18,6 +18,8 @@ window.onload = function() {
         document.getElementById("phone-number-label").textContent = "Parking space number / storage unit number";
         document.getElementById("phone-number").placeholder = "e.g. +81-80-8743-4126";
         document.getElementById("phone-number-comment").textContent = "Please provide a phone number of the preson that currently lives in the unit. We will contact you to confirm your moving out date and time.";
+        document.getElementById("move-out-date-label").textContent = "Parking space number / storage unit number";
+        document.getElementById("move-out-date-comment").textContent = "On this day our representative will visit the unit to check the overall condition and collect the keys. Please note that after this, you will no longer be able to enter the unit.";
 
 
     }, 100);
