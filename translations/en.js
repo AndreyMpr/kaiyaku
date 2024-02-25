@@ -22,8 +22,8 @@ window.onload = function() {
         document.getElementById("move-out-date-comment").textContent = "On this day our representative will visit the unit to check the overall condition and collect the keys. Please note that after this, you will no longer be able to enter the unit.";
         document.getElementById("move-out-time-label").textContent = "Moving out time";
         document.getElementById("move-out-time-comment").textContent = "If possible, please specify the time, when our representative can visit you on the moving out day. If you not sure about the time at the moment, please leave this field blank and we will contact you later, to confirm the time.";
-        document.getElementById("reason-label").textContent = "Reason for moving out";
-        document.getElementById("move-out-time-comment").textContent = "If possible, please specify the time, when our representative can visit you on the moving out day. If you not sure about the time at the moment, please leave this field blank and we will contact you later, to confirm the time.";
+        document.getElementById("reason-legend").textContent = "Reason for moving out";
+        document.getElementById("reason-comment").textContent = "This will help us improove our service.";
 
 
     }, 100);
