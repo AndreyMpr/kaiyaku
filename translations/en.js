@@ -29,11 +29,11 @@ window.onload = function() {
         document.querySelector("label[for='small']").textContent = "Not enough space";
         document.querySelector("label[for='parents']").textContent = "Moving in with the family";
         document.querySelector("label[for='marriage']").textContent = "Marriage";
-        document.querySelector("label[for='work']").textContent = "Work circumstances";
-        document.querySelector("label[for='work']").textContent = "Work circumstances";
-        document.querySelector("label[for='work']").textContent = "Work circumstances";
-        document.querySelector("label[for='work']").textContent = "Work circumstances";
-        document.querySelector("label[for='work']").textContent = "Work circumstances";
+        document.querySelector("label[for='malfunction']").textContent = "Dissatisfaction with the equipment or management.";
+        document.querySelector("label[for='far']").textContent = "Inconvinient access";
+        document.querySelector("label[for='neighbour']").textContent = "Problem with neighbours";
+        document.querySelector("label[for='fieldset-other']").textContent = "Other";
+        document.getElementById("fieldset-other").placeholder = "Moving to a different country";
 
     }, 100);
 };
