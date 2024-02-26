@@ -24,7 +24,16 @@ window.onload = function() {
         document.getElementById("move-out-time-comment").textContent = "If possible, please specify the time, when our representative can visit you on the moving out day. If you not sure about the time at the moment, please leave this field blank and we will contact you later, to confirm the time.";
         document.getElementById("reason-legend").textContent = "Reason for moving out";
         document.getElementById("reason-comment").textContent = "This will help us improve our service.";
-
+        document.querySelector("label[for='school']").textContent = "Graduation";
+        document.querySelector("label[for='house']").textContent = "Purchasing a house";
+        document.querySelector("label[for='small']").textContent = "Not enough space";
+        document.querySelector("label[for='parents']").textContent = "Moving in with the family";
+        document.querySelector("label[for='marriage']").textContent = "Marriage";
+        document.querySelector("label[for='work']").textContent = "Work circumstances";
+        document.querySelector("label[for='work']").textContent = "Work circumstances";
+        document.querySelector("label[for='work']").textContent = "Work circumstances";
+        document.querySelector("label[for='work']").textContent = "Work circumstances";
+        document.querySelector("label[for='work']").textContent = "Work circumstances";
 
     }, 100);
 };
