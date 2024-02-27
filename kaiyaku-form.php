@@ -13,7 +13,7 @@
             <a id="langJp">日本語</a>
             <a id="langEn">English</a>
             <a id="langCh">中文​</a>
-            <a id="LangVn">Tiếng Việt</a>
+            <a id="langVn">Tiếng Việt</a>
         </div>
 
         <h1 id="formTitle">解約受付フォーム</h1>
@@ -232,7 +232,9 @@
             </form>
             <a id="privacy-policy">個人情報保護方針</a>
         </section>
+        <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
         <script src="translations/ch.js"></script>
+        <script src="translations/vn.js"></script>
     </body>
 </html>
