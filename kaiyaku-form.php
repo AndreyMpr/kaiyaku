@@ -233,5 +233,6 @@
             <a id="privacy-policy">個人情報保護方針</a>
         </section>
         <script src="translations/en.js"></script>
+        <script src="translations/ch.js"></script>
     </body>
 </html>
