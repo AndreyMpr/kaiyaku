@@ -1,8 +1,8 @@
 window.onload = function() {
     document.getElementById("langCh").addEventListener("click", function() {
         document.getElementById("formTitle").textContent = "取消接待表格";
-        document.getElementById("explanation-top").textContent = "If you wish to cancel your contract, please apply for cancellation through this form.\nFor items such as your new address that are not yet decided, please fill in “Undecided”.\nAfter we receive your cancellation, we will contact you at the phone number you provided.";
-        document.getElementById("explanation-bottom").textContent = "Shortest cancellation date: 2 months or 1 month (please check your contract).\nFor example: If applied on July 21st, the cancellation would be on September 21st (in case of 2 months advance notice) or August 21st (in case of 2 months advance notice).";
+        document.getElementById("explanation-top").textContent = "如果您希望取消合同，请通过此表格申请取消。\n对于您的新地址等尚未确定的项目，请填写“未确定”。\n收到您的取消合同后，我们将通过以下方式与您联系： 您提供的电话号码。";
+        document.getElementById("explanation-bottom").textContent = "最短取消日期：2个月或1个月（请检查您的合同）。\n例如：如果7月21日申请，则取消日期为9月21日（如果提前2个月通知）或8月21日（如果提前2个月通知） 提前几个月通知）。";
         document.getElementById("contractor-name-label").textContent = "Contractor Name";
         document.getElementById("contractor-name").placeholder = "e.g. John Doe";
         document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";

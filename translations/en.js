@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function() {
     document.getElementById("langEn").addEventListener("click", function() {
         document.getElementById("formTitle").textContent = "Contract cancellation form";
         document.getElementById("explanation-top").textContent = "If you wish to cancel your contract, please apply for cancellation through this form.\nFor items such as your new address that are not yet decided, please fill in “Undecided”.\nAfter we receive your cancellation, we will contact you at the phone number you provided.";
@@ -37,4 +37,4 @@ window.onload = function() {
         document.getElementById("fieldset-other").placeholder = "Moving to a different country";
 
     }, 100);
-};
+});
