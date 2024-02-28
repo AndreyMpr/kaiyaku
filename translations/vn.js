@@ -1,8 +1,8 @@
 window.addEventListener("load", function() {
     document.getElementById("langVn").addEventListener("click", function() {
         document.getElementById("formTitle").textContent = "Mẫu tiếp nhận hủy bỏ";
-        document.getElementById("explanation-top").textContent = "If you wish to cancel your contract, please apply for cancellation through this form.\nFor items such as your new address that are not yet decided, please fill in “Undecided”.\nAfter we receive your cancellation, we will contact you at the phone number you provided.";
-        document.getElementById("explanation-bottom").textContent = "Shortest cancellation date: 2 months or 1 month (please check your contract).\nFor example: If applied on July 21st, the cancellation would be on September 21st (in case of 2 months advance notice) or August 21st (in case of 2 months advance notice).";
+        document.getElementById("explanation-top").textContent = "Nếu bạn muốn hủy hợp đồng của mình, vui lòng đăng ký hủy thông qua biểu mẫu này.\nĐối với các mục như địa chỉ mới của bạn chưa được quyết định, vui lòng điền vào “Chưa quyết định”.\nSau khi chúng tôi nhận được yêu cầu hủy của bạn, chúng tôi sẽ liên hệ với bạn theo địa chỉ số điện thoại bạn đã cung cấp.";
+        document.getElementById("explanation-bottom").textContent = "Ngày hủy ngắn nhất: 2 tháng hoặc 1 tháng (vui lòng kiểm tra hợp đồng của bạn).\nVí dụ: Nếu áp dụng vào ngày 21 tháng 7, việc hủy sẽ là vào ngày 21 tháng 9 (trong trường hợp báo trước 2 tháng) hoặc ngày 21 tháng 8 (trong trường hợp 2 tháng) báo trước hàng tháng).";
         document.getElementById("contractor-name-label").textContent = "Contractor Name";
         document.getElementById("contractor-name").placeholder = "e.g. John Doe";
         document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";
