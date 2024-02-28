@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener("load", function() {
     document.getElementById("langCh").addEventListener("click", function() {
         document.getElementById("formTitle").textContent = "取消接待表格";
         document.getElementById("explanation-top").textContent = "如果您希望取消合同，请通过此表格申请取消。\n对于您的新地址等尚未确定的项目，请填写“未确定”。\n收到您的取消合同后，我们将通过以下方式与您联系： 您提供的电话号码。";
@@ -37,4 +37,4 @@ window.onload = function() {
         document.getElementById("fieldset-other").placeholder = "Moving to a different country";
 
     }, 100);
-};
+});
