@@ -80,7 +80,7 @@
                     <label class="wide-label" id="phone-number-label" for="phone-number">電話番号</label>
                     <input class="wide-input" type="tel" id="phone-number" name="phoneNumber" required placeholder="例：048-729-8661">
                     <p class="comment" id="phone-number-comment">
-                        ※入居者様の電話番号ををご入力ください。
+                            
                     </p>
                 </div>
 
@@ -89,9 +89,9 @@
                     <label class="wide-label" id="move-out-date-label" for="move-out-date">退去予定日（立会日）</label>
                     <input class="wide-input" type="date" id="move-out-date" required name="moveOutDate">
                     <p class="comment" id="move-out-date-comment">
-                    ※借主・貸主が退去する部屋の状態を一緒に確認することです。
-                    <br>
-                    部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。
+                        ※借主・貸主が退去する部屋の状態を一緒に確認することです。
+                        <br>
+                        部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。
                     </p>
                 </div>
 
