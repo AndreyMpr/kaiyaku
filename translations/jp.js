@@ -1,8 +1,8 @@
 window.addEventListener("load", function() {
     document.getElementById("langJp").addEventListener("click", function() {
         document.getElementById("formTitle").textContent = "解約受付フォーム";
-        document.getElementById("explanation-top").textContent = "解約をご希望の際は、当フォームより解約申請をお願い致します。\n転居先のご住所等、未定の項目は「未定」とご記入ください。\n解約を受付後、ご入力いただいたお電話番号へ弊社より、ご連絡をさせていただきます。";
-        document.getElementById("explanation-bottom").textContent = "最短解約日：2ヶ月　or　1ヶ月　（契約書をご確認ください）。\n例）7/21受付→9/21（2か月前）or　8/21（1ヶ月前）。";
+        document.getElementById("explanation-top").innerText = "解約をご希望の際は、当フォームより解約申請をお願い致します。\n転居先のご住所等、未定の項目は「未定」とご記入ください。\n解約を受付後、ご入力いただいたお電話番号へ弊社より、ご連絡をさせていただきます。";
+        document.getElementById("explanation-bottom").innerText = "最短解約日：2ヶ月　or　1ヶ月　（契約書をご確認ください）。\n例）7/21受付→9/21（2か月前）or　8/21（1ヶ月前）。";
         document.getElementById("contractor-name-label").textContent = "契約者氏名";
         document.getElementById("contractor-name").placeholder = "例：山田太郎";
         document.getElementById("contractor-name-comment").textContent = "※ご契約書に記載されている契約者名をご入力ください。";
@@ -19,7 +19,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number").placeholder = "例：048-729-8661";
         document.getElementById("phone-number-comment").textContent = "※入居者様の電話番号ををご入力ください。";
         document.getElementById("move-out-date-label").textContent = "退去予定日（立会日）";
-        document.getElementById("move-out-date-comment").textContent = "※借主・貸主が退去する部屋の状態を一緒に確認することです。部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。";
+        document.getElementById("move-out-date-comment").innerText = "※借主・貸主が退去する部屋の状態を一緒に確認することです。\n部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。";
         document.getElementById("move-out-time-label").textContent = "立会希望時間";
         document.getElementById("move-out-time-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("reason-legend").textContent = "退去理由";
