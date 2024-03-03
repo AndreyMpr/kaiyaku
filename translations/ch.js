@@ -5,7 +5,7 @@ window.addEventListener("load", function() {
         document.getElementById("explanation-bottom").innerText = "最短取消日期：2个月或1个月（请检查您的合同）。\n例如：如果7月21日申请，则取消日期为9月21日（如果提前2个月通知）或8月21日（如果提前2个月通知） 提前几个月通知）。";
         document.getElementById("contractor-name-label").textContent = "承包商名称";
         document.getElementById("contractor-name").placeholder = "例如 张伟 (Zhāng Wěi)";
-        document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";
+        document.getElementById("contractor-name-comment").textContent = "*请输入合同上记载的缔约方名称。";
         document.getElementById("property-name-label").textContent = "Name of the property (building/parking)";
         document.getElementById("property-name").placeholder = "e.g. Sakura mansion";
         document.getElementById("property-name-comment").textContent = "Please enter the property name as listed on your contract.";
