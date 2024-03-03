@@ -3,9 +3,9 @@ window.addEventListener("load", function() {
         document.getElementById("formTitle").textContent = "Mẫu tiếp nhận hủy bỏ";
         document.getElementById("explanation-top").innerText = "Nếu bạn muốn hủy hợp đồng của mình, vui lòng đăng ký hủy thông qua biểu mẫu này.\nĐối với các mục như địa chỉ mới của bạn chưa được quyết định, vui lòng điền vào “Chưa quyết định”.\nSau khi chúng tôi nhận được yêu cầu hủy của bạn, chúng tôi sẽ liên hệ với bạn theo địa chỉ số điện thoại bạn đã cung cấp.";
         document.getElementById("explanation-bottom").innerText = "Ngày hủy ngắn nhất: 2 tháng hoặc 1 tháng (vui lòng kiểm tra hợp đồng của bạn).\nVí dụ: Nếu áp dụng vào ngày 21 tháng 7, việc hủy sẽ là vào ngày 21 tháng 9 (trong trường hợp báo trước 2 tháng) hoặc ngày 21 tháng 8 (trong trường hợp 2 tháng) báo trước hàng tháng).";
-        document.getElementById("contractor-name-label").textContent = "Contractor Name";
+        document.getElementById("contractor-name-label").textContent = "Tên nhà thầu";
         document.getElementById("contractor-name").placeholder = "e.g. John Doe";
-        document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";
+        document.getElementById("contractor-name-comment").textContent = "Please enter the contractor's name as listed on your contract.";
         document.getElementById("property-name-label").textContent = "Name of the property (building/parking)";
         document.getElementById("property-name").placeholder = "e.g. Sakura mansion";
         document.getElementById("property-name-comment").textContent = "Please enter the property name as listed on your contract.";
