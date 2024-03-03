@@ -3,8 +3,8 @@ window.addEventListener("load", function() {
         document.getElementById("formTitle").textContent = "取消接待表格";
         document.getElementById("explanation-top").innerText = "如果您希望取消合同，请通过此表格申请取消。\n对于您的新地址等尚未确定的项目，请填写“未确定”。\n收到您的取消合同后，我们将通过以下方式与您联系： 您提供的电话号码。";
         document.getElementById("explanation-bottom").innerText = "最短取消日期：2个月或1个月（请检查您的合同）。\n例如：如果7月21日申请，则取消日期为9月21日（如果提前2个月通知）或8月21日（如果提前2个月通知） 提前几个月通知）。";
-        document.getElementById("contractor-name-label").textContent = "Contractor Name";
-        document.getElementById("contractor-name").placeholder = "e.g. John Doe";
+        document.getElementById("contractor-name-label").textContent = "承包商名称";
+        document.getElementById("contractor-name").placeholder = "例如 张伟 (Zhāng Wěi)";
         document.getElementById("contractor-name-comment").textContent = "Please enter the contractor name as listed on your contract.";
         document.getElementById("property-name-label").textContent = "Name of the property (building/parking)";
         document.getElementById("property-name").placeholder = "e.g. Sakura mansion";
