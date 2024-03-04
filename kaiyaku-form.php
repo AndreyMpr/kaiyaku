@@ -52,11 +52,13 @@
                 <div class="question">
                     <p class="number">2.</p>
                     <label class="wide-label" id="property-name-label" for="property-name">物件名</label>
-                    <input class="wide-input" type="text" id="property-name" name="propertyName" required placeholder="例：桜木マンション" hx-get="includes/property_names.php" hx-trigger="keyup delay:500ms"">
+                    <input class="wide-input" type="text" id="property-name" name="propertyName" required placeholder="例：桜木マンション" hx-get="property_names.php" hx-trigger="keyup delay:500ms" hx-indicator="#loading-indicator">
                     <p class="comment" id="property-name-comment">
                         ※ご契約書に記載されている建物名をご入力ください。
                     </p>
                 </div>
+
+                <div id="loading-indicator" style="display: none;">少々お待ちください　Loading...</div>
                 
                 <div class="question">
                     <p class="number">3.</p>
