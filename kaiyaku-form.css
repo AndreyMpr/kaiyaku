@@ -111,6 +111,12 @@ input[type=radio] {
     white-space: nowrap;
 }
 
+#fieldset-other-label {
+  display: inline-block;
+  text-align: center;
+  width: 98px;
+}
+
 #fieldset-other {
     font-size: 16px;
     border-radius: 4px;
