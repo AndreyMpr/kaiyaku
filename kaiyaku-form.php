@@ -141,7 +141,7 @@
                         <label for="neighbour">近隣トラブル</label>
                         <br>
                         <label id="fieldset-other-label" for="fieldset-other">その他</label>
-                        <input type="text" id="fieldset-other" name="reason" placeholder="県外への転勤の為">
+                        <input type="text" id="fieldset-other" name="reason" placeholder="県外への転勤の為プレイスホルダー">
                     </fieldset>
                 </div>
 
