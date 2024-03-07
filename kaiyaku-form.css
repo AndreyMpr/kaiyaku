@@ -117,11 +117,24 @@ input[type=radio] {
   width: 98px;
 }
 
+@media screen and (max-width: 768px) {
+  #fieldset-other-label {
+    text-align: left;
+    width: 50px;
+  }
+}
+
 #fieldset-other {
     font-size: 16px;
     border-radius: 4px;
     padding: 5px 15px 5px 10px;
     width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+  #fieldset-other {
+    width: 70%;
+  }
 }
 
   @media screen and (max-width: 768px) {
@@ -139,6 +152,7 @@ input[type=radio] {
   @media screen and (max-width: 768px) {
     #other::placeholder {
       font-size: 12px;
+      width: 100%;
     }
   }
 
