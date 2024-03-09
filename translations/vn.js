@@ -62,7 +62,7 @@ window.addEventListener("load", function() {
         document.getElementById("other-label").textContent = "Nếu bạn có bất kỳ câu hỏi nào khác, vui lòng tự do điền vào.";
         //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
-        document.getElementById("submit-button").textContent = "Đăng ký";
+        document.getElementsByClassName("submit-button")[0].textContent = "Đăng ký";
         document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
 
     }, 100);
