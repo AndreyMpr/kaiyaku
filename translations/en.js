@@ -36,5 +36,35 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='fieldset-other']").textContent = "Other";
         document.getElementById("fieldset-other").placeholder = "Moving to a different country";
 
+        document.getElementById("address-label").textContent = "Địa chỉ di chuyển";
+        document.getElementById("address").placeholder = "1-518-2 Oseicho, Omiya Ward, Saitama City, Saitama Prefecture";
+        document.getElementById("address-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("bank-account-label").textContent = "Tài khoản hoàn trả tiền đặt cọc, v.v.";
+        document.getElementById("bank-account").textContent = "Ví dụ: Ngân hàng Resona Saitama Omiya Nishi Chi nhánh Bình thường 1474654";
+        document.getElementById("bank-account-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("bank-name-label").textContent = "Tên tài khoản";
+        document.getElementById("bank-name").textContent = "Ví dụ: Ka） Saitamamaruyamakomusho";
+        document.getElementById("bank-name-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("comment-label").textContent = "Có vấn đề gì xảy ra trong thời gian bạn ở không?";
+        //document.getElementById("comment").textContent = "";
+        document.getElementById("comment-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("satisfaction-legend").textContent = "Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
+        document.querySelector("label[for='terrible']").textContent = "Không hài lòng";
+        document.querySelector("label[for='bad']").textContent = "Hơi không hài lòng";
+        document.querySelector("label[for='ok']").textContent = "Bình thường";
+        document.querySelector("label[for='good']").textContent = "Hơi hài lòng";
+        document.querySelector("label[for='great']").textContent = "Rất hài lòng";
+        document.getElementById("explanation-label").textContent = "Nếu bạn đã trả lời 'Hơi không hài lòng' hoặc 'Không hài lòng' trong câu hỏi trên, hãy cho chúng tôi biết lý do.";
+        //document.getElementById("explanation").textContent = "";
+        document.getElementById("explanation-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("wishes-label").textContent = "Có cơ sở hoặc dịch vụ nào bạn mong muốn không?";
+        //document.getElementById("wishes").textContent = "";
+        document.getElementById("wishes-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementById("other-label").textContent = "Nếu bạn có bất kỳ câu hỏi nào khác, vui lòng tự do điền vào.";
+        //document.getElementById("other").textContent = "";
+        document.getElementById("other-comment").textContent = "※ Vui lòng điền tên của tòa nhà trong hợp đồng.";
+        document.getElementsByClassName("submit-button")[0].textContent = "Đăng ký";
+        document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
+
     }, 100);
 });
