@@ -62,8 +62,8 @@ window.addEventListener("load", function() {
         document.getElementById("other-label").textContent = "その他ご質問等がございましたら、ご自由にご記入ください。";
         //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementsByClassName("submit-button")[0].textContent = "Đăng ký";
-        document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
+        document.getElementsByClassName("submit-button")[0].textContent = "登録";
+        document.getElementById("privacy-policy").textContent = "個人情報保護方針";
 
     }, 100);
 });
