@@ -55,13 +55,13 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='great']").textContent = "Very satisfied";
         document.getElementById("explanation-label").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
         //document.getElementById("explanation").textContent = "";
-        document.getElementById("explanation-comment").textContent = "※ Please fill in the name of the building in the contract.";
+        document.getElementById("explanation-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
         document.getElementById("wishes-label").textContent = "Is there any facility or service you wish for?";
         //document.getElementById("wishes").textContent = "";
-        document.getElementById("wishes-comment").textContent = "※ Please fill in the name of the building in the contract.";
+        document.getElementById("wishes-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
         document.getElementById("other-label").textContent = "If you have any other questions, please feel free to fill in.";
         //document.getElementById("other").textContent = "";
-        document.getElementById("other-comment").textContent = "※ Please fill in the name of the building in the contract.";
+        document.getElementById("other-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
         document.getElementsByClassName("submit-button")[0].textContent = "Register";
         document.getElementById("privacy-policy").textContent = "Privacy policy";
         
