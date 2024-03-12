@@ -36,14 +36,14 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='fieldset-other']").textContent = "Other";
         document.getElementById("fieldset-other").placeholder = "Moving to a different country";
         document.getElementById("address-label").textContent = "Moving address";
-        document.getElementById("address").placeholder = "1-518-2 Oseicho, Omiya Ward, Saitama City, Saitama Prefecture";
-        document.getElementById("address-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
-        document.getElementById("bank-account-label").textContent = "Bank account for refund of deposit, etc.";
-        document.getElementById("bank-account").textContent = "Example: Resona Bank Saitama Omiya Nishi Branch Normal 1474654";
-        document.getElementById("bank-account-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
-        document.getElementById("bank-name-label").textContent = "Account holder's name.";
+        document.getElementById("address").placeholder = "1-518-2 Onaricho, Omiya Ward, Saitama City, Saitama Prefecture";
+        document.getElementById("address-comment").textContent = "* The address mightbe used for sending the documents or cancelation settlement transfer.";
+        document.getElementById("bank-account-label").textContent = "Bank account number";
+        document.getElementById("bank-account").textContent = "Example: Saitama Resona Bank, Omiya Nishi Branch, Normal 1474654";
+        document.getElementById("bank-account-comment").textContent = "* This account will be used to transfer canselation settlement or security deposit.";
+        document.getElementById("bank-name-label").textContent = "Bank account holder's name.";
         document.getElementById("bank-name").textContent = "Example: John Doe";
-        document.getElementById("bank-name-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
+        document.getElementById("bank-name-comment").textContent = "* Please fill in the name of account holder, as stated in your contract with the bank (usually katakana).";
         document.getElementById("comment-label").textContent = "Did anything happen while you were staying?";
         //document.getElementById("comment").textContent = "";
         document.getElementById("comment-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
@@ -62,7 +62,7 @@ window.addEventListener("load", function() {
         document.getElementById("other-label").textContent = "If you have any other questions, please feel free to fill in.";
         //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "※ Please fill in the name of the building, as stated in the contract.";
-        document.getElementsByClassName("submit-button")[0].textContent = "Register";
+        document.getElementsByClassName("submit-button")[0].textContent = "Submit";
         document.getElementById("privacy-policy").textContent = "Privacy policy";
         
 
