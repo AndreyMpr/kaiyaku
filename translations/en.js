@@ -45,7 +45,6 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name").textContent = "Example: John Doe";
         document.getElementById("bank-name-comment").textContent = "* Please fill in the name of account holder, as stated in your contract with the bank (usually katakana).";
         document.getElementById("comment-label").textContent = "Did you experience any problems during your stay?";
-        //document.getElementById("comment").textContent = "";
         document.getElementById("comment-comment").textContent = "* If there is any problems that might affected your decision to move out, please let us know about it.";
         document.getElementById("satisfaction-legend").textContent = "Please let us know how satisfied were you with our services.";
         document.querySelector("label[for='terrible']").textContent = "Not satisfied";
@@ -54,17 +53,12 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='good']").textContent = "Somewhat satisfied";
         document.querySelector("label[for='great']").textContent = "Very satisfied";
         document.getElementById("explanation-label").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
-        //document.getElementById("explanation").textContent = "";
         document.getElementById("explanation-comment").textContent = "We appreciate your feedback.";
         document.getElementById("wishes-label").textContent = "Is there any facility or service you wish we provided during your stay?";
-        //document.getElementById("wishes").textContent = "";
         document.getElementById("wishes-comment").textContent = "We appreciate your feedback.";
         document.getElementById("other-label").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
-        //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "We appreciate your feedback.";
         document.getElementsByClassName("submit-button")[0].textContent = "Submit";
         document.getElementById("privacy-policy").textContent = "Privacy policy";
-        
-
     }, 100);
 });
