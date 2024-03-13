@@ -103,7 +103,7 @@
                     <label class="wide-label" id="move-out-time-label" for="move-out-time">立会希望時間</label>
                     <input class="wide-input" type="time" id="move-out-time" name="moveOutTime">
                     <p class="comment" id="move-out-time-comment">
-                        ※ご契約書に記載されている建物名をご入力ください。
+                        ※可能であれば、退去立会の時間をご指定ください。 現時点で時間がわからない場合は、このフィールドを空白のままにしておいてください。後ほど時間を確認するために連絡させていただきます。
                     </p>
                 </div>
 
@@ -150,7 +150,7 @@
                     <label class="wide-label" id="address-label" for="address">転居先住所</label>
                     <input class="wide-input" type="text" id="address" name="address" placeholder="埼玉県さいたま市大宮区大成町1-518-2">
                     <p class="comment" id="address-comment">
-                        ※ご契約書に記載されている建物名をご入力ください。
+                        ※書類の送付や敷金・日割り決済などの振込に利用される場合がございます。
                     </p>
                 </div>
 
