@@ -23,7 +23,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-time-label").textContent = "立会希望時間";
         document.getElementById("move-out-time-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("reason-legend").textContent = "退去理由";
-        document.getElementById("reason-comment").textContent = "※差し支えなければ、転居の理由をお聞かせください。";
+        document.getElementById("reason-comment").textContent = "※可能であれば、退去立会の時間をご指定ください。 現時点で時間がわからない場合は、このフィールドを空白のままにしておいてください。後ほど時間を確認するために連絡させていただきます。";
         document.querySelector("label[for='work']").textContent = "仕事都合";
         document.querySelector("label[for='school']").textContent = "卒業・進学";
         document.querySelector("label[for='house']").textContent = "自宅購入";
@@ -37,7 +37,7 @@ window.addEventListener("load", function() {
         document.getElementById("fieldset-other").placeholder = "県外への転勤の為";
         document.getElementById("address-label").textContent = "転居先住所";
         document.getElementById("address").placeholder = "埼玉県さいたま市大宮区大成町1-518-2";
-        document.getElementById("address-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
+        document.getElementById("address-comment").textContent = "※書類の送付や敷金・日割り決済などの振込に利用される場合がございます。";
         document.getElementById("bank-account-label").textContent = "敷金等返金先口座";
         document.getElementById("bank-account").textContent = "例：埼玉りそな銀行　大宮西支店　普通　1474654";
         document.getElementById("bank-account-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
