@@ -45,7 +45,6 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name").textContent = "例：カ）サイタママルヤマコウムショ";
         document.getElementById("bank-name-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("comment-label").textContent = "お住まいいただいていた期間に何か不具合がございましたか。";
-        //document.getElementById("comment").textContent = "";
         document.getElementById("comment-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("satisfaction-legend").textContent = "管理会社丸山マンションセンターの対応について満足度をお教えください。";
         document.querySelector("label[for='terrible']").textContent = "不満足";
@@ -54,13 +53,10 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='good']").textContent = "やや満足";
         document.querySelector("label[for='great']").textContent = "大変満足";
         document.getElementById("explanation-label").textContent = "上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。";
-        //document.getElementById("explanation").textContent = "";
         document.getElementById("explanation-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("wishes-label").textContent = "希望する設備やサービスは何かございましたか。";
-        //document.getElementById("wishes").textContent = "";
         document.getElementById("wishes-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("other-label").textContent = "その他ご質問等がございましたら、ご自由にご記入ください。";
-        //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementsByClassName("submit-button")[0].textContent = "登録";
         document.getElementById("privacy-policy").textContent = "個人情報保護方針";
