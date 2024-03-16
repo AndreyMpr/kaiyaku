@@ -234,6 +234,9 @@
 
             </form>
             <a id="privacy-policy">個人情報保護方針</a>
+
+            <div class="confirmation-parent">Confirmation</div>
+
         </section>
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
