@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>解約受付フォーム</title>
         <link rel="stylesheet" href="kaiyaku-form.css" />
-        <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+        <!--<script src="https://unpkg.com/htmx.org@1.9.10"></script>-->
     </head>
 
     <body>
@@ -58,7 +58,7 @@
                     </p>
                 </div>
 
-                <div id="loading-indicator" style="display: none;">少々お待ちください　Loading...</div>
+                <!--<div id="loading-indicator" style="display: none;">少々お待ちください　Loading...</div>-->
                 
                 <div class="question">
                     <p class="number">3.</p>
