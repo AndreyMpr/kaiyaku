@@ -235,7 +235,19 @@
             </form>
             <a id="privacy-policy">個人情報保護方針</a>
 
-            <div class="confirmation-parent">Confirmation</div>
+            <!--Hidden confirmation block-->
+
+            <div class="confirmation-parent" style="display: qnone;">Confirmation</div>
+                <div class="confirmation-title">入力確認</div>
+                <div class="confirmation-subtitle">ご入力を確認してください。</div>
+                <div class="confirmation-question">
+                    <p class="confirmation-number">1.</p>
+                    <label class="confirmation-wide-label" id="confirmation-contractor-name-label" for="confirmation-contractor-name">契約者氏名</label>
+                    <input class="wide-input" type="text" id="contractor-name" name="contractorName" required placeholder="例：山田太郎">
+                    <p class="comment" id="contractor-name-comment">
+                        ※ご契約書に記載されている契約者名をご入力ください。
+                    </p>
+                </div>
 
         </section>
         <script src="translations/jp.js"></script>
