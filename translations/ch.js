@@ -45,7 +45,6 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name").textContent = "例如：カ）サイタママルヤマコウムショ";
         document.getElementById("bank-name-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("comment-label").textContent = "在您居住期间有没有什么问题？";
-        //document.getElementById("comment").textContent = "";
         document.getElementById("comment-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("satisfaction-legend").textContent = "请告诉我们您对丸山公寓中心管理公司的满意度";
         document.querySelector("label[for='terrible']").textContent = "不满意";
@@ -54,13 +53,10 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='good']").textContent = "有点满意";
         document.querySelector("label[for='great']").textContent = "非常满意";
         document.getElementById("explanation-label").textContent = "如果您在上述问题中回答了“有点不满意”或“不满意”，请告诉我们原因。";
-        //document.getElementById("explanation").textContent = "";
         document.getElementById("explanation-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("wishes-label").textContent = "您有没有希望的设施或服务？";
-        //document.getElementById("wishes").textContent = "";
         document.getElementById("wishes-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("other-label").textContent = "如果您有其他问题，请随意填写。";
-        //document.getElementById("other").textContent = "";
         document.getElementById("other-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("submit-button").textContent = "注册";
         document.getElementById("privacy-policy").textContent = "个人信息保护政策";
