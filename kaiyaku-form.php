@@ -237,10 +237,10 @@
 
             <!--Hidden confirmation block-->
 
-            <div class="confirmation-parent" style="display: qnone;">Confirmation</div>
+            <div class="confirmation-parent" style="display: qnone;">
 
-                <div class="confirmation-title">入力確認</div>
-                <div class="confirmation-subtitle">ご入力を確認してください。</div>
+                <h1 class="confirmation-title">入力確認</h1>
+                <p class="confirmation-subtitle">ご入力を確認してください。</p>
 
                 <div class="confirmation-question">
                     <p class="confirmation-number">1.</p>
@@ -259,6 +259,7 @@
                     <p class="conformation-label"></p>
                     <p class="conformation-input"></p>
                 </div>
+            </div>
 
         </section>
         <script src="translations/jp.js"></script>
