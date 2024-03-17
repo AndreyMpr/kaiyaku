@@ -234,8 +234,9 @@
 
             </form>
             <a id="privacy-policy">個人情報保護方針</a>
+        </section>
 
-            <!--Hidden confirmation block-->
+        <section> <!--Hidden confirmation block-->
 
             <div class="confirmation-parent" style="display: qnone;">
 
@@ -266,6 +267,7 @@
             </div>
 
         </section>
+        
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
         <script src="translations/ch.js"></script>
