@@ -250,14 +250,23 @@ fieldset {
 
 .confirmation-number{
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 20px 0 20px;
+  color: #6b8492;
+  font-weight: 600;
 }
 
 .conformation-label {
   display: inline-block;
+  color: #6b8492;
+  font-weight: 600;
 }
 
 hr.devider {
   border: none;
   border-top: 3px solid #d3e2e9;
+}
+
+.conformation-input {
+  margin-left: 53px;
+  margin: 0 16px 16px 53px;
 }
