@@ -70,7 +70,7 @@ h1 {
   }
 }
 
-.question .wide-input {
+.question .wide-input , .confirmation-child {
     margin: 20px 0;
     height: 100%;
     width: 100%;
@@ -246,4 +246,12 @@ fieldset {
 
 #reason-legend-text {
   margin-right: 10px;
+}
+
+.confirmation-number{
+  display: inline-block;
+}
+
+.conformation-label {
+  display: inline-block;
 }

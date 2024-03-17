@@ -242,22 +242,26 @@
                 <h1 class="confirmation-title">入力確認</h1>
                 <p class="confirmation-subtitle">ご入力を確認してください。</p>
 
-                <div class="confirmation-question">
-                    <p class="confirmation-number">1.</p>
-                    <p class="conformation-label">契約者氏名</p>
-                    <p class="conformation-input" id="confirmation-contractor-name"></p>
-                </div>
+                <div class="confirmation-child">
 
-                <div class="confirmation-question">
-                    <p class="confirmation-number">2.</p>
-                    <p class="conformation-label">物件名</p>
-                    <p class="conformation-input" id="confirmation-property-name"></p>
-                </div>
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">1.</p>
+                        <p class="conformation-label">契約者氏名</p>
+                        <p class="conformation-input" id="confirmation-contractor-name">モロゾフ　アンドレイ</p>
+                    </div>
 
-                <div class="confirmation-question">
-                    <p class="confirmation-number">3.</p>
-                    <p class="conformation-label">号室</p>
-                    <p class="conformation-input" id="confirmation-room-number"></p>
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">2.</p>
+                        <p class="conformation-label">物件名</p>
+                        <p class="conformation-input" id="confirmation-property-name">ルミエール</p>
+                    </div>
+
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">3.</p>
+                        <p class="conformation-label">号室</p>
+                        <p class="conformation-input" id="confirmation-room-number">105</p>
+                    </div>
+
                 </div>
             </div>
 
