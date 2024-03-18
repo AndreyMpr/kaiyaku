@@ -274,6 +274,7 @@
                         <p class="conformation-label">駐車場・№</p>
                         <p class="conformation-input" id="confirmation-parking-number">P01</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -281,6 +282,7 @@
                         <p class="conformation-label">電話番号</p>
                         <p class="conformation-input" id="confirmation-phone-number">0487298661</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -288,6 +290,7 @@
                         <p class="conformation-label">号室</p>
                         <p class="conformation-input" id="confirmation-room-number">105</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -295,6 +298,7 @@
                         <p class="conformation-label">退去予定日（立会日）</p>
                         <p class="conformation-input" id="confirmation-move-out-date">03/18</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -302,6 +306,7 @@
                         <p class="conformation-label">立会希望時間</p>
                         <p class="conformation-input" id="confirmation-move-out-time">12:00</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -309,6 +314,7 @@
                         <p class="conformation-label">退去理由</p>
                         <p class="conformation-input" id="confirmation-reason">県外への転勤の為</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
@@ -316,12 +322,61 @@
                         <p class="conformation-label">転居先住所</p>
                         <p class="conformation-input" id="confirmation-address">埼玉県さいたま市大宮区大成町1-518-2</p>
                     </div>
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
                         <p class="confirmation-number">10.</p>
                         <p class="conformation-label">敷金等返金先口座</p>
                         <p class="conformation-input" id="confirmation-bank-account">埼玉りそな銀行　大宮西支店　普通　1474654</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">11.</p>
+                        <p class="conformation-label">口座名義</p>
+                        <p class="conformation-input" id="confirmation-bank-name">サイタママルヤマコウムショ</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">12.</p>
+                        <p class="conformation-label">お住まいいただいていた期間に何か不具合がございましたか。</p>
+                        <p class="conformation-input" id="confirmation-comment">Comment</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">13.</p>
+                        <p class="conformation-label">管理会社丸山マンションセンターの対応について満足度をお教えください。</p>
+                        <p class="conformation-input" id="confirmation-satisfaction">埼玉りそな銀行　大宮西支店　普通　1474654</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">14.</p>
+                        <p class="conformation-label">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</p>
+                        <p class="conformation-input" id="confirmation-explanation">Explanation</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">15.</p>
+                        <p class="conformation-label">希望する設備やサービスは何かございましたか。</p>
+                        <p class="conformation-input" id="confirmation-wishes">Wishes</p>
+                    </div>
+                    
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">16.</p>
+                        <p class="conformation-label">その他ご質問等がございましたら、ご自由にご記入ください。</p>
+                        <p class="conformation-input" id="confirmation-other">Other</p>
                     </div>
 
                 </div>
