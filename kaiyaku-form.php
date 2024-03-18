@@ -250,17 +250,78 @@
                         <p class="conformation-label">契約者氏名</p>
                         <p class="conformation-input" id="confirmation-contractor-name">モロゾフ　アンドレイ</p>
                     </div>
+
                     <hr class="devider">    
+
                     <div class="confirmation-question">
                         <p class="confirmation-number">2.</p>
                         <p class="conformation-label">物件名</p>
                         <p class="conformation-input" id="confirmation-property-name">ルミエール</p>
                     </div>
+
                     <hr class="devider"> 
+
                     <div class="confirmation-question">
                         <p class="confirmation-number">3.</p>
                         <p class="conformation-label">号室</p>
                         <p class="conformation-input" id="confirmation-room-number">105</p>
+                    </div>
+
+                    <hr class="devider"> 
+
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">4.</p>
+                        <p class="conformation-label">駐車場・№</p>
+                        <p class="conformation-input" id="confirmation-parking-number">P01</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">5.</p>
+                        <p class="conformation-label">電話番号</p>
+                        <p class="conformation-input" id="confirmation-phone-number">0487298661</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">5.</p>
+                        <p class="conformation-label">号室</p>
+                        <p class="conformation-input" id="confirmation-room-number">105</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">6.</p>
+                        <p class="conformation-label">退去予定日（立会日）</p>
+                        <p class="conformation-input" id="confirmation-move-out-date">03/18</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">7.</p>
+                        <p class="conformation-label">立会希望時間</p>
+                        <p class="conformation-input" id="confirmation-move-out-time">12:00</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">8.</p>
+                        <p class="conformation-label">退去理由</p>
+                        <p class="conformation-input" id="confirmation-reason">県外への転勤の為</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">9.</p>
+                        <p class="conformation-label">転居先住所</p>
+                        <p class="conformation-input" id="confirmation-address">埼玉県さいたま市大宮区大成町1-518-2</p>
+                    </div>
+                    <hr class="devider"> 
+                    
+                    <div class="confirmation-question">
+                        <p class="confirmation-number">10.</p>
+                        <p class="conformation-label">敷金等返金先口座</p>
+                        <p class="conformation-input" id="confirmation-bank-account">埼玉りそな銀行　大宮西支店　普通　1474654</p>
                     </div>
 
                 </div>
