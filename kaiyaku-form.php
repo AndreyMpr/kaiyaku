@@ -233,7 +233,6 @@
                 </div>
 
             </form>
-            <a id="privacy-policy">個人情報保護方針</a>
         </section>
 
         <section> <!--Hidden confirmation block-->
@@ -383,6 +382,8 @@
             </div>
 
         </section>
+
+        <a id="privacy-policy">個人情報保護方針</a>
         
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
