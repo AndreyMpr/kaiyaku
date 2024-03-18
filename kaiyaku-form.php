@@ -237,7 +237,7 @@
 
         <section> <!--Hidden confirmation block-->
 
-            <div class="confirmation-parent" style="display: qnone;">
+            <div class="confirmation-parent" style="display: none;">
 
                 <h1 class="confirmation-title">入力確認</h1>
                 <p class="confirmation-subtitle">ご入力を確認してください。</p>
@@ -383,7 +383,9 @@
 
         </section>
 
-        <a id="privacy-policy">個人情報保護方針</a>
+        <div id="privacy-policy">
+            <a>個人情報保護方針</a>
+        </div>
         
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
