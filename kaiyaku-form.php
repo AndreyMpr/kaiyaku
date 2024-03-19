@@ -384,7 +384,7 @@
         </section>
 
         <div id="privacy-policy">
-            <a>個人情報保護方針</a>
+            <a href="https://saitama-life.com/privacy/">個人情報保護方針</a>
         </div>
         
         <script src="translations/jp.js"></script>
