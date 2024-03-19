@@ -287,3 +287,8 @@ hr.devider {
 #privacy-policy {
   text-align: center;
 }
+
+#privacy-policy-link {
+  color: #000;
+  text-decoration: none;
+}
