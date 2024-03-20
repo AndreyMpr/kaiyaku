@@ -391,7 +391,15 @@
 
         <section>
             <div class="lifeline-parent" style="display: qnone;">
-            
+                <div class="lifeline-child">
+                    <h3 class=lifeline-title>移転解約の手続き</h3>
+                <p>引っ越し日が確定したらすぐにご連絡ください。</p>
+                <div class="lifeline-block">
+                        <p class="lifeline-number">1.</p>
+                        <div id="-lifeline-electricity">
+                            <p>電気</p>
+                        </div>
+                    </div>
         </section>
 
         <script src="translations/jp.js"></script>
