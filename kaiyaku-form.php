@@ -392,19 +392,48 @@
         <section>
             <div class="lifeline-parent" style="display: qnone;">
                 <div class="lifeline-child">
+
                     <h3 class=lifeline-title>移転解約の手続き</h3>
-                <p>引っ越し日が確定したらすぐにご連絡ください。</p>
-                <div class="lifeline-block">
-                        <p class="lifeline-number">1.</p>
-                        <div id="-lifeline-electricity">
-                            <p>電気</p>
-                            <p class="electricity-provider" id="electricity">東京電力㈱ カスタマーセンター</p>
-                            <p class="gas-provider" id="gas">東京ガス お客様センター</p>
-                            <p class="water-provider" id="water">さいたま市水道局</p>
-                            <p class="phone-provider" id="phone">NTT</p>
-                            <p class="postal-service" id="post">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
+                    <p>引っ越し日が確定したらすぐにご連絡ください。</p>
+
+                    <div class="lifeline-block">
+
+                            <p class="lifeline-number">1.</p>
+                            <div id="-lifeline-electricity">
+                                <p class="utility">電気</p>
+                                <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
+                                <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
+                            </div>
+
+                            <p class="lifeline-number">2.</p>
+                            <div id="-lifeline-gas">
+                                <p class="utility">ガス</p>
+                                <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
+                                <p class="lifeline-phone" id="gas-phone">0570-002-211</p>
+                            </div>
+
+                            <p class="lifeline-number">3.</p>
+                            <div id="-lifeline-water">
+                                <p class="utility">水道</p>
+                                <p class="provider-name" id="water-provider">さいたま市水道局</p>
+                                <p class="lifeline-phone" id="water-phone">048-665-3220</p>
+                            </div>
+
+                            <p class="lifeline-number">4.</p>
+                            <div id="-lifeline-phone">
+                                <p class="utility">電話</p>
+                                <p class="provider-name" id="phone-provider">NTT</p>
+                                <p class="lifeline-phone" id="phone-phone">116</p>
+                            </div>
+
+                            <p class="lifeline-number">5.</p>
+                            <div id="-lifeline-post">
+                                <p class="utility">郵便局</p>
+                                <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
+                                <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="_blank">オンライン申込（外部サイト）</a>
+                            </div>
+
                         </div>
-                    </div>
         </section>
 
         <script src="translations/jp.js"></script>
