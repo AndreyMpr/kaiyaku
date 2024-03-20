@@ -237,7 +237,7 @@
 
         <section> <!--Hidden confirmation block-->
 
-            <div class="confirmation-parent" style="display: none;">
+            <div class="confirmation-parent" style="display: qnone;">
 
                 <h1 class="confirmation-title">入力確認</h1>
                 <p class="confirmation-subtitle">ご入力を確認してください。</p>
@@ -387,6 +387,13 @@
             <a id="privacy-policy-link" href="https://saitama-life.com/privacy/">個人情報保護方針</a>
         </div>
         
+        <!--Lifeline information section-->
+
+        <section>
+            <div class="lifeline-parent" style="display: qnone;">
+            
+        </section>
+
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
         <script src="translations/ch.js"></script>
