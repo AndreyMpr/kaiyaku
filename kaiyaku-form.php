@@ -398,6 +398,11 @@
                         <p class="lifeline-number">1.</p>
                         <div id="-lifeline-electricity">
                             <p>電気</p>
+                            <p class="electricity-provider" id="electricity">東京電力㈱ カスタマーセンター</p>
+                            <p class="gas-provider" id="gas">東京ガス お客様センター</p>
+                            <p class="water-provider" id="water">さいたま市水道局</p>
+                            <p class="phone-provider" id="phone">NTT</p>
+                            <p class="postal-service" id="post">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
                         </div>
                     </div>
         </section>
