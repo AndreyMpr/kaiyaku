@@ -387,14 +387,16 @@
             <a id="privacy-policy-link" href="https://saitama-life.com/privacy/">個人情報保護方針</a>
         </div>
         
-        <!--Lifeline information section-->
+        <!--Hidden lifeline information section-->
 
         <section>
-            <div class="lifeline-parent" style="display: qnone;">
-                <div class="lifeline-child">
 
-                    <h3 class=lifeline-title>移転解約の手続き</h3>
-                    <p>引っ越し日が確定したらすぐにご連絡ください。</p>
+            <div class="lifeline-parent" style="display: qnone;">
+
+                <h3 class=lifeline-title>移転解約の手続き</h3>
+                <p>引っ越し日が確定したらすぐにご連絡ください。</p>
+
+                <div class="lifeline-child">
 
                     <div class="lifeline-block">
 
@@ -441,5 +443,6 @@
         <script src="translations/en.js"></script>
         <script src="translations/ch.js"></script>
         <script src="translations/vn.js"></script>
+
     </body>
 </html>
