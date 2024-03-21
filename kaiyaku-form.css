@@ -34,10 +34,17 @@ h1 {
     margin: auto;
 }
 
-.explanation, .confirmation-subtitle {
+.explanation, {
     max-width: 670px; 
     margin-bottom: 30px;
     line-height: 2em;
+}
+
+.confirmation-subtitle {
+  max-width: 670px; 
+  margin-bottom: 30px;
+  line-height: 2em;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -55,8 +62,6 @@ h1 {
       2px 2px 5px #a3b6be, 
       -2px -2px 5px #ffffff;
 }
-
-
 
 .question .wide-label {
     width: 30%;
@@ -304,4 +309,12 @@ hr.devider {
   box-shadow: 
     inset 1px 1px 2px #a3b6be, 
     inset -1px -1px 2px #ffffff;
+}
+
+#lifeline-title {
+  text-align: center;
+}
+
+#lifeline-subtitle {
+  text-align: center;
 }
