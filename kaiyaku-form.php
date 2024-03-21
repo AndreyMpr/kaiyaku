@@ -393,8 +393,8 @@
 
             <div class="lifeline-parent" style="display: qnone;">
 
-                <h3 class=lifeline-title>移転解約の手続き</h3>
-                <p>引っ越し日が確定したらすぐにご連絡ください。</p>
+                <h3 class="lifeline-title">移転解約の手続き</h3>
+                <p class="lifeline-subtitle">引っ越し日が確定したらすぐにご連絡ください。</p>
 
                 <div class="lifeline-child">
 
