@@ -318,3 +318,16 @@ hr.devider {
 #lifeline-subtitle {
   text-align: center;
 }
+
+.lifeline-number{
+  display: inline-block;
+  margin: 0 20px 0 20px;
+  color: #6b8492;
+  font-weight: 600;
+}
+
+.utility {
+  display: inline-block;
+  color: #6b8492;
+  font-weight: 600;
+}
