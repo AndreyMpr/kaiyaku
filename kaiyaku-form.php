@@ -394,7 +394,15 @@
             <div class="lifeline-parent" style="display: qnone;">
 
                 <h3 id="lifeline-title">移転解約の手続き</h3>
-                <p id="lifeline-subtitle">引っ越し日が確定したらすぐにご連絡ください。</p>
+                <p id="lifeline-subtitle">
+                    電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
+                    <br>
+                    退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。
+                    <br>
+                    ※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。
+                    <br>
+                    ※2～4月は混み合いますので、お早めにご連絡をお願いいたします。
+                </p>
 
                 <div class="lifeline-child">
 
