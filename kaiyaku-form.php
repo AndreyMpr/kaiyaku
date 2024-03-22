@@ -395,65 +395,61 @@
 
                 <h2 id="lifeline-title">移転解約の手続き</h2>
 
-                <h3>1．明け渡しの準備について</h3>
+                <div class="lifeline-block">
 
-                <p id="lifeline-subtitle">
-                    電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
-                    <br>
-                    退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。
-                    <br>
-                    ※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。
-                    <br>
-                    ※2～4月は混み合いますので、お早めにご連絡をお願いいたします。
-                </p>
+                    <h3>1．明け渡しの準備について</h3>
+
+                    <p id="lifeline-subtitle">
+                        電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
+                        <br>
+                        退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。
+                        <br>
+                        ※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。
+                        <br>
+                        ※2～4月は混み合いますので、お早めにご連絡をお願いいたします。
+                    </p>
+
+                </div>
 
                 <div class="lifeline-child">
 
-                    <div class="lifeline-block">
+                    <p class="utility">電気</p>
+                    <div class="utility-contacts" id="lifeline-electricity">
+                        <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
+                        <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
+                        <p id="lifeline-note">※ユーミーエナジーをご利用の場合は、解約のお手続きは不要です。</p>
+                    </div>
 
+                    <hr class="devider"> 
 
-                            <p class="utility">電気</p>
-                            <div class="utility-contacts" id="lifeline-electricity">
-                                <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
-                                <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
-                                <p id="lifeline-note">※ユーミーエナジーをご利用の場合は、解約のお手続きは不要です。</p>
-                            </div>
+                    <p class="utility">ガス</p>
+                    <div class="utility-contacts" id="-lifeline-gas">
+                        <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
+                        <p class="lifeline-phone" id="gas-phone">0570-002-211</p>
+                    </div>
 
-                            <hr class="devider"> 
+                    <hr class="devider"> 
 
+                    <p class="utility">水道</p>
+                    <div class="utility-contacts" id="-lifeline-water">
+                        <p class="provider-name" id="water-provider">さいたま市水道局</p>
+                        <p class="lifeline-phone" id="water-phone">048-665-3220</p>
+                    </div>
 
-                            <p class="utility">ガス</p>
-                            <div class="utility-contacts" id="-lifeline-gas">
-                                <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
-                                <p class="lifeline-phone" id="gas-phone">0570-002-211</p>
-                            </div>
+                    <hr class="devider"> 
 
-                            <hr class="devider"> 
+                    <p class="utility">電話</p>
+                    <div class="utility-contacts" id="-lifeline-phone">
+                        <p class="provider-name" id="phone-provider">NTT</p>
+                        <p class="lifeline-phone" id="phone-phone">116</p>
+                    </div>
 
+                    <hr class="devider"> 
 
-                            <p class="utility">水道</p>
-                            <div class="utility-contacts" id="-lifeline-water">
-                                <p class="provider-name" id="water-provider">さいたま市水道局</p>
-                                <p class="lifeline-phone" id="water-phone">048-665-3220</p>
-                            </div>
-
-                            <hr class="devider"> 
-
-
-                            <p class="utility">電話</p>
-                            <div class="utility-contacts" id="-lifeline-phone">
-                                <p class="provider-name" id="phone-provider">NTT</p>
-                                <p class="lifeline-phone" id="phone-phone">116</p>
-                            </div>
-
-                            <hr class="devider"> 
-
-
-                            <p class="utility">郵便局</p>
-                            <div class="utility-contacts" id="-lifeline-post">
-                                <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
-                                <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="_blank">オンライン申込（外部サイト）</a>
-                            </div>
+                    <p class="utility">郵便局</p>
+                    <div class="utility-contacts" id="-lifeline-post">
+                        <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
+                        <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="_blank">オンライン申込（外部サイト）</a>
                     </div>
                 </div>
 
@@ -482,16 +478,14 @@
                 <div class="lifeline-block">
                     <h3>４．CHUBB（エース）保険加入の方</h3>
                     <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
+                </div>
                     <div class="lifeline-child">
-                        <div class="lifeline-block">
                             <p class="utility">保険</p>
                                 <div class="utility-contacts" id="lifeline-guarantor">
                                     <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
                                     <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
                                 </div>
-                        </div>
                     </div>
-                </div>
 
                 <div class="lifeline-block">
                     <h3>5．自転車をお持ちの方</h3>
