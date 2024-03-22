@@ -349,3 +349,14 @@ hr.devider {
 .lifeline-block {
   margin: 60px 0 0 20px;
 }
+
+.footer {
+  max-width: 100%;
+  padding: 30px;
+  background-color: #d3e2e9;
+}
+
+.contacts {
+  max-width: 768px;
+  margin: auto;
+}
