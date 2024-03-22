@@ -393,7 +393,10 @@
 
             <div class="lifeline-parent" style="display: qnone;">
 
-                <h3 id="lifeline-title">移転解約の手続き</h3>
+                <h2 id="lifeline-title">移転解約の手続き</h2>
+
+                <h3>明け渡しの準備について</h3>
+
                 <p id="lifeline-subtitle">
                     電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
                     <br>
@@ -408,7 +411,7 @@
 
                     <div class="lifeline-block">
 
-                            <p class="lifeline-number">1.</p>
+
                             <p class="utility">電気</p>
                             <div class="utility-contacts" id="lifeline-electricity">
                                 <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
@@ -418,7 +421,7 @@
 
                             <hr class="devider"> 
 
-                            <p class="lifeline-number">2.</p>
+
                             <p class="utility">ガス</p>
                             <div class="utility-contacts" id="-lifeline-gas">
                                 <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
@@ -427,7 +430,7 @@
 
                             <hr class="devider"> 
 
-                            <p class="lifeline-number">3.</p>
+
                             <p class="utility">水道</p>
                             <div class="utility-contacts" id="-lifeline-water">
                                 <p class="provider-name" id="water-provider">さいたま市水道局</p>
@@ -436,7 +439,7 @@
 
                             <hr class="devider"> 
 
-                            <p class="lifeline-number">4.</p>
+
                             <p class="utility">電話</p>
                             <div class="utility-contacts" id="-lifeline-phone">
                                 <p class="provider-name" id="phone-provider">NTT</p>
@@ -445,7 +448,7 @@
 
                             <hr class="devider"> 
 
-                            <p class="lifeline-number">5.</p>
+
                             <p class="utility">郵便局</p>
                             <div class="utility-contacts" id="-lifeline-post">
                                 <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>

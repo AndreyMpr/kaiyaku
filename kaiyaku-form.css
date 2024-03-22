@@ -325,19 +325,20 @@ hr.devider {
 
 .lifeline-number{
   display: inline-block;
-  margin: 0 20px 0 20px;
   color: #6b8492;
   font-weight: 600;
 }
 
 .utility {
-  display: inline-block;
+  margin: 0 20px 0 20px;
+  display: inline-grid;
   color: #6b8492;
   font-weight: 600;
 }
 
 .utility-contacts {
   margin-left: 56px;
+  display: inline-grid;
 }
 
 #lifeline-note {
