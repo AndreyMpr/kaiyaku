@@ -503,9 +503,11 @@
         <section>
 
             <div class="footer">
-
+                <div class="contacts">
+                    <img src="src="https://saitama-life.com/wp-content/uploads/2020/08/logo-02.svg" alt="株式会社埼玉丸山工務所">
+                </div>
             </div>
-            
+
         </section>
 
         <script src="translations/jp.js"></script>
