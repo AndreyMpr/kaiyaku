@@ -498,6 +498,16 @@
             </div>
         </section>
 
+        <!--Footer section-->
+
+        <section>
+
+            <div class="footer">
+
+            </div>
+            
+        </section>
+
         <script src="translations/jp.js"></script>
         <script src="translations/en.js"></script>
         <script src="translations/ch.js"></script>
