@@ -492,6 +492,16 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="lifeline-block">
+                    <h3>5．自転車をお持ちの方</h3>
+                    <p>自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。</p>
+                </div>
+
+                <div class="lifeline-block">
+                    <p>※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
+                </div>
+
             </div>
         </section>
 
