@@ -413,6 +413,7 @@
                             <div class="utility-contacts" id="lifeline-electricity">
                                 <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
                                 <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
+                                <p id="lifeline-note">※ユーミーエナジーをご利用の場合は、解約のお手続きは不要です。</p>
                             </div>
 
                             <hr class="devider"> 
