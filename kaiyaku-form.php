@@ -480,12 +480,12 @@
                     <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
                 </div>
                     <div class="lifeline-child">
-                            <p class="utility">保険</p>
-                                <div class="utility-contacts" id="lifeline-guarantor">
-                                    <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
-                                    <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
-                                </div>
-                    </div>
+                        <p class="utility">保険</p>
+                            <div class="utility-contacts" id="lifeline-guarantor">
+                                <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
+                                <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
+                            </div>
+                </div>
 
                 <div class="lifeline-block">
                     <h3>5．自転車をお持ちの方</h3>
@@ -495,7 +495,6 @@
                 <div class="lifeline-block">
                     <p>※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
                 </div>
-
             </div>
         </section>
 
