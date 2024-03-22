@@ -456,12 +456,42 @@
                             </div>
                     </div>
                 </div>
-                <h3>2．家賃のお支払い・敷金の返還について</h3>
-                <p>
-                    退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。
-                    <br>
-                    敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。
-                </p>
+
+                <div class="lifeline-block">
+                    <h3>2．家賃のお支払い・敷金の返還について</h3>
+                    <p>
+                        退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。
+                        <br>
+                        敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。
+                    </p>
+                </div>
+
+                <div class="lifeline-block">
+                    <h3>3．退去の際にご用意いただくもの</h3>
+                    <p>
+                        ① 転居先（住所・電話番号）
+                        <br>
+                        ② 振込先口座情報
+                        <br>
+                        ③ 鍵（スペアキーも含む）
+                        <br>
+                        ④ 入居のしおり
+                    </p>
+                </div>
+
+                <div class="lifeline-block">
+                    <h3>４．CHUBB（エース）保険加入の方</h3>
+                    <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
+                    <div class="lifeline-child">
+                        <div class="lifeline-block">
+                            <p class="utility">保険</p>
+                                <div class="utility-contacts" id="lifeline-guarantor">
+                                    <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
+                                    <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
