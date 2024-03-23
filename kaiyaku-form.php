@@ -505,6 +505,8 @@
             <div class="footer">
                 <div class="contacts">
                     <img src="src="https://saitama-life.com/wp-content/uploads/2020/08/logo-02.svg" alt="株式会社埼玉丸山工務所">
+                    <p> Email: kaiyaku@saitama-maruyama.com</p>
+                    <p> 電話番号:048-729-8661 (営業時間：09:00 〜 18:00; 定休日：水曜日)</p>
                 </div>
             </div>
 
