@@ -351,9 +351,9 @@ hr.devider {
 }
 
 .footer {
-  max-width: 100%;
   padding: 30px;
   background-color: #d3e2e9;
+  margin: 0 -24px -24px -24px;
 }
 
 .contacts {
