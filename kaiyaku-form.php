@@ -141,7 +141,7 @@
                         <label for="neighbour">近隣トラブル</label>
                         <br>
                         <label id="fieldset-other-label" for="fieldset-other">その他</label>
-                        <input type="text" id="fieldset-other" name="reason" placeholder="県外への転勤の為">
+                        <input type="text" id="fieldset-other" name="reason-other" placeholder="県外への転勤の為">
                     </fieldset>
                 </div>
 
@@ -283,7 +283,7 @@
                         <p class="conformation-label">電話番号</p>
                         <p class="conformation-input" id="confirmation-phone-number">0487298661</p>
                     </div>
-                    
+
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
