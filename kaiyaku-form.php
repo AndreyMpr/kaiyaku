@@ -237,7 +237,7 @@
 
         <section> <!--Hidden confirmation block-->
 
-            <div class="confirmation-parent" style="display: qnone;">
+            <div class="confirmation-parent" style="display: none;">
 
                 <h1 class="confirmation-title">入力確認</h1>
                 <p class="confirmation-subtitle">ご入力を確認してください。</p>
@@ -391,7 +391,7 @@
 
         <section>
 
-            <div class="lifeline-parent" style="display: qnone;">
+            <div class="lifeline-parent" style="display: none;">
 
                 <h2 id="lifeline-title">移転解約の手続き</h2>
 
