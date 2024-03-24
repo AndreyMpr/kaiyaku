@@ -235,7 +235,9 @@
             </form>
         </section>
 
-        <section> <!--Hidden confirmation block-->
+        <!--Hidden confirmation block-->
+
+        <section> 
 
             <div class="confirmation-parent" style="display: none;">
 
@@ -281,15 +283,7 @@
                         <p class="conformation-label">電話番号</p>
                         <p class="conformation-input" id="confirmation-phone-number">0487298661</p>
                     </div>
-
-                    <hr class="devider"> 
                     
-                    <div class="confirmation-question">
-                        <p class="confirmation-number">5.</p>
-                        <p class="conformation-label">号室</p>
-                        <p class="conformation-input" id="confirmation-room-number">105</p>
-                    </div>
-
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
