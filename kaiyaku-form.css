@@ -353,11 +353,15 @@ hr.devider {
 .footer {
   padding: 30px;
   background-color: #d3e2e9;
-  margin: 0 -24px -24px -24px;
+  margin: 120px -24px -24px -24px;
   border-radius: 0px 0px 20px 20px  ;
 }
 
 .contacts {
-  max-width: 768px;
+  display: flex;
+  grid-gap: 50px;
+  align-items: baseline;
+  max-width: fit-content;
+  flex-wrap: wrap;
   margin: auto;
 }
