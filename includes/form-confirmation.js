@@ -16,4 +16,23 @@ function confirmInput() {
     const explanation = document.getElementById("explanation").value;
     const wishes = document.getElementById("wishes").value;
     const other = document.getElementById("other").value;
+
+    document.getElementById("confirmation-contractor-name").inerText = contractorName;
+    document.getElementById("confirmation-property-name").inerText = propertyName;
+    document.getElementById("confirmation-room-number").inerText = roomNumber;
+    document.getElementById("confirmation-parking-number").inerText = parkingNumber;
+    document.getElementById("confirmation-phone-number").inerText = phoneNumber;
+    document.getElementById("confirmation-move-out-date").inerText = moveOutDate;
+    document.getElementById("confirmation-move-out-time").inerText = moveOutTime;
+    document.getElementById("confirmation-reason").inerText = reason;
+    document.getElementById("confirmation-address").inerText = address;
+    document.getElementById("confirmation-bank-account").inerText = bankAccount;
+    document.getElementById("confirmation-bank-name").inerText = bankAccountName;
+    document.getElementById("confirmation-comment").inerText = comment;
+    document.getElementById("confirmation-satisfaction").inerText = satisfaction;
+    document.getElementById("confirmation-explanation").inerText = explanation;
+    document.getElementById("confirmation-wishes").inerText = wishes;
+    document.getElementById("confirmation-other").inerText = other;
+
+    document.querySelector(".confirmation-parent").style.display = "block";
 }
