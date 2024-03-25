@@ -365,3 +365,7 @@ hr.devider {
   flex-wrap: wrap;
   margin: auto;
 }
+
+#footer-logo {
+  max-height: 2rem;
+}
