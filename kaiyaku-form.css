@@ -361,7 +361,6 @@ hr.devider {
   display: flex;
   grid-gap: 50px;
   align-items: baseline;
-  max-width: fit-content;
   flex-wrap: wrap;
   margin: auto;
 }
