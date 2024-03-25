@@ -39,4 +39,3 @@
         echo htmlspecialchars($wishes);
         echo htmlspecialchars($other);
     }
-?>
