@@ -18,7 +18,7 @@ function confirmInput() {
     const wishes = document.getElementById("wishes").value;
     const other = document.getElementById("other").value;
 
-    if (!strValue) {reason = reasonOther};
+    if (reasonOther.trim()) {reason = reasonOther};
 
     document.getElementById("confirmation-contractor-name").inerText = contractorName;
     document.getElementById("confirmation-property-name").inerText = propertyName;
