@@ -229,7 +229,7 @@
                 </div>
 
                 <div class="submit-block">
-                    <button class="submit-button" - type="submit">登録</button>
+                    <button class="submit-button" id="go-to-confirmation" type="submit">登録</button>
                 </div>
 
             </form>
