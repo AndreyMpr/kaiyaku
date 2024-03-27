@@ -37,7 +37,7 @@
             </p>
         </div>
 
-        <section class="inner">
+        <section class="inner" id="formBody" style="display: block;">
             <!--<form action="kaiyaku-handler.php" method="post">-->
             <form id="kaiyakuForm">
 

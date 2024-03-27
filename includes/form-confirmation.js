@@ -41,6 +41,7 @@ function confirmInput(confirmationEvent) {
     document.getElementById("confirmation-wishes").innerText = wishes;
     document.getElementById("confirmation-other").innerText = other;
 
+    document.querySelector("#formBody").style.display = "none";
     document.querySelector(".confirmation-parent").style.display = "block";
 }
 
