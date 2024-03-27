@@ -39,7 +39,7 @@
 
         <section class="inner">
             <!--<form action="kaiyaku-handler.php" method="post">-->
-            <form>
+            <form id="kaiyakuForm">
 
                 <div class="question">
                     <p class="number">1.</p>
@@ -515,6 +515,6 @@
         <script src="translations/ch.js"></script>
         <script src="translations/vn.js"></script>
 
-        <script src="includex/form-confirmation.js"></script>
+        <script src="includes/form-confirmation.js"></script>
     </body>
 </html>
