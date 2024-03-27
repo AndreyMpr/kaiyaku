@@ -11,7 +11,7 @@ function confirmInput(confirmationEvent) {
     const phoneNumber = document.getElementById("phone-number").value;
     const moveOutDate = document.getElementById("move-out-date").value;
     const moveOutTime = document.getElementById("move-out-time").value;  
-    const reason = document.querySelector('input[name="reason"]:checked').value;
+    let reason = document.querySelector('input[name="reason"]:checked').value;
     const reasonOther = document.getElementById("fieldset-other").value;
     const address = document.getElementById("address").value;
     const bankAccount = document.getElementById("bank-account").value;
@@ -24,24 +24,24 @@ function confirmInput(confirmationEvent) {
 
     if (reasonOther.trim()) {reason = reasonOther};
 
-    document.getElementById("confirmation-contractor-name").inerText = contractorName;
-    document.getElementById("confirmation-property-name").inerText = propertyName;
-    document.getElementById("confirmation-room-number").inerText = roomNumber;
-    document.getElementById("confirmation-parking-number").inerText = parkingNumber;
-    document.getElementById("confirmation-phone-number").inerText = phoneNumber;
-    document.getElementById("confirmation-move-out-date").inerText = moveOutDate;
-    document.getElementById("confirmation-move-out-time").inerText = moveOutTime;
-    document.getElementById("confirmation-reason").inerText = reason;
-    document.getElementById("confirmation-address").inerText = address;
-    document.getElementById("confirmation-bank-account").inerText = bankAccount;
-    document.getElementById("confirmation-bank-name").inerText = bankAccountName;
-    document.getElementById("confirmation-comment").inerText = comment;
-    document.getElementById("confirmation-satisfaction").inerText = satisfaction;
-    document.getElementById("confirmation-explanation").inerText = explanation;
-    document.getElementById("confirmation-wishes").inerText = wishes;
-    document.getElementById("confirmation-other").inerText = other;
+    document.getElementById("confirmation-contractor-name").innerText = contractorName;
+    document.getElementById("confirmation-property-name").innerText = propertyName;
+    document.getElementById("confirmation-room-number").innerText = roomNumber;
+    document.getElementById("confirmation-parking-number").innerText = parkingNumber;
+    document.getElementById("confirmation-phone-number").innerText = phoneNumber;
+    document.getElementById("confirmation-move-out-date").innerText = moveOutDate;
+    document.getElementById("confirmation-move-out-time").innerText = moveOutTime;
+    document.getElementById("confirmation-reason").innerText = reason;
+    document.getElementById("confirmation-address").innerText = address;
+    document.getElementById("confirmation-bank-account").innerText = bankAccount;
+    document.getElementById("confirmation-bank-name").innerText = bankAccountName;
+    document.getElementById("confirmation-comment").innerText = comment;
+    document.getElementById("confirmation-satisfaction").innerText = satisfaction;
+    document.getElementById("confirmation-explanation").innerText = explanation;
+    document.getElementById("confirmation-wishes").innerText = wishes;
+    document.getElementById("confirmation-other").innerText = other;
 
     document.querySelector(".confirmation-parent").style.display = "block";
 }
 
-goToConfirmation.addEventListener("click", confirmInput);
+goToConfirmation.addEventListener("submit", confirmInput);
