@@ -1,4 +1,8 @@
-function confirmInput() {
+let goToConfirmation = document.getElementById("go-to-confirmation");
+
+function confirmInput(confirmationEvent) {
+
+    confirmationEvent.preventDefault();
 
     const contractorName = document.getElementById("contractor-name").value;
     const propertyName = document.getElementById("property-name").value;
@@ -39,3 +43,5 @@ function confirmInput() {
 
     document.querySelector(".confirmation-parent").style.display = "block";
 }
+
+goToConfirmation.addEventListener("click", confirmInput);
