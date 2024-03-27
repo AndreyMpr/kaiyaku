@@ -1,4 +1,4 @@
-let goToConfirmation = document.getElementById("go-to-confirmation");
+let goToConfirmation = document.getElementById("kaiyakuForm");
 
 function confirmInput(confirmationEvent) {
 
