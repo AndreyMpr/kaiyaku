@@ -38,7 +38,8 @@
         </div>
 
         <section class="inner">
-            <form action="kaiyaku-handler.php" method="post">
+            <!--<form action="kaiyaku-handler.php" method="post">-->
+            <form>
 
                 <div class="question">
                     <p class="number">1.</p>
