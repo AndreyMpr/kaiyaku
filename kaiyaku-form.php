@@ -515,5 +515,6 @@
         <script src="translations/ch.js"></script>
         <script src="translations/vn.js"></script>
 
+        <script src="includex/form-confirmation.js"></script>
     </body>
 </html>
