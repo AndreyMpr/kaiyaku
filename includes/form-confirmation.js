@@ -21,6 +21,7 @@ function confirmInput(confirmationEvent) {
     const explanation = document.getElementById("explanation").value;
     const wishes = document.getElementById("wishes").value;
     const other = document.getElementById("other").value;
+    const jumpUp = document.getElementById("top-anchor");
 
     if (reasonOther.trim()) {reason = reasonOther};
 
@@ -43,6 +44,7 @@ function confirmInput(confirmationEvent) {
 
     document.querySelector("#formBody").style.display = "none";
     document.querySelector(".confirmation-parent").style.display = "block";
+    jumpUp.scrollIntoView({ behavior: "smooth" });
 }
 
 goToConfirmation.addEventListener("submit", confirmInput);
