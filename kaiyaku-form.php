@@ -376,6 +376,12 @@
                     </div>
 
                 </div>
+
+                <div class="submit-block">
+                    <button class="submit-button" id="go-to-confirmation" type="button">申込を登録すく</button>
+                    <button class="submit-button" id="go-to-confirmation" type="button">入力を直す</button>
+                </div>
+
             </div>
 
         </section>
