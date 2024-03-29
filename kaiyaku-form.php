@@ -40,7 +40,6 @@
         <a id="top-anchor"></a>
 
         <section class="inner" id="formBody" style="display: block;">
-            <!--<form action="kaiyaku-handler.php" method="post">-->
             <form id="kaiyakuForm">
 
                 <div class="question">
