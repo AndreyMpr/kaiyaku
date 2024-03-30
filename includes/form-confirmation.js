@@ -1,4 +1,4 @@
-let goToConfirmation = document.getElementById("kaiyakuForm");
+const goToConfirmation = document.getElementById("kaiyakuForm");
 
 function confirmInput(confirmationEvent) {
 
@@ -48,3 +48,5 @@ function confirmInput(confirmationEvent) {
 }
 
 goToConfirmation.addEventListener("submit", confirmInput);
+
+const editSubmission = document.getElementById("edit-button");
