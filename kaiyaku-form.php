@@ -386,7 +386,7 @@
         </section>
 
         <div id="privacy-policy">
-            <a id="privacy-policy-link" href="https://saitama-life.com/privacy/">個人情報保護方針</a>
+            <a id="privacy-policy-link" href="https://saitama-life.com/privacy/" target="_blank">個人情報保護方針</a>
         </div>
         
         <!--Hidden lifeline information section-->
