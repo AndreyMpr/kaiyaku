@@ -370,6 +370,6 @@ hr.devider {
   max-height: 2rem;
 }
 
-#edit-button {
-  margin-left: 6em;
+button {
+margin: 2em ;
 }
