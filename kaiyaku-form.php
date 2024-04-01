@@ -184,19 +184,19 @@
                 <div class="question">
                     <fieldset>
                         <legend class="radio-legend" id="satisfaction-legend"><p class="number">13.</p>管理会社丸山マンションセンターの対応について満足度をお教えください。</legend>
-                        <input type="radio" id="terrible" name="satisfaction">
+                        <input type="radio" id="terrible" name="satisfaction" value="不満足">
                         <label for="terrible">不満足</label>
                         <br>
-                        <input type="radio" id="bad" name="satisfaction">
+                        <input type="radio" id="bad" name="satisfaction" value="やや不満足">
                         <label for="bad">やや不満足</label>
                         <br>
-                        <input type="radio" id="ok" name="satisfaction">
+                        <input type="radio" id="ok" name="satisfaction" value="普通">
                         <label for="ok">普通</label>
                         <br>
-                        <input type="radio" id="good" name="satisfaction">
+                        <input type="radio" id="good" name="satisfaction" value="やや満足">
                         <label for="good">やや満足</label>
                         <br>
-                        <input type="radio" id="great" name="satisfaction">
+                        <input type="radio" id="great" name="satisfaction" value="大変満足">
                         <label for="great">大変満足</label>
                     </fieldset>
                 </div>
