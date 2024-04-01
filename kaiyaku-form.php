@@ -449,7 +449,7 @@
                     <p class="utility">郵便局</p>
                     <div class="utility-contacts" id="-lifeline-post">
                         <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
-                        <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="_blank">オンライン申込（外部サイト）</a>
+                        <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="blank">オンライン申込（外部サイト）</a>
                     </div>
                 </div>
 
