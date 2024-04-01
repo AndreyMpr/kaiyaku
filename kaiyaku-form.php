@@ -113,31 +113,31 @@
                         <p class="comment" id="reason-comment">
                             ※差し支えなければ、転居の理由をお聞かせください。
                         </p>
-                        <input type="radio" id="work" name="reason">
+                        <input type="radio" id="work" name="reason" value="仕事都合">
                         <label for="work">仕事都合</label>
                         <br>
-                        <input type="radio" id="school" name="reason">
+                        <input type="radio" id="school" name="reason" value="卒業・進学">
                         <label for="school">卒業・進学</label>
                         <br>
-                        <input type="radio" id="house" name="reason">
+                        <input type="radio" id="house" name="reason" value="自宅購入">
                         <label for="house">自宅購入</label>
                         <br>
-                        <input type="radio" id="small" name="reason">
+                        <input type="radio" id="small" name="reason" value="手狭">
                         <label for="small">手狭</label>
                         <br>
-                        <input type="radio" id="parents" name="reason">
+                        <input type="radio" id="parents" name="reason" value="実家へ戻る">
                         <label for="parents">実家へ戻る</label>
                         <br>
-                        <input type="radio" id="marriage" name="reason">
+                        <input type="radio" id="marriage" name="reason" value="結婚">
                         <label for="marriage">結婚</label>
                         <br>
-                        <input type="radio" id="malfunction" name="reason">
+                        <input type="radio" id="malfunction" name="reason" value="設備・管理に不満">
                         <label for="malfunction">設備・管理に不満</label>
                         <br>
-                        <input type="radio" id="far" name="reason">
+                        <input type="radio" id="far" name="reason" value="交通の便">
                         <label for="far">交通の便</label>
                         <br>
-                        <input type="radio" id="neighbour" name="reason">
+                        <input type="radio" id="neighbour" name="reason" value="近隣トラブル">
                         <label for="neighbour">近隣トラブル</label>
                         <br>
                         <label id="fieldset-other-label" for="fieldset-other">その他</label>
