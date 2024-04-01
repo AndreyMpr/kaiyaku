@@ -120,6 +120,7 @@ input[type=radio] {
     white-space: nowrap;
 }
 */
+
 #fieldset-other-label {
   display: inline-block;
   text-align: center;
@@ -279,6 +280,10 @@ fieldset {
   display: inline-block;
   color: #6b8492;
   font-weight: 600;
+}
+
+#long-confirmation-label {
+  font-size: 14px;
 }
 
 hr.devider {
