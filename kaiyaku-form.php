@@ -352,7 +352,7 @@
                     
                     <div class="confirmation-question">
                         <p class="confirmation-number">14.</p>
-                        <p class="conformation-label">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</p>
+                        <p class="conformation-label" id="long-confirmation-label">上記設問にてやや不満足、不満足とお答えされた方はその理由をお聞かせください。</p>
                         <p class="conformation-input" id="confirmation-explanation">Explanation</p>
                     </div>
                     
