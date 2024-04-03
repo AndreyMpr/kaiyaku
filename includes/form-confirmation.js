@@ -50,3 +50,9 @@ function confirmInput(confirmationEvent) {
 goToConfirmation.addEventListener("submit", confirmInput);
 
 const editSubmission = document.getElementById("edit-button");
+
+editSubmission.addEventListener('click', function() {
+    document.querySelector(".confirmation-parent").style.display = "none";
+    document.querySelector("#formBody").style.display = "block";
+    document.getElementById("top-anchor").scrollIntoView({ behavior: "smooth" });
+});
