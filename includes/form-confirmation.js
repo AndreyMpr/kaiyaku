@@ -56,3 +56,7 @@ editSubmission.addEventListener('click', function() {
     document.querySelector("#formBody").style.display = "block";
     document.getElementById("top-anchor").scrollIntoView({ behavior: "smooth" });
 });
+
+const confirmSubmission = document.getElementById("confirm-button");
+
+confirmSubmission.addEventListener('click', finction())
