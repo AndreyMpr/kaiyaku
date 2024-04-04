@@ -49,6 +49,8 @@ function confirmInput(confirmationEvent) {
 
 goToConfirmation.addEventListener("submit", confirmInput);
 
+/*Confirmation block buttons*/
+
 const editSubmission = document.getElementById("edit-button");
 
 editSubmission.addEventListener('click', function() {
