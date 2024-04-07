@@ -71,3 +71,9 @@ $sql = "INSERT INTO kaiyakuForm (
         '$wishes',
         '$other'
         )";
+
+// Query execution
+
+if ($dbConnect->query($sql) === TRUE) {
+    echo "登録完了";
+}
