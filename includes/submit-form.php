@@ -76,4 +76,6 @@ $sql = "INSERT INTO kaiyakuForm (
 
 if ($dbConnect->query($sql) === TRUE) {
     echo "登録完了";
+} else {
+    echo "エラー " . $sql . "<br>" . $dbConnect->error;
 }
