@@ -33,3 +33,41 @@ $satisfaction = mysqli_real_escape_string(dbConnect, $_POST['satisfaction']);
 $explanation = mysqli_real_escape_string(dbConnect, $_POST['explanation']);
 $wishes = mysqli_real_escape_string(dbConnect, $_POST['wishes']);
 $other = mysqli_real_escape_string(dbConnect, $_POST['other']);
+
+// SQL query
+
+$sql = "INSERT INTO kaiyakuForm (
+    contractorName,
+    propertyName,
+    roomNumber,
+    parkingNumber,
+    phoneNumber,
+    moveOutDate,
+    moveOutTime,
+    reason,
+    address,
+    bankAccount,
+    bankAccountName,
+    comment,
+    satisfaction,
+    explanation
+    wishes,
+    other
+    ) VALUES (
+        '$contractorName',
+        '$propertyName',
+        '$roomNumber',
+        '$parkingNumber',
+        '$phoneNumber',
+        '$moveOutDate',
+        '$moveOutTime',
+        '$reason',
+        '$address',
+        '$bankAccount',
+        '$bankAccountName',
+        '$comment',
+        '$satisfaction',
+        '$explanation',
+        '$wishes',
+        '$other'
+        )";
