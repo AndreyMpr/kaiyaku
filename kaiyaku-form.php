@@ -375,8 +375,8 @@
                 </div>
 
                 <div class="submit-block">
-                    <button class="submit-button" id="confirm-button" type="button">申込を登録すく</button>
-                    <button class="submit-button" id="edit-button" type="button">入力を直す</button>
+                    <button class="submit-button" id="confirm-button" type="button">確定</button>
+                    <button class="submit-button" id="edit-button" type="button">修正</button>
                 </div>
 
             </div>
