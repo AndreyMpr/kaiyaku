@@ -60,5 +60,8 @@ window.addEventListener("load", function() {
         document.getElementById("other-comment").textContent = "We appreciate your feedback.";
         document.getElementsByClassName("submit-button")[0].textContent = "Submit";
         document.getElementById("privacy-policy").textContent = "Privacy policy";
+        document.getElementById("confirmation-title").textContent = "Confirm input";
+        document.getElementById("confirmation-subtitle").textContent = "Please confirm your input to the form.";
+
     }, 100);
 });
