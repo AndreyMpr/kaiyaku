@@ -79,3 +79,7 @@ if ($dbConnect->query($sql) === TRUE) {
 } else {
     echo "エラー " . $sql . "<br>" . $dbConnect->error;
 }
+
+// Close connection
+
+$dbConnect->close();
