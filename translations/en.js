@@ -62,6 +62,14 @@ window.addEventListener("load", function() {
         document.getElementById("privacy-policy").textContent = "Privacy policy";
         document.getElementById("confirmation-title").textContent = "Confirm input";
         document.getElementById("confirmation-subtitle").textContent = "Please confirm your input to the form.";
+        document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
+        document.getElementById("property-name-confirm").textContent = "Name of the property (building/parking)";
+        document.getElementById("room-number-confirm").textContent = "Room number";
+        document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
+        document.getElementById("phone-number-confirm").textContent = "Parking space number / storage unit number";
+        document.getElementById("move-out-date-confirm").textContent = "Moving out date";
+        document.getElementById("move-out-time-confirm").textContent = "Moving out time";
+
 
     }, 100);
 });
