@@ -1,9 +1,8 @@
 <?php
 
-$kaiyakuDbHost = getenv('DB_HOST');
-$kaiyakuDbName = getenv('DB_PASS');
-$kaiyakuDbUser = getenv('DB_USER');
-$kaiyakuDbPass = getenv('DB_PASS');
+//Login credentials
+
+require 'path/to/config.php';
 
 //Connect to the database
 
