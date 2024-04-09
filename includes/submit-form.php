@@ -2,7 +2,7 @@
 
 //Login credentials
 
-require 'path/to/config.php';
+require '../../kaiyaku_private/config.php';
 
 //Connect to the database
 
