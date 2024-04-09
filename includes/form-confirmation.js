@@ -62,6 +62,20 @@ editSubmission.addEventListener('click', function() {
 const confirmSubmission = document.getElementById("confirm-button");
 
 confirmSubmission.addEventListener('click', function() {
+
+    //from work open
+    let formData = new FormData(goToConfirmation);
+    fetch('submit-form.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => console.log(data))
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+    //from work close
+    
     document.querySelector(".confirmation-parent").style.display = "none";
     document.querySelector(".lifeline-parent").style.display = "block";
     document.getElementById("top-anchor").scrollIntoView({ behavior: "smooth" });
