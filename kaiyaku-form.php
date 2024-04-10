@@ -248,7 +248,7 @@
 
                     <div class="confirmation-question">
                         <p class="confirmation-number">1.</p>
-                        <p class="conformation-label">契約者氏名</p>
+                        <p class="conformation-label" id="contractor-name-confirm">契約者氏名</p>
                         <p class="conformation-input" id="confirmation-contractor-name">モロゾフ　アンドレイ</p>
                     </div>
 
@@ -256,7 +256,7 @@
 
                     <div class="confirmation-question">
                         <p class="confirmation-number">2.</p>
-                        <p class="conformation-label">物件名</p>
+                        <p class="conformation-label" id="property-name-confirm">物件名</p>
                         <p class="conformation-input" id="confirmation-property-name">ルミエール</p>
                     </div>
 
@@ -264,7 +264,7 @@
 
                     <div class="confirmation-question">
                         <p class="confirmation-number">3.</p>
-                        <p class="conformation-label">号室</p>
+                        <p class="conformation-label" id="room-number-confirm">号室</p>
                         <p class="conformation-input" id="confirmation-room-number">105</p>
                     </div>
 
@@ -272,7 +272,7 @@
 
                     <div class="confirmation-question">
                         <p class="confirmation-number">4.</p>
-                        <p class="conformation-label">駐車場・№</p>
+                        <p class="conformation-label" id="parking-number-confirm">駐車場・№</p>
                         <p class="conformation-input" id="confirmation-parking-number">P01</p>
                     </div>
 
@@ -280,7 +280,7 @@
                     
                     <div class="confirmation-question">
                         <p class="confirmation-number">5.</p>
-                        <p class="conformation-label">電話番号</p>
+                        <p class="conformation-label" id="phone-number-confirm">電話番号</p>
                         <p class="conformation-input" id="confirmation-phone-number">0487298661</p>
                     </div>
 
@@ -288,7 +288,7 @@
                     
                     <div class="confirmation-question">
                         <p class="confirmation-number">6.</p>
-                        <p class="conformation-label">退去予定日（立会日）</p>
+                        <p class="conformation-label" id="move-out-date-confirm">退去予定日（立会日）</p>
                         <p class="conformation-input" id="confirmation-move-out-date">03/18</p>
                     </div>
 
@@ -296,7 +296,7 @@
                     
                     <div class="confirmation-question">
                         <p class="confirmation-number">7.</p>
-                        <p class="conformation-label">立会希望時間</p>
+                        <p class="conformation-label" id="move-out-time-confirm">立会希望時間</p>
                         <p class="conformation-input" id="confirmation-move-out-time">12:00</p>
                     </div>
 
@@ -375,7 +375,7 @@
                 </div>
 
                 <div class="submit-block">
-                    <button class="submit-button" id="confirm-button" type="button">確定</button>
+                    <button class="submit-button" id="confirm-button" type="submit">確定</button>
                     <button class="submit-button" id="edit-button" type="button">修正</button>
                 </div>
 
