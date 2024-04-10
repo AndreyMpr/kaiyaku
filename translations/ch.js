@@ -60,5 +60,15 @@ window.addEventListener("load", function() {
         document.getElementById("other-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("submit-button").textContent = "注册";
         document.getElementById("privacy-policy").textContent = "个人信息保护政策";
+
+        //Confirmation section
+
+        document.getElementById("contractor-name-confirm").textContent = "承包商名称";
+        document.getElementById("property-name-confirm").textContent = "物业名";
+        document.getElementById("room-number-confirm").textContent = "房间号";
+        document.getElementById("parking-number-confirm").textContent = "停车场·№";
+        document.getElementById("phone-number-confirm").textContent = "电话号码";
+        document.getElementById("move-out-date-confirm").textContent = "预计退房日期（现场会议日期）";
+        document.getElementById("move-out-time-confirm").textContent = "期望的现场会议时间";
     }, 100);
 });

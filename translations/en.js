@@ -64,6 +64,9 @@ window.addEventListener("load", function() {
         document.getElementById("confirmation-subtitle").textContent = "Please confirm your input to the form.";
         document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
         document.getElementById("property-name-confirm").textContent = "Name of the property (building/parking)";
+
+        //Confirmation section
+
         document.getElementById("room-number-confirm").textContent = "Room number";
         document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
         document.getElementById("phone-number-confirm").textContent = "Phone number";
