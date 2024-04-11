@@ -61,7 +61,7 @@ window.addEventListener("load", function() {
         document.getElementsByClassName("submit-button")[0].textContent = "Submit";
         document.getElementById("privacy-policy").textContent = "Privacy policy";
         document.getElementsByClassName("confirmation-title").textContent = "Confirm input";
-        document.getElementById("confirmation-subtitle").textContent = "Please confirm your input to the form.";
+        document.getElementsByClassName("confirmation-subtitle").textContent = "Please confirm your input to the form.";
         document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
         document.getElementById("property-name-confirm").textContent = "Name of the property (building/parking)";
 
@@ -72,7 +72,6 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Phone number";
         document.getElementById("move-out-date-confirm").textContent = "Moving out date";
         document.getElementById("move-out-time-confirm").textContent = "Moving out time";
-
 
     }, 100);
 });
