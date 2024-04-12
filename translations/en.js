@@ -72,6 +72,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Phone number";
         document.getElementById("move-out-date-confirm").textContent = "Moving out date";
         document.getElementById("move-out-time-confirm").textContent = "Moving out time";
+        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
 
     }, 100);
 });
