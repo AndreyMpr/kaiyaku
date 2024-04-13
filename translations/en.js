@@ -76,6 +76,8 @@ window.addEventListener("load", function() {
         document.getElementById("address-confirm").textContent = "Moving address";
         document.getElementById("bank-account-confirm").textContent = "Bank account number";
         document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
+        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
+        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
 
     }, 100);
 });
