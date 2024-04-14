@@ -70,5 +70,15 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "电话号码";
         document.getElementById("move-out-date-confirm").textContent = "预计退房日期（现场会议日期）";
         document.getElementById("move-out-time-confirm").textContent = "期望的现场会议时间";
+        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
+        document.getElementById("address-confirm").textContent = "Moving address";
+        document.getElementById("bank-account-confirm").textContent = "Bank account number";
+        document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
+        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
+        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
+        document.getElementById("explanation-confirm").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
+        document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
+        document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
+
     }, 100);
 });
