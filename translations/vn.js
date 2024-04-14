@@ -61,5 +61,23 @@ window.addEventListener("load", function() {
         document.getElementsByClassName("submit-button")[0].textContent = "Đăng ký";
         document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
 
+        //Confirmation section
+
+        document.getElementById("room-number-confirm").textContent = "Room number";
+        document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
+        document.getElementById("phone-number-confirm").textContent = "Phone number";
+        document.getElementById("move-out-date-confirm").textContent = "Moving out date";
+        document.getElementById("move-out-time-confirm").textContent = "Moving out time";
+        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
+        document.getElementById("address-confirm").textContent = "Moving address";
+        document.getElementById("bank-account-confirm").textContent = "Bank account number";
+        document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
+        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
+        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
+        document.getElementById("explanation-confirm").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
+        document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
+        document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
+
+
     }, 100);
 });
