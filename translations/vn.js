@@ -63,11 +63,13 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
-        document.getElementById("room-number-confirm").textContent = "Room number";
-        document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
-        document.getElementById("phone-number-confirm").textContent = "Phone number";
-        document.getElementById("move-out-date-confirm").textContent = "Moving out date";
-        document.getElementById("move-out-time-confirm").textContent = "Moving out time";
+        document.getElementById("contractor-name-confirm").textContent = "Tên nhà thầu";
+        document.getElementById("property-name-confirm").textContent = "Tên tài sản";
+        document.getElementById("room-number-confirm").textContent = "Số phòng";
+        document.getElementById("parking-number-confirm").textContent = "Bãi đỗ xe・№";
+        document.getElementById("phone-number-confirm").textContent = "Số điện thoại";
+        document.getElementById("move-out-date-confirm").textContent = "Ngày dự kiến ​​di dời (ngày họp)";
+        document.getElementById("move-out-time-confirm").textContent = "Thời gian mong muốn cho cuộc họp";
         document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
         document.getElementById("address-confirm").textContent = "Moving address";
         document.getElementById("bank-account-confirm").textContent = "Bank account number";
