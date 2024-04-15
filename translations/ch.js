@@ -73,12 +73,12 @@ window.addEventListener("load", function() {
         document.getElementById("reason-legend-confirm").textContent = "退房原因";
         document.getElementById("address-confirm").textContent = "搬迁地址";
         document.getElementById("bank-account-confirm").textContent = "押金等退款账户";
-        document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
-        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
-        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
-        document.getElementById("explanation-confirm").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
-        document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
-        document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
+        document.getElementById("bank-name-confirm").textContent = "账户名";
+        document.getElementById("comment-confirm").textContent = "在您居住期间有没有什么问题？";
+        document.getElementById("satisfaction-confirm").textContent = "请告诉我们您对丸山公寓中心管理公司的满意度";
+        document.getElementById("explanation-confirm").textContent = "如果您在上述问题中回答了“有点不满意”或“不满意”，请告诉我们原因。";
+        document.getElementById("wishes-confirm").textContent = "您有没有希望的设施或服务？";
+        document.getElementById("other-confirm").textContent = "如果您有其他问题，请随意填写。";
 
     }, 100);
 });
