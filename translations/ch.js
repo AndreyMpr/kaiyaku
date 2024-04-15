@@ -70,9 +70,9 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "电话号码";
         document.getElementById("move-out-date-confirm").textContent = "预计退房日期（现场会议日期）";
         document.getElementById("move-out-time-confirm").textContent = "期望的现场会议时间";
-        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
-        document.getElementById("address-confirm").textContent = "Moving address";
-        document.getElementById("bank-account-confirm").textContent = "Bank account number";
+        document.getElementById("reason-legend-confirm").textContent = "退房原因";
+        document.getElementById("address-confirm").textContent = "搬迁地址";
+        document.getElementById("bank-account-confirm").textContent = "押金等退款账户";
         document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
         document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
         document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
