@@ -67,6 +67,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
+        document.getElementById("property-name-confirm").textContent = "Name of the property";
         document.getElementById("room-number-confirm").textContent = "Room number";
         document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
         document.getElementById("phone-number-confirm").textContent = "Phone number";
