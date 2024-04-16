@@ -63,20 +63,22 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
-        document.getElementById("room-number-confirm").textContent = "Room number";
-        document.getElementById("parking-number-confirm").textContent = "Parking space number / storage unit number";
-        document.getElementById("phone-number-confirm").textContent = "Phone number";
-        document.getElementById("move-out-date-confirm").textContent = "Moving out date";
-        document.getElementById("move-out-time-confirm").textContent = "Moving out time";
-        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
-        document.getElementById("address-confirm").textContent = "Moving address";
-        document.getElementById("bank-account-confirm").textContent = "Bank account number";
-        document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
-        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
-        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
-        document.getElementById("explanation-confirm").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
-        document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
-        document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
+        document.getElementById("contractor-name-confirm").textContent = "契約者氏名";
+        document.getElementById("property-name-confirm").textContent = "物件名";
+        document.getElementById("room-number-confirm").textContent = "号室";
+        document.getElementById("parking-number-confirm").textContent = "駐車場・№";
+        document.getElementById("phone-number-confirm").textContent = "電話番号";
+        document.getElementById("move-out-date-confirm").textContent = "退去予定日（立会日）";
+        document.getElementById("move-out-time-confirm").textContent = "立会希望時間";
+        document.getElementById("reason-legend-confirm").textContent = "退去理由";
+        document.getElementById("address-confirm").textContent = "転居先住所";
+        document.getElementById("bank-account-confirm").textContent = "敷金等返金先口座";
+        document.getElementById("bank-name-confirm").textContent = "口座名義";
+        document.getElementById("comment-confirm").textContent = "お住まいいただいていた期間に何か不具合がございましたか。";
+        document.getElementById("satisfaction-confirm").textContent = "管理会社丸山マンションセンターの対応について満足度をお教えください。";
+        document.getElementById("explanation-confirm").textContent = "※ご契約書に記載されている建物名をご入力ください。";
+        document.getElementById("wishes-confirm").textContent = "希望する設備やサービスは何かございましたか。";
+        document.getElementById("other-confirm").textContent = "その他ご質問等がございましたら、ご自由にご記入ください。";
 
 
     }, 100);
