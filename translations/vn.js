@@ -70,15 +70,15 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Số điện thoại";
         document.getElementById("move-out-date-confirm").textContent = "Ngày dự kiến ​​di dời (ngày họp)";
         document.getElementById("move-out-time-confirm").textContent = "Thời gian mong muốn cho cuộc họp";
-        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
-        document.getElementById("address-confirm").textContent = "Moving address";
-        document.getElementById("bank-account-confirm").textContent = "Bank account number";
-        document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
-        document.getElementById("comment-confirm").textContent = "Did you experience any problems during your stay?";
-        document.getElementById("satisfaction-confirm").textContent = "Please let us know how satisfied were you with our services.";
-        document.getElementById("explanation-confirm").textContent = "If you answered 'Somewhat unsatisfied' or 'Not satisfied' in the above question, please let us know the reason.";
-        document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
-        document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
+        document.getElementById("reason-legend-confirm").textContent = "Lý do di dời";
+        document.getElementById("address-confirm").textContent = "Địa chỉ di chuyển";
+        document.getElementById("bank-account-confirm").textContent = "Tài khoản hoàn trả tiền đặt cọc, v.v.";
+        document.getElementById("bank-name-confirm").textContent = "Tên tài khoản";
+        document.getElementById("comment-confirm").textContent = "Có vấn đề gì xảy ra trong thời gian bạn ở không?";
+        document.getElementById("satisfaction-confirm").textContent = "Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
+        document.getElementById("explanation-confirm").textContent = "Nếu bạn đã trả lời 'Hơi không hài lòng' hoặc 'Không hài lòng' trong câu hỏi trên, hãy cho chúng tôi biết lý do.";
+        document.getElementById("wishes-confirm").textContent = "Có cơ sở hoặc dịch vụ nào bạn mong muốn không?";
+        document.getElementById("other-confirm").textContent = "Nếu bạn có bất kỳ câu hỏi nào khác, vui lòng tự do điền vào.";
 
 
     }, 100);
