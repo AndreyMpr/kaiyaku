@@ -4,24 +4,24 @@ function confirmInput(confirmationEvent) {
 
     confirmationEvent.preventDefault();
 
-    const contractorName = document.getElementById("contractor-name").value;
-    const propertyName = document.getElementById("property-name").value;
-    const roomNumber = document.getElementById("room-number").value;
-    const parkingNumber = document.getElementById("parking-number").value;
-    const phoneNumber = document.getElementById("phone-number").value;
-    const moveOutDate = document.getElementById("move-out-date").value;
-    const moveOutTime = document.getElementById("move-out-time").value;  
+    let contractorName = document.getElementById("contractor-name").value;
+    let propertyName = document.getElementById("property-name").value;
+    let roomNumber = document.getElementById("room-number").value;
+    let parkingNumber = document.getElementById("parking-number").value;
+    let phoneNumber = document.getElementById("phone-number").value;
+    let moveOutDate = document.getElementById("move-out-date").value;
+    let moveOutTime = document.getElementById("move-out-time").value;  
     let reason = document.querySelector('input[name="reason"]:checked').value;
-    const reasonOther = document.getElementById("fieldset-other").value;
-    const address = document.getElementById("address").value;
-    const bankAccount = document.getElementById("bank-account").value;
-    const bankAccountName = document.getElementById("bank-name").value;
-    const comment = document.getElementById("comment").value;
-    const satisfaction = document.querySelector('input[name="satisfaction"]:checked').value;
-    const explanation = document.getElementById("explanation").value;
-    const wishes = document.getElementById("wishes").value;
-    const other = document.getElementById("other").value;
-    const jumpUp = document.getElementById("top-anchor");
+    let reasonOther = document.getElementById("fieldset-other").value;
+    let address = document.getElementById("address").value;
+    let bankAccount = document.getElementById("bank-account").value;
+    let bankAccountName = document.getElementById("bank-name").value;
+    let comment = document.getElementById("comment").value;
+    let satisfaction = document.querySelector('input[name="satisfaction"]:checked').value;
+    let explanation = document.getElementById("explanation").value;
+    let wishes = document.getElementById("wishes").value;
+    let other = document.getElementById("other").value;
+    let jumpUp = document.getElementById("top-anchor");
 
     if (reasonOther.trim()) {reason = reasonOther};
 
@@ -63,7 +63,7 @@ const confirmSubmission = document.getElementById("confirm-button");
 
 confirmSubmission.addEventListener('click', function() {
 
-    //from work open
+    /*from work open
     let formData = new FormData(goToConfirmation);
     fetch('submit-form.php', {
         method: 'POST',
@@ -74,7 +74,7 @@ confirmSubmission.addEventListener('click', function() {
     .catch((error) => {
         console.error('Error:', error);
     });
-    //from work close
+    from work close*/
     
     document.querySelector(".confirmation-parent").style.display = "none";
     document.querySelector(".lifeline-parent").style.display = "block";
