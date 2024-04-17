@@ -2,11 +2,11 @@
 
 //Login credentials
 
-require '../../../kaiyaku_private/kaiyaku_db_config.php';
+include '../../../kaiyaku_private/kaiyaku_db_config.php';
 
 //Connect to the database
 
-$dbConnect = new mysqli($kaiyakuDbHost, $kaiyakuDbName, $kaiyakuDbUser, $kaiyakuDbPass);
+$dbConnect = new mysqli($kaiyakuDbHost, $kaiyakuDbUser, $kaiyakuDbPass, $kaiyakuDbName);
 
 //If connection errors
 
@@ -20,24 +20,24 @@ if ($dbConnect-> connect_errno) {
 $inputJSON = file_get_contents('php://input');
 
 // Convert it into a PHP object
-$input = json_decode($inputJSON, TRUE); //Convert JSON into array
+$input = json_decode($inputJSON, TRUE); //convert JSON into array
 
-$contractorName = mysqli_real_escape_string($dbConnect, $_POST['contractorName']);
-$propertyName = mysqli_real_escape_string($dbConnect, $_POST['propertyName']);
-$roomNumber = mysqli_real_escape_string($dbConnect, $_POST['roomNumber']);
-$parkingNumber = mysqli_real_escape_string($dbConnect, $_POST['parkingNumber']);
-$phoneNumber = mysqli_real_escape_string($dbConnect, $_POST['phoneNumber']);
-$moveOutDate = mysqli_real_escape_string($dbConnect, $_POST['moveOutDate']);
-$moveOutTime = mysqli_real_escape_string($dbConnect, $_POST['moveOutTime']);
-$reason = mysqli_real_escape_string($dbConnect, $_POST['reason']);
-$address = mysqli_real_escape_string($dbConnect, $_POST['address']);
-$bankAccount = mysqli_real_escape_string($dbConnect, $_POST['bankAccount']);
-$bankAccountName = mysqli_real_escape_string($dbConnect, $_POST['bankAccountName']);
-$comment = mysqli_real_escape_string($dbConnect, $_POST['comment']);
-$satisfaction = mysqli_real_escape_string($dbConnect, $_POST['satisfaction']);
-$explanation = mysqli_real_escape_string($dbConnect, $_POST['explanation']);
-$wishes = mysqli_real_escape_string($dbConnect, $_POST['wishes']);
-$other = mysqli_real_escape_string($dbConnect, $_POST['other']);
+$contractorName = mysqli_real_escape_string($dbConnect, $input['contractorName']);
+$propertyName = mysqli_real_escape_string($dbConnect, $input['propertyName']);
+$roomNumber = mysqli_real_escape_string($dbConnect, $input['roomNumber']);
+$parkingNumber = mysqli_real_escape_string($dbConnect, $input['parkingNumber']);
+$phoneNumber = mysqli_real_escape_string($dbConnect, $input['phoneNumber']);
+$moveOutDate = mysqli_real_escape_string($dbConnect, $input['moveOutDate']);
+$moveOutTime = mysqli_real_escape_string($dbConnect, $input['moveOutTime']);
+$reason = mysqli_real_escape_string($dbConnect, $input['reason']);
+$address = mysqli_real_escape_string($dbConnect, $input['address']);
+$bankAccount = mysqli_real_escape_string($dbConnect, $input['bankAccount']);
+$bankAccountName = mysqli_real_escape_string($dbConnect, $input['bankAccountName']);
+$comment = mysqli_real_escape_string($dbConnect, $input['comment']);
+$satisfaction = mysqli_real_escape_string($dbConnect, $input['satisfaction']);
+$explanation = mysqli_real_escape_string($dbConnect, $input['explanation']);
+$wishes = mysqli_real_escape_string($dbConnect, $input['wishes']);
+$other = mysqli_real_escape_string($dbConnect, $input['other']);
 
 // SQL query
 
@@ -55,7 +55,7 @@ $sql = "INSERT INTO kaiyakuForm (
     bankAccountName,
     comment,
     satisfaction,
-    explanation
+    explanation,
     wishes,
     other
     ) VALUES (
