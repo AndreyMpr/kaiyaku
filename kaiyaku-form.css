@@ -294,6 +294,7 @@ hr.devider {
 #privacy-policy-link {
   color: #000;
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .lifeline-child {
