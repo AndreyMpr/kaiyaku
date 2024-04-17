@@ -2,7 +2,7 @@
 
 //Login credentials
 
-require '../../kaiyaku_private/kaiyaku_db_config.php';
+require '../../../kaiyaku_private/kaiyaku_db_config.php';
 
 //Connect to the database
 
@@ -20,7 +20,7 @@ if ($dbConnect-> connect_errno) {
 $inputJSON = file_get_contents('php://input');
 
 // Convert it into a PHP object
-$input = json_decode($inputJSON, TRUE); //convert JSON into array
+$input = json_decode($inputJSON, TRUE); //Convert JSON into array
 
 $contractorName = mysqli_real_escape_string($dbConnect, $_POST['contractorName']);
 $propertyName = mysqli_real_escape_string($dbConnect, $_POST['propertyName']);
