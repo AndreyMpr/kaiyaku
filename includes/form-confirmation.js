@@ -160,7 +160,23 @@ confirmSubmission.addEventListener('click', function() {
     document.getElementById("top-anchor").scrollIntoView({ behavior: "smooth" });
 });
 
-function createDataAndFetch(contractorName, propertyName, roomNumber, parkingNumber, phoneNumber, moveOutDate, moveOutTime, reason, address, bankAccount, bankAccountName, comment, satisfaction, explanation, wishes, other) {
+function createDataAndFetch(
+    contractorName,
+    propertyName,
+    roomNumber,
+    parkingNumber,
+    phoneNumber,
+    moveOutDate,
+    moveOutTime,
+    reason,
+    address,
+    bankAccount,
+    bankAccountName,
+    comment,
+    satisfaction,
+    explanation,
+    wishes,
+    other) {
     const data = {
         contractorName: contractorName,
         propertyName: propertyName,
