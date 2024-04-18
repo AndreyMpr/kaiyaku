@@ -137,7 +137,23 @@ function confirmInput(confirmationEvent) {
 
     // Pass the form values to the createDataAndFetch function
 
-    createDataAndFetch(contractorName, propertyName, roomNumber, parkingNumber, phoneNumber, moveOutDate, moveOutTime, reason, address, bankAccount, bankAccountName, comment, satisfaction, explanation, wishes, other);
+    createDataAndFetch(
+        contractorName,
+        propertyName,
+        roomNumber,
+        parkingNumber,
+        phoneNumber,
+        moveOutDate,
+        moveOutTime,
+        reason,
+        address,
+        bankAccount,
+        bankAccountName,
+        comment,
+        satisfaction,
+        explanation,
+        wishes,
+        other);
 }
 
 goToConfirmation.addEventListener("submit", confirmInput);
