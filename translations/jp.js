@@ -80,6 +80,18 @@ window.addEventListener("load", function() {
         document.getElementById("wishes-confirm").textContent = "希望する設備やサービスは何かございましたか。";
         document.getElementById("other-confirm").textContent = "その他ご質問等がございましたら、ご自由にご記入ください。";
 
+        //Lifeline section
+
+        document.getElementById("lifeline-title").textContent = "移転解約の手続き";
+        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。\n退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。\n※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。\n※2～4月は混み合いますので、お早めにご連絡をお願いいたします。";
+        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
+        document.getElementById("lifeline-electricity").textContent = "電気";
+        document.getElementById("electricity-provider").textContent = "東京電力㈱ カスタマーセンター";
+        document.getElementById("lifeline-gas").textContent = "ガス";
+        document.getElementById("gas-provider").textContent = "東京ガス お客様センター";
+        document.getElementById("lifeline-water").textContent = "水道";
+        document.getElementById("water-provider").textContent = "さいたま市水道局";
 
     }, 100);
 });
