@@ -108,5 +108,9 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
 
+        //Privacy policy
+
+        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+
     }, 100);
 });
