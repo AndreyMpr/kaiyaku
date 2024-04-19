@@ -434,16 +434,16 @@
 
                     <hr class="devider"> 
 
-                    <p class="utility">電話</p>
-                    <div class="utility-contacts" id="-lifeline-phone">
+                    <p class="utility" id="-lifeline-phone">電話</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="phone-provider">NTT</p>
                         <p class="lifeline-phone" id="phone-phone">116</p>
                     </div>
 
                     <hr class="devider"> 
 
-                    <p class="utility">郵便局</p>
-                    <div class="utility-contacts" id="-lifeline-post">
+                    <p class="utility" id="-lifeline-post">郵便局</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
                         <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="blank">オンライン申込（外部サイト）</a>
                     </div>
@@ -476,8 +476,8 @@
                     <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
                 </div>
                     <div class="lifeline-child">
-                        <p class="utility">保険</p>
-                            <div class="utility-contacts" id="lifeline-guarantor">
+                        <p class="utility" id="lifeline-guarantor">保険</p>
+                            <div class="utility-contacts">
                                 <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
                                 <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
                             </div>
