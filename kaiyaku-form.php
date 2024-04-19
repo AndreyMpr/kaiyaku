@@ -434,7 +434,7 @@
 
                     <hr class="devider"> 
 
-                    <p class="utility" id="-lifeline-phone">電話</p>
+                    <p class="utility" id="lifeline-phone">電話</p>
                     <div class="utility-contacts">
                         <p class="provider-name" id="phone-provider">NTT</p>
                         <p class="lifeline-phone" id="phone-phone">116</p>
@@ -442,7 +442,7 @@
 
                     <hr class="devider"> 
 
-                    <p class="utility" id="-lifeline-post">郵便局</p>
+                    <p class="utility" id="lifeline-post">郵便局</p>
                     <div class="utility-contacts">
                         <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
                         <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="blank">オンライン申込（外部サイト）</a>
