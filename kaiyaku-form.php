@@ -450,8 +450,8 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>2．家賃のお支払い・敷金の返還について</h3>
-                    <p>
+                    <h3 id="lifeline-section-2-title">2．家賃のお支払い・敷金の返還について</h3>
+                    <p id="lifeline-section-2-subtitle">
                         退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。
                         <br>
                         敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。
@@ -459,8 +459,8 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>3．退去の際にご用意いただくもの</h3>
-                    <p>
+                    <h3 id="lifeline-section-3-title">3．退去の際にご用意いただくもの</h3>
+                    <p id="lifeline-section-3-subtitle">
                         ① 転居先（住所・電話番号）
                         <br>
                         ② 振込先口座情報
@@ -472,8 +472,8 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>４．CHUBB（エース）保険加入の方</h3>
-                    <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
+                    <h3 id="lifeline-section-4-title">４．CHUBB（エース）保険加入の方</h3>
+                    <p id="lifeline-section-4-subtitle">ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
                 </div>
                     <div class="lifeline-child">
                         <p class="utility" id="lifeline-guarantor">保険</p>
@@ -484,12 +484,12 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>5．自転車をお持ちの方</h3>
-                    <p>自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。</p>
+                    <h3 id="lifeline-section-5-title">5．自転車をお持ちの方</h3>
+                    <p id="lifeline-section-5-subtitle">自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。</p>
                 </div>
 
                 <div class="lifeline-block">
-                    <p>※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
+                    <p id="moving-out-confirmation-contact">※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
                 </div>
             </div>
         </section>
