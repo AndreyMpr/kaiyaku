@@ -92,6 +92,9 @@ window.addEventListener("load", function() {
         document.getElementById("gas-provider").textContent = "東京ガス お客様センター";
         document.getElementById("lifeline-water").textContent = "水道";
         document.getElementById("water-provider").textContent = "さいたま市水道局";
+        document.getElementById("lifeline-phone").textContent = "電話";
+        document.getElementById("lifeline-post").textContent = "郵便局";
+        document.getElementById("post-provider").textContent = "転居の手続きを最寄りの郵便局窓口にて行ってください。";
 
     }, 100);
 });
