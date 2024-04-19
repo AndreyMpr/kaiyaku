@@ -95,6 +95,18 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-phone").textContent = "電話";
         document.getElementById("lifeline-post").textContent = "郵便局";
         document.getElementById("post-provider").textContent = "転居の手続きを最寄りの郵便局窓口にて行ってください。";
+        document.getElementById("post-phone").textContent = "オンライン申込（外部サイト）";
+        document.getElementById("lifeline-section-2-title").textContent = "2．家賃のお支払い・敷金の返還について";
+        document.getElementById("lifeline-section-2-subtitle").textContent = "退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。\n敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。";
+        document.getElementById("lifeline-section-3-title").textContent = "3．退去の際にご用意いただくもの";
+        document.getElementById("lifeline-section-3-subtitle").textContent = "① 転居先（住所・電話番号）\n② 振込先口座情報\n③ 鍵（スペアキーも含む）\n④ 入居のしおり";
+        document.getElementById("lifeline-section-4-title").textContent = "４．CHUBB（エース）保険加入の方";
+        document.getElementById("lifeline-section-4-subtitle").textContent = "ご契約者様ご自身で保険解約のお手続きをご依頼ください。";
+        document.getElementById("lifeline-guarantor").textContent = "保険";
+        document.getElementById("guarantor-provider").textContent = "CHUBB保険サポートセンター";
+        document.getElementById("lifeline-section-5-title").textContent = "5．自転車をお持ちの方";
+        document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
+        document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
 
     }, 100);
 });
