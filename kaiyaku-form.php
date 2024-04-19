@@ -335,8 +335,8 @@
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
-                        <p class="confirmation-number">12.</p>
-                        <p class="conformation-label" id="comment-confirm">お住まいいただいていた期間に何か不具合がございましたか。</p>
+                        <p class="confirmation-number">12.</p>comment-confirm
+                        <p class="conformation-label" id="">お住まいいただいていた期間に何か不具合がございましたか。</p>
                         <p class="conformation-input" id="confirmation-comment">Comment</p>
                     </div>
                     
@@ -393,9 +393,9 @@
 
                 <div class="lifeline-block">
 
-                    <h3>1．明け渡しの準備について</h3>
+                    <h3 id="lifeline-section-1-title">1．明け渡しの準備について</h3>
 
-                    <p id="lifeline-subtitle">
+                    <p id="lifeline-section-1-subtitle">
                         電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
                         <br>
                         退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。
@@ -409,8 +409,8 @@
 
                 <div class="lifeline-child">
 
-                    <p class="utility">電気</p>
-                    <div class="utility-contacts" id="lifeline-electricity">
+                    <p class="utility" id="lifeline-electricity">電気</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
                         <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
                         <p id="lifeline-note">※ユーミーエナジーをご利用の場合は、解約のお手続きは不要です。</p>
@@ -418,16 +418,16 @@
 
                     <hr class="devider"> 
 
-                    <p class="utility">ガス</p>
-                    <div class="utility-contacts" id="-lifeline-gas">
+                    <p class="utility" id="lifeline-gas">ガス</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
                         <p class="lifeline-phone" id="gas-phone">0570-002-211</p>
                     </div>
 
                     <hr class="devider"> 
 
-                    <p class="utility">水道</p>
-                    <div class="utility-contacts" id="-lifeline-water">
+                    <p class="utility" id="lifeline-water">水道</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="water-provider">さいたま市水道局</p>
                         <p class="lifeline-phone" id="water-phone">048-665-3220</p>
                     </div>
