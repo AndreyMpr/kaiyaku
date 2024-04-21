@@ -112,5 +112,9 @@ window.addEventListener("load", function() {
 
         document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
 
+        //Footer
+
+        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+
     }, 100);
 });
