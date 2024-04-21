@@ -508,7 +508,7 @@
                     <p> ✉ kaiyaku@saitama-maruyama.com</p>
                     <p>
                         <span style="display: inline-block;">☎ 048-729-8661</span>
-                        <span style="white-space: nowrap;">(営業時間：09:00 〜 18:00; 定休日：水曜日)</span>
+                        <span id="office-hours" style="white-space: nowrap;">(営業時間：09:00 〜 18:00; 定休日：水曜日)</span>
                     </p>
                 </div>
             </div>
