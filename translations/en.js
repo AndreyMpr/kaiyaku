@@ -88,7 +88,7 @@ window.addEventListener("load", function() {
 
         document.getElementById("lifeline-title").textContent = "Procedure for moving out and cancellation";
         document.getElementById("lifeline-section-1-title").textContent = "1. Preparation for moving out";
-        document.getElementById("lifeline-section-1-subtitle").textContent = "We ask the tenant to contact us for the settlement of electricity, gas, and water bills. Please contact us 4-5 days before the move-out date, and come to the room on the move-out date to settle the usage fee. Please prepare a receipt or meter reading ticket number so that the other party can understand immediately. Please contact us early as it will be crowded from February to April.";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "We ask the tenant to contact utility providers for the settlement of electricity, gas, and water bills. Please contact utility providers at least 4-5 days before the move-out date, and come to the room on the move-out date to settle the usage fee. Please prepare a receipt or meter reading ticket number so that the other party can understand immediately. Please contact us early, especially around the period from February to April.";
         document.getElementById("lifeline-electricity").textContent = "Electricity";
         document.getElementById("electricity-provider").textContent = "Tokyo Electric Power Co., Ltd. Customer Center";
         document.getElementById("lifeline-gas").textContent = "Gas";
