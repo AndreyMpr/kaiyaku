@@ -19,7 +19,7 @@ $result = $db->query("SELECT * FROM kaiyakuForm ORDER BY created_at DESC LIMIT 1
 $data = $result->fetch_assoc();
 
 // Google Sheets API setup
-require_once 'vendor/autoload.php';
+require_once 'vendor/autoload.php'; //SET UP THE COMPOSER
 $client = new Google_Client();
 $client->setApplicationName('DB-to-sheets');
 $client->setAuthConfig('../../../kaiyaku_private/credentials.json');
