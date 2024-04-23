@@ -335,8 +335,8 @@
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
-                        <p class="confirmation-number">12.</p>
-                        <p class="conformation-label" id="comment-confirm">お住まいいただいていた期間に何か不具合がございましたか。</p>
+                        <p class="confirmation-number">12.</p>comment-confirm
+                        <p class="conformation-label" id="">お住まいいただいていた期間に何か不具合がございましたか。</p>
                         <p class="conformation-input" id="confirmation-comment">Comment</p>
                     </div>
                     
@@ -393,9 +393,9 @@
 
                 <div class="lifeline-block">
 
-                    <h3>1．明け渡しの準備について</h3>
+                    <h3 id="lifeline-section-1-title">1．明け渡しの準備について</h3>
 
-                    <p id="lifeline-subtitle">
+                    <p id="lifeline-section-1-subtitle">
                         電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。
                         <br>
                         退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。
@@ -409,8 +409,8 @@
 
                 <div class="lifeline-child">
 
-                    <p class="utility">電気</p>
-                    <div class="utility-contacts" id="lifeline-electricity">
+                    <p class="utility" id="lifeline-electricity">電気</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="electricity-provider">東京電力㈱ カスタマーセンター</p>
                         <p class="lifeline-phone" id="electricity-phone">0120-995-001</p>
                         <p id="lifeline-note">※ユーミーエナジーをご利用の場合は、解約のお手続きは不要です。</p>
@@ -418,40 +418,40 @@
 
                     <hr class="devider"> 
 
-                    <p class="utility">ガス</p>
-                    <div class="utility-contacts" id="-lifeline-gas">
+                    <p class="utility" id="lifeline-gas">ガス</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="gas-provider">東京ガス お客様センター</p>
                         <p class="lifeline-phone" id="gas-phone">0570-002-211</p>
                     </div>
 
                     <hr class="devider"> 
 
-                    <p class="utility">水道</p>
-                    <div class="utility-contacts" id="-lifeline-water">
+                    <p class="utility" id="lifeline-water">水道</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="water-provider">さいたま市水道局</p>
                         <p class="lifeline-phone" id="water-phone">048-665-3220</p>
                     </div>
 
                     <hr class="devider"> 
 
-                    <p class="utility">電話</p>
-                    <div class="utility-contacts" id="-lifeline-phone">
+                    <p class="utility" id="lifeline-phone">電話</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="phone-provider">NTT</p>
                         <p class="lifeline-phone" id="phone-phone">116</p>
                     </div>
 
                     <hr class="devider"> 
 
-                    <p class="utility">郵便局</p>
-                    <div class="utility-contacts" id="-lifeline-post">
+                    <p class="utility" id="lifeline-post">郵便局</p>
+                    <div class="utility-contacts">
                         <p class="provider-name" id="post-provider">転居の手続きを最寄りの郵便局窓口にて行ってください。</p>
                         <a class="lifeline-phone" id="post-phone" href="https://www.post.japanpost.jp/service/tenkyo/" target="blank">オンライン申込（外部サイト）</a>
                     </div>
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>2．家賃のお支払い・敷金の返還について</h3>
-                    <p>
+                    <h3 id="lifeline-section-2-title">2．家賃のお支払い・敷金の返還について</h3>
+                    <p id="lifeline-section-2-subtitle">
                         退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。
                         <br>
                         敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。
@@ -459,8 +459,8 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>3．退去の際にご用意いただくもの</h3>
-                    <p>
+                    <h3 id="lifeline-section-3-title">3．退去の際にご用意いただくもの</h3>
+                    <p id="lifeline-section-3-subtitle">
                         ① 転居先（住所・電話番号）
                         <br>
                         ② 振込先口座情報
@@ -472,24 +472,24 @@
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>４．CHUBB（エース）保険加入の方</h3>
-                    <p>ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
+                    <h3 id="lifeline-section-4-title">４．CHUBB（エース）保険加入の方</h3>
+                    <p id="lifeline-section-4-subtitle">ご契約者様ご自身で保険解約のお手続きをご依頼ください。</p>
                 </div>
                     <div class="lifeline-child">
-                        <p class="utility">保険</p>
-                            <div class="utility-contacts" id="lifeline-guarantor">
+                        <p class="utility" id="lifeline-guarantor">保険</p>
+                            <div class="utility-contacts">
                                 <p class="provider-name" id="guarantor-provider">CHUBB保険サポートセンター</p>
                                 <p class="lifeline-phone" id="guarantor-phone">0120-327-332</p>
                             </div>
                 </div>
 
                 <div class="lifeline-block">
-                    <h3>5．自転車をお持ちの方</h3>
-                    <p>自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。</p>
+                    <h3 id="lifeline-section-5-title">5．自転車をお持ちの方</h3>
+                    <p id="lifeline-section-5-subtitle">自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。</p>
                 </div>
 
                 <div class="lifeline-block">
-                    <p>※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
+                    <p id="moving-out-confirmation-contact">※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。</p>
                 </div>
             </div>
         </section>
@@ -508,7 +508,7 @@
                     <p> ✉ kaiyaku@saitama-maruyama.com</p>
                     <p>
                         <span style="display: inline-block;">☎ 048-729-8661</span>
-                        <span style="white-space: nowrap;">(営業時間：09:00 〜 18:00; 定休日：水曜日)</span>
+                        <span id="office-hours" style="white-space: nowrap;">(営業時間：09:00 〜 18:00; 定休日：水曜日)</span>
                     </p>
                 </div>
             </div>

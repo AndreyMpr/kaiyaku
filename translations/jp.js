@@ -80,6 +80,41 @@ window.addEventListener("load", function() {
         document.getElementById("wishes-confirm").textContent = "希望する設備やサービスは何かございましたか。";
         document.getElementById("other-confirm").textContent = "その他ご質問等がございましたら、ご自由にご記入ください。";
 
+        //Lifeline section
+
+        document.getElementById("lifeline-title").textContent = "移転解約の手続き";
+        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。\n退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。\n※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。\n※2～4月は混み合いますので、お早めにご連絡をお願いいたします。";
+        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
+        document.getElementById("lifeline-electricity").textContent = "電気";
+        document.getElementById("electricity-provider").textContent = "東京電力㈱ カスタマーセンター";
+        document.getElementById("lifeline-gas").textContent = "ガス";
+        document.getElementById("gas-provider").textContent = "東京ガス お客様センター";
+        document.getElementById("lifeline-water").textContent = "水道";
+        document.getElementById("water-provider").textContent = "さいたま市水道局";
+        document.getElementById("lifeline-phone").textContent = "電話";
+        document.getElementById("lifeline-post").textContent = "郵便局";
+        document.getElementById("post-provider").textContent = "転居の手続きを最寄りの郵便局窓口にて行ってください。";
+        document.getElementById("post-phone").textContent = "オンライン申込（外部サイト）";
+        document.getElementById("lifeline-section-2-title").textContent = "2．家賃のお支払い・敷金の返還について";
+        document.getElementById("lifeline-section-2-subtitle").textContent = "退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。\n敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。";
+        document.getElementById("lifeline-section-3-title").textContent = "3．退去の際にご用意いただくもの";
+        document.getElementById("lifeline-section-3-subtitle").textContent = "① 転居先（住所・電話番号）\n② 振込先口座情報\n③ 鍵（スペアキーも含む）\n④ 入居のしおり";
+        document.getElementById("lifeline-section-4-title").textContent = "４．CHUBB（エース）保険加入の方";
+        document.getElementById("lifeline-section-4-subtitle").textContent = "ご契約者様ご自身で保険解約のお手続きをご依頼ください。";
+        document.getElementById("lifeline-guarantor").textContent = "保険";
+        document.getElementById("guarantor-provider").textContent = "CHUBB保険サポートセンター";
+        document.getElementById("lifeline-section-5-title").textContent = "5．自転車をお持ちの方";
+        document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
+        document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
+
+        //Privacy policy
+
+        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+
+        //Footer
+
+        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
 
     }, 100);
 });

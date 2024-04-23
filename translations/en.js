@@ -84,5 +84,41 @@ window.addEventListener("load", function() {
         document.getElementById("wishes-confirm").textContent = "Is there any facility or service you wish we provided during your stay?";
         document.getElementById("other-confirm").textContent = "If you have any other comments, anything you wish to share, please feel free to fill it in here.";
 
+        //Lifeline section
+
+        document.getElementById("lifeline-title").textContent = "Procedure for moving out and cancellation";
+        document.getElementById("lifeline-section-1-title").textContent = "1. Preparation for moving out";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "We ask the tenant to contact utility providers for the settlement of electricity, gas, and water bills. Please contact utility providers at least 4-5 days before the move-out date, and come to the room on the move-out date to settle the usage fee. Please prepare a receipt or meter reading ticket number so that the other party can understand immediately. Please contact us early, especially around the period from February to April.";
+        document.getElementById("lifeline-electricity").textContent = "Electricity";
+        document.getElementById("electricity-provider").textContent = "Tokyo Electric Power Co., Ltd. Customer Center";
+        document.getElementById("lifeline-gas").textContent = "Gas";
+        document.getElementById("gas-provider").textContent = "Tokyo Gas Customer Center";
+        document.getElementById("lifeline-water").textContent = "Water";
+        document.getElementById("water-provider").textContent = "Saitama City Waterworks Bureau";
+        document.getElementById("lifeline-phone").textContent = "Phone";
+        document.getElementById("lifeline-post").textContent = "Post office";
+        document.getElementById("post-provider").textContent = "Please proceed with the moving procedure at the nearest post office counter.";
+        document.getElementById("post-phone").textContent = "Online application (external site)";
+        document.getElementById("lifeline-section-2-title").textContent = "2. Payment of rent and return of security deposit";
+        document.getElementById("lifeline-section-2-subtitle").textContent = "Please pay up to the month of moving out by the end of the previous month. We will settle at the time of returning the security deposit. From the security deposit, we will settle based on the burden standard of maintenance costs, etc., and return it by bank transfer at a later date.";
+        document.getElementById("lifeline-section-3-title").textContent = "3. What to prepare when moving out";
+        document.getElementById("lifeline-section-3-subtitle").textContent = "① Moving destination (address, phone number)\n② Transfer account information\n③ Key (including spare key)\n④ Move-in guide(入居のしおり)";
+        document.getElementById("lifeline-section-4-title").textContent = "4. For those who have CHUBB (Ace) insurance";
+        document.getElementById("lifeline-section-4-subtitle").textContent = "Please request the insurance cancellation procedure by the contract the guarantor company directly.";
+        document.getElementById("lifeline-guarantor").textContent = "Insurance";
+        document.getElementById("guarantor-provider").textContent = "CHUBB Insurance Support Center";
+        document.getElementById("lifeline-section-5-title").textContent = "5. For those who have a bicycle";
+        document.getElementById("lifeline-section-5-subtitle").textContent = "Please bring your bicycle to the moving destination or dispose of it properly by yourself.";
+        document.getElementById("moving-out-confirmation-contact").textContent = "※ We will confirm the meeting date and time from the contractor, so please cooperate.";
+        
+
+        //Privacy policy
+
+        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+
+        //Footer
+
+        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        
     }, 100);
 });

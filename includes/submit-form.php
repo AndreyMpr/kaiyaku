@@ -14,13 +14,13 @@ if ($dbConnect-> connect_errno) {
     die("Connection error ". $dbConnect->connect_error);
 }
 
-// Input sanitization
-
 // Get the JSON input
 $inputJSON = file_get_contents('php://input');
 
 // Convert it into a PHP object
 $input = json_decode($inputJSON, TRUE); //convert JSON into array
+
+// Input sanitization
 
 $contractorName = mysqli_real_escape_string($dbConnect, $input['contractorName']);
 $propertyName = mysqli_real_escape_string($dbConnect, $input['propertyName']);
