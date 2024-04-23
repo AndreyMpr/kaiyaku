@@ -19,7 +19,7 @@ $result = $db->query("SELECT * FROM kaiyakuForm ORDER BY created_at DESC LIMIT 1
 $data = $result->fetch_assoc();
 
 // Google Sheets API setup
-require_once 'vendor/autoload.php'; //SET UP THE COMPOSER
+require_once 'vendor/autoload.php'; //SET UP THE COMPOSER!! !! !! !! !! !! !!
 $client = new Google_Client();
 $client->setApplicationName('DB-to-sheets');
 $client->setAuthConfig('../../../kaiyaku_private/credentials.json');
@@ -31,7 +31,7 @@ $service = new Google_Service_Sheets($client);
 $spreadsheetId = '1HHsK8k0YijDuDbSnG__61A0jSFPNxrlEWLAWjs_COXA';
 
 // The range of cells to update in the spreadsheet
-$range = 'Sheet1!A2';
+$range = 'kaiyaku-form!A2';
 
 // Prepare the data for the Google Sheets API
 $values = [
