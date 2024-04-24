@@ -103,7 +103,7 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-2-subtitle").textContent = "Please pay up to the month of moving out by the end of the previous month. We will settle at the time of returning the security deposit. From the security deposit, we will settle based on the burden standard of maintenance costs, etc., and return it by bank transfer at a later date.";
         document.getElementById("lifeline-section-3-title").textContent = "3. What to prepare when moving out";
         document.getElementById("lifeline-section-3-subtitle").textContent = "① Moving destination (address, phone number)\n② Transfer account information\n③ Key (including spare key)\n④ Move-in guide(入居のしおり)";
-        document.getElementById("lifeline-section-4-title").textContent = "4. For those who have CHUBB (Ace) insurance";
+        document.getElementById("lifeline-section-4-title").textContent = "4. For those who have CHUBB (エース) insurance";
         document.getElementById("lifeline-section-4-subtitle").textContent = "Please request the insurance cancellation procedure by the contract the guarantor company directly.";
         document.getElementById("lifeline-guarantor").textContent = "Insurance";
         document.getElementById("guarantor-provider").textContent = "CHUBB Insurance Support Center";
