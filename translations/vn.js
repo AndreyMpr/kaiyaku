@@ -82,31 +82,31 @@ window.addEventListener("load", function() {
 
         //Lifeline section
 
-        document.getElementById("lifeline-title").textContent = "移転解約の手続き";
-        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
-        document.getElementById("lifeline-section-1-subtitle").textContent = "電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。\n退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。\n※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。\n※2～4月は混み合いますので、お早めにご連絡をお願いいたします。";
-        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
-        document.getElementById("lifeline-electricity").textContent = "電気";
-        document.getElementById("electricity-provider").textContent = "東京電力㈱ カスタマーセンター";
-        document.getElementById("lifeline-gas").textContent = "ガス";
-        document.getElementById("gas-provider").textContent = "東京ガス お客様センター";
-        document.getElementById("lifeline-water").textContent = "水道";
-        document.getElementById("water-provider").textContent = "さいたま市水道局";
-        document.getElementById("lifeline-phone").textContent = "電話";
-        document.getElementById("lifeline-post").textContent = "郵便局";
-        document.getElementById("post-provider").textContent = "転居の手続きを最寄りの郵便局窓口にて行ってください。";
-        document.getElementById("post-phone").textContent = "オンライン申込（外部サイト）";
-        document.getElementById("lifeline-section-2-title").textContent = "2．家賃のお支払い・敷金の返還について";
-        document.getElementById("lifeline-section-2-subtitle").textContent = "退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。\n敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。";
-        document.getElementById("lifeline-section-3-title").textContent = "3．退去の際にご用意いただくもの";
-        document.getElementById("lifeline-section-3-subtitle").textContent = "① 転居先（住所・電話番号）\n② 振込先口座情報\n③ 鍵（スペアキーも含む）\n④ 入居のしおり";
-        document.getElementById("lifeline-section-4-title").textContent = "４．CHUBB（エース）保険加入の方";
-        document.getElementById("lifeline-section-4-subtitle").textContent = "ご契約者様ご自身で保険解約のお手続きをご依頼ください。";
-        document.getElementById("lifeline-guarantor").textContent = "保険";
-        document.getElementById("guarantor-provider").textContent = "CHUBB保険サポートセンター";
-        document.getElementById("lifeline-section-5-title").textContent = "5．自転車をお持ちの方";
-        document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
-        document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
+        document.getElementById("lifeline-title").textContent = "Thủ tục chuyển đi và hủy bỏ";
+        document.getElementById("lifeline-section-1-title").textContent = "1. Chuẩn bị chuyển đi";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "Chúng tôi yêu cầu người thuê liên hệ với các nhà cung cấp dịch vụ tiện ích để thanh toán hóa đơn điện, gas và nước. Vui lòng liên hệ với các nhà cung cấp dịch vụ tiện ích ít nhất 4-5 ngày trước ngày chuyển đi, và đến phòng vào ngày chuyển đi để thanh toán phí sử dụng. Vui lòng chuẩn bị biên lai hoặc số vé đọc số công tơ để bên kia có thể hiểu ngay lập tức. Vui lòng liên hệ sớm, đặc biệt là vào khoảng thời gian từ tháng 2 đến tháng 4.";
+        document.getElementById("lifeline-electricity").textContent = "Điện";
+        document.getElementById("electricity-provider").textContent = "Trung tâm khách hàng Công ty Điện lực Tokyo";
+        document.getElementById("lifeline-gas").textContent = "Gas";
+        document.getElementById("gas-provider").textContent = "Trung tâm khách hàng Tokyo Gas";
+        document.getElementById("lifeline-water").textContent = "Nước";
+        document.getElementById("water-provider").textContent = "Cục Cấp nước Thành phố Saitama";
+        document.getElementById("lifeline-phone").textContent = "Điện thoại";
+        document.getElementById("lifeline-post").textContent = "Bưu điện";
+        document.getElementById("post-provider").textContent = "Vui lòng tiến hành thủ tục chuyển nhà tại quầy giao dịch bưu điện gần nhất.";
+        document.getElementById("post-phone").textContent = "Ứng dụng trực tuyến (trang web bên ngoài)";
+        document.getElementById("lifeline-section-2-title").textContent = "2. Thanh toán tiền thuê và trả lại tiền đặt cọc";
+        document.getElementById("lifeline-section-2-subtitle").textContent = "Vui lòng thanh toán đến tháng chuyển đi vào cuối tháng trước. Chúng tôi sẽ thanh toán vào thời điểm trả lại tiền đặt cọc. Từ tiền đặt cọc, chúng tôi sẽ thanh toán dựa trên tiêu chuẩn gánh nặng của chi phí bảo dưỡng, v.v., và trả lại bằng chuyển khoản ngân hàng vào một ngày sau.";
+        document.getElementById("lifeline-section-3-title").textContent = "3. Những gì cần chuẩn bị khi chuyển đi";
+        document.getElementById("lifeline-section-3-subtitle").textContent = "① Điểm đến chuyển đến (địa chỉ, số điện thoại)\n② Thông tin tài khoản chuyển khoản\n③ Chìa khóa (bao gồm cả chìa khóa dự phòng)\n④ Hướng dẫn di chuyển (入居のしおり)";
+        document.getElementById("lifeline-section-4-title").textContent = "4. Đối với những người có bảo hiểm CHUBB (エース)";
+        document.getElementById("lifeline-section-4-subtitle").textContent = "Vui lòng yêu cầu thủ tục hủy bảo hiểm bằng hợp đồng công ty bảo lãnh trực tiếp.";
+        document.getElementById("lifeline-guarantor").textContent = "Bảo hiểm";
+        document.getElementById("guarantor-provider").textContent = "Trung tâm Hỗ trợ Bảo hiểm CHUBB";
+        document.getElementById("lifeline-section-5-title").textContent = "5. Đối với những người có xe đạp";
+        document.getElementById("lifeline-section-5-subtitle").textContent = "Vui lòng mang xe đạp của bạn đến điểm đến chuyển đến hoặc tự tiêu hủy nó một cách đúng cách.";
+        document.getElementById("moving-out-confirmation-contact").textContent = "※ Chúng tôi sẽ xác nhận ngày và giờ hẹn từ nhà thầu, vì vậy vui lòng hợp tác.";
+        
 
         //Privacy policy
 
