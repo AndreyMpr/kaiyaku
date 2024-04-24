@@ -82,31 +82,31 @@ window.addEventListener("load", function() {
 
         //Lifeline section
 
-        document.getElementById("lifeline-title").textContent = "移転解約の手続き";
-        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
-        document.getElementById("lifeline-section-1-subtitle").textContent = "電気・ガス・水道の精算のご連絡をご入居者様よりお願いいたします。\n退居日の4～5日前に連絡し、退去日にお部屋に来てもらい使用料を精算してください。\n※先方がすぐわかるよう、領収書または検針票の番号をご用意ください。\n※2～4月は混み合いますので、お早めにご連絡をお願いいたします。";
-        document.getElementById("lifeline-section-1-title").textContent = "1．明け渡しの準備について";
-        document.getElementById("lifeline-electricity").textContent = "電気";
-        document.getElementById("electricity-provider").textContent = "東京電力㈱ カスタマーセンター";
-        document.getElementById("lifeline-gas").textContent = "ガス";
-        document.getElementById("gas-provider").textContent = "東京ガス お客様センター";
-        document.getElementById("lifeline-water").textContent = "水道";
-        document.getElementById("water-provider").textContent = "さいたま市水道局";
-        document.getElementById("lifeline-phone").textContent = "電話";
-        document.getElementById("lifeline-post").textContent = "郵便局";
-        document.getElementById("post-provider").textContent = "転居の手続きを最寄りの郵便局窓口にて行ってください。";
-        document.getElementById("post-phone").textContent = "オンライン申込（外部サイト）";
-        document.getElementById("lifeline-section-2-title").textContent = "2．家賃のお支払い・敷金の返還について";
-        document.getElementById("lifeline-section-2-subtitle").textContent = "退居する月の分まで前月末にお支払いください。敷金返還時に精算いたします。\n敷金より、メンテナンス費用等の負担基準に基づき精算し、後日銀行振込にて返還いたします。";
-        document.getElementById("lifeline-section-3-title").textContent = "3．退去の際にご用意いただくもの";
-        document.getElementById("lifeline-section-3-subtitle").textContent = "① 転居先（住所・電話番号）\n② 振込先口座情報\n③ 鍵（スペアキーも含む）\n④ 入居のしおり";
-        document.getElementById("lifeline-section-4-title").textContent = "４．CHUBB（エース）保険加入の方";
-        document.getElementById("lifeline-section-4-subtitle").textContent = "ご契約者様ご自身で保険解約のお手続きをご依頼ください。";
-        document.getElementById("lifeline-guarantor").textContent = "保険";
-        document.getElementById("guarantor-provider").textContent = "CHUBB保険サポートセンター";
-        document.getElementById("lifeline-section-5-title").textContent = "5．自転車をお持ちの方";
-        document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
-        document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
+        document.getElementById("lifeline-title").textContent = "搬出和取消的程序";
+        document.getElementById("lifeline-section-1-title").textContent = "1. 搬出准备";
+        document.getElementById("lifeline-section-1-subtitle").textContent = "我们要求租户联系公用事业供应商以结算电费、燃气费和水费。请在搬出日期前至少4-5天联系公用事业供应商，并在搬出日期当天来到房间以结算使用费。请准备收据或抄表票号码，以便对方立即了解。特别是在2月至4月的期间，请尽早与我们联系。";
+        document.getElementById("lifeline-electricity").textContent = "电力";
+        document.getElementById("electricity-provider").textContent = "东京电力公司客户中心";
+        document.getElementById("lifeline-gas").textContent = "燃气";
+        document.getElementById("gas-provider").textContent = "东京燃气客户中心";
+        document.getElementById("lifeline-water").textContent = "水";
+        document.getElementById("water-provider").textContent = "埼玉市自来水局";
+        document.getElementById("lifeline-phone").textContent = "电话";
+        document.getElementById("lifeline-post").textContent = "邮局";
+        document.getElementById("post-provider").textContent = "请在最近的邮局柜台进行搬家手续。";
+        document.getElementById("post-phone").textContent = "在线申请（外部网站）";
+        document.getElementById("lifeline-section-2-title").textContent = "2. 租金支付和押金退还";
+        document.getElementById("lifeline-section-2-subtitle").textContent = "请在前一个月底前支付到搬出月份的租金。我们将在退还押金时结算。从押金中，我们将根据维护成本等的负担标准进行结算，并在后来通过银行转账退还。";
+        document.getElementById("lifeline-section-3-title").textContent = "3. 搬出时需要准备的事项";
+        document.getElementById("lifeline-section-3-subtitle").textContent = "① 搬迁目的地（地址、电话号码）\n② 转账账户信息\n③ 钥匙（包括备用钥匙）\n④ 入住指南（入居のしおり）";
+        document.getElementById("lifeline-section-4-title").textContent = "4. 对于有CHUBB（エース）保险的人";
+        document.getElementById("lifeline-section-4-subtitle").textContent = "请直接通过担保公司的合同请求保险取消手续。";
+        document.getElementById("lifeline-guarantor").textContent = "保险";
+        document.getElementById("guarantor-provider").textContent = "CHUBB保险支持中心";
+        document.getElementById("lifeline-section-5-title").textContent = "5. 对于有自行车的人";
+        document.getElementById("lifeline-section-5-subtitle").textContent = "请将您的自行车带到搬迁目的地，或者自行适当地处理。";
+        document.getElementById("moving-out-confirmation-contact").textContent = "※ 我们将从承包商那里确认会议日期和时间，因此请配合。";
+        
 
         //Privacy policy
 
