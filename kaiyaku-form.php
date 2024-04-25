@@ -335,8 +335,8 @@
                     <hr class="devider"> 
                     
                     <div class="confirmation-question">
-                        <p class="confirmation-number">12.</p>comment-confirm
-                        <p class="conformation-label" id="">お住まいいただいていた期間に何か不具合がございましたか。</p>
+                        <p class="confirmation-number">12.</p>
+                        <p class="conformation-label" id="comment-confirm">お住まいいただいていた期間に何か不具合がございましたか。</p>
                         <p class="conformation-input" id="confirmation-comment">Comment</p>
                     </div>
                     
