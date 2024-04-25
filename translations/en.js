@@ -74,7 +74,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Phone number";
         document.getElementById("move-out-date-confirm").textContent = "Moving out date";
         document.getElementById("move-out-time-confirm").textContent = "Moving out time";
-        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
+        document.getElementById("reason-confirm").textContent = "Reason for moving out";
         document.getElementById("address-confirm").textContent = "Moving address";
         document.getElementById("bank-account-confirm").textContent = "Bank account number";
         document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
