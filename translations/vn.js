@@ -110,7 +110,7 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+        //document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
 
         //Footer
 
