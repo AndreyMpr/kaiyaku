@@ -70,7 +70,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Số điện thoại";
         document.getElementById("move-out-date-confirm").textContent = "Ngày dự kiến ​​di dời (ngày họp)";
         document.getElementById("move-out-time-confirm").textContent = "Thời gian mong muốn cho cuộc họp";
-        document.getElementById("reason-legend-confirm").textContent = "Lý do di dời";
+        document.getElementById("reason-confirm").textContent = "Lý do di dời";
         document.getElementById("address-confirm").textContent = "Địa chỉ di chuyển";
         document.getElementById("bank-account-confirm").textContent = "Tài khoản hoàn trả tiền đặt cọc, v.v.";
         document.getElementById("bank-name-confirm").textContent = "Tên tài khoản";

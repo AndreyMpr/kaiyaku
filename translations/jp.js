@@ -70,7 +70,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "電話番号";
         document.getElementById("move-out-date-confirm").textContent = "退去予定日（立会日）";
         document.getElementById("move-out-time-confirm").textContent = "立会希望時間";
-        document.getElementById("reason-legend-confirm").textContent = "退去理由";
+        document.getElementById("reason-confirm").textContent = "退去理由";
         document.getElementById("address-confirm").textContent = "転居先住所";
         document.getElementById("bank-account-confirm").textContent = "敷金等返金先口座";
         document.getElementById("bank-name-confirm").textContent = "口座名義";

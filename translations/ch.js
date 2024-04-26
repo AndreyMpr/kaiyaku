@@ -70,7 +70,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "电话号码";
         document.getElementById("move-out-date-confirm").textContent = "预计退房日期（现场会议日期）";
         document.getElementById("move-out-time-confirm").textContent = "期望的现场会议时间";
-        document.getElementById("reason-legend-confirm").textContent = "退房原因";
+        document.getElementById("reason-confirm").textContent = "退房原因";
         document.getElementById("address-confirm").textContent = "搬迁地址";
         document.getElementById("bank-account-confirm").textContent = "押金等退款账户";
         document.getElementById("bank-name-confirm").textContent = "账户名";
