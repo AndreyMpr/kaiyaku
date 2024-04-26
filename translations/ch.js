@@ -58,7 +58,7 @@ window.addEventListener("load", function() {
         document.getElementById("wishes-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("other-label").textContent = "如果您有其他问题，请随意填写。";
         document.getElementById("other-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("submit-button").textContent = "注册";
+        document.getElementsByClassName("submit-button")[0].textContent = "注册";
         document.getElementById("privacy-policy").textContent = "个人信息保护政策";
 
         //Confirmation section
