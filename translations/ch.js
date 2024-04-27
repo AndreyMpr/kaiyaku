@@ -82,8 +82,8 @@ window.addEventListener("load", function() {
 
         //Lifeline section
 
-        document.getElementsByClassName("confirmation-title")[0].textContent = "Entry confirmation";
-        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Please check the information before submitting";
+        document.getElementsByClassName("confirmation-title")[0].textContent = "确认入口";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "请在提交前检查信息";
         document.getElementById("lifeline-title").textContent = "搬出和取消的程序";
         document.getElementById("lifeline-section-1-title").textContent = "1. 搬出准备";
         document.getElementById("lifeline-section-1-subtitle").textContent = "我们要求租户联系公用事业供应商以结算电费、燃气费和水费。请在搬出日期前至少4-5天联系公用事业供应商，并在搬出日期当天来到房间以结算使用费。请准备收据或抄表票号码，以便对方立即了解。特别是在2月至4月的期间，请尽早与我们联系。";
