@@ -63,8 +63,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
-        document.getElementsByClassName("confirmation-title")[0].textContent = "Entry confirmation";
-        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Please check the information before submitting";
+        document.getElementsByClassName("confirmation-title")[0].textContent = "入力確認";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "ご入力を確認してください";
         document.getElementById("contractor-name-confirm").textContent = "契約者氏名";
         document.getElementById("property-name-confirm").textContent = "物件名";
         document.getElementById("room-number-confirm").textContent = "号室";
