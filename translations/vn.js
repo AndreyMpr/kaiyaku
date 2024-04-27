@@ -62,7 +62,9 @@ window.addEventListener("load", function() {
         document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
 
         //Confirmation section
-
+        
+        document.getElementsByClassName("confirmation-title")[0].textContent = "Entry confirmation";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Please check the information before submitting";
         document.getElementById("contractor-name-confirm").textContent = "Tên nhà thầu";
         document.getElementById("property-name-confirm").textContent = "Tên tài sản";
         document.getElementById("room-number-confirm").textContent = "Số phòng";
