@@ -68,6 +68,7 @@ window.addEventListener("load", function() {
         //Confirmation section
 
         document.getElementsByClassName("confirmation-title")[0].textContent = "Entry confirmation";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Please check the information before submitting";
         document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
         document.getElementById("property-name-confirm").textContent = "Name of the property";
         document.getElementById("room-number-confirm").textContent = "Room number";
