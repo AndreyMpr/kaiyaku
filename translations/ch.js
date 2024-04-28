@@ -118,7 +118,7 @@ window.addEventListener("load", function() {
 
         //Footer
 
-        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        document.getElementById("office-hours").textContent = "营业时间：09:00 〜 18:00; 休息日：星期三";
 
     }, 100);
 });
