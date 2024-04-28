@@ -116,7 +116,7 @@ window.addEventListener("load", function() {
 
         //Footer
 
-        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        document.getElementById("office-hours").textContent = "Giờ mở cửa: 09:00 〜 18:00; Ngày nghỉ: Thứ Tư";
 
     }, 100);
 });
