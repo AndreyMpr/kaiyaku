@@ -63,6 +63,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "Xác nhận nhập cửa";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Vui lòng kiểm tra thông tin trước khi gửi";
         document.getElementById("contractor-name-confirm").textContent = "Tên nhà thầu";
         document.getElementById("property-name-confirm").textContent = "Tên tài sản";
         document.getElementById("room-number-confirm").textContent = "Số phòng";
