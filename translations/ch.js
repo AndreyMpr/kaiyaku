@@ -63,6 +63,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "输入确认";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "请确认您的输入";
         document.getElementById("contractor-name-confirm").textContent = "承包商名称";
         document.getElementById("property-name-confirm").textContent = "物业名";
         document.getElementById("room-number-confirm").textContent = "房间号";
