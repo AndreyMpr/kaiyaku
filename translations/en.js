@@ -116,7 +116,7 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-
+        document.getElementById("privacy-policy-link").innerText = "Privacy policy";
 
         //Footer
 
