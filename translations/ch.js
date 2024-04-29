@@ -114,11 +114,13 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "个人信息保护政策";
+        document.getElementById("privacy-policy-link").innerText = "个人信息保护政策";
 
         //Footer
 
         document.getElementById("office-hours").textContent = "营业时间：09:00 〜 18:00; 休息日：星期三";
 
     }, 100);
+
+
 });
