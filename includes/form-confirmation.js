@@ -90,56 +90,55 @@ confirmSubmission.addEventListener('click', function() {
     document.querySelector(".confirmation-parent").style.display = "none";
     document.querySelector(".lifeline-parent").style.display = "block";
     document.getElementById("top-anchor").scrollIntoView({ behavior: "smooth" });
+
+    function createDataAndFetch(
+        contractorName,
+        propertyName,
+        roomNumber,
+        parkingNumber,
+        phoneNumber,
+        moveOutDate,
+        moveOutTime,
+        reason,
+        address,
+        bankAccount,
+        bankAccountName,
+        comment,
+        satisfaction,
+        explanation,
+        wishes,
+        other) {
+        const data = {
+            contractorName: contractorName,
+            propertyName: propertyName,
+            roomNumber: roomNumber,
+            parkingNumber: parkingNumber,
+            phoneNumber: phoneNumber,
+            moveOutDate: moveOutDate,
+            moveOutTime: moveOutTime,
+            reason: reason,
+            address: address,
+            bankAccount: bankAccount,
+            bankAccountName: bankAccountName,
+            comment: comment,
+            satisfaction: satisfaction,
+            explanation: explanation,
+            wishes: wishes,
+            other: other,
+        }};
+           
 });
-
-function createDataAndFetch(
-    contractorName,
-    propertyName,
-    roomNumber,
-    parkingNumber,
-    phoneNumber,
-    moveOutDate,
-    moveOutTime,
-    reason,
-    address,
-    bankAccount,
-    bankAccountName,
-    comment,
-    satisfaction,
-    explanation,
-    wishes,
-    other) {
-    const data = {
-        contractorName: contractorName,
-        propertyName: propertyName,
-        roomNumber: roomNumber,
-        parkingNumber: parkingNumber,
-        phoneNumber: phoneNumber,
-		moveOutDate: moveOutDate,
-		moveOutTime: moveOutTime,
-        reason: reason,
-		address: address,
-		bankAccount: bankAccount,
-		bankAccountName: bankAccountName,
-		comment: comment,
-		satisfaction: satisfaction,
-		explanation: explanation,
-		wishes: wishes,
-		other: other,
-    };
-
-    fetch('includes/submit-form.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data),
-    })
-    .then(response => response.text())
-    .then(data => {
-        console.log('Success:', data);
-    })
-    .catch((error) => {
-        console.error('Error:', error);
-    });
-}
+fetch('includes/submit-form.php', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+})
+.then(response => response.text())
+.then(data => {
+    console.log('Success:', data);
+})
+.catch((error) => {
+    console.error('Error:', error);
+});
