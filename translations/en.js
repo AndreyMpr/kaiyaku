@@ -114,6 +114,11 @@ window.addEventListener("load", function() {
         document.getElementById("moving-out-confirmation-contact").textContent = "※ We will confirm the meeting date and time from the contractor, so please cooperate.";
         
 
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "Confirm entry";
+        document.getElementById("edit-button").textContent = "Edit entry";
+
         //Privacy policy
 
         document.getElementById("privacy-policy-link").innerText = "Privacy policy";
