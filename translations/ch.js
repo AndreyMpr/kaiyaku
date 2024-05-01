@@ -111,6 +111,10 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "请将您的自行车带到搬迁目的地，或者自行适当地处理。";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ 我们将从承包商那里确认会议日期和时间，因此请配合。";
         
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "确定";
+        document.getElementById("edit-button").textContent = "修改";
 
         //Privacy policy
 

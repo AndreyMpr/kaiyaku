@@ -109,6 +109,10 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "Vui lòng mang xe đạp của bạn đến điểm đến chuyển đến hoặc tự tiêu hủy nó một cách đúng cách.";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ Chúng tôi sẽ xác nhận ngày và giờ hẹn từ nhà thầu, vì vậy vui lòng hợp tác.";
         
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "Xác nhận";
+        document.getElementById("edit-button").textContent = "Chỉnh sửa";        
 
         //Privacy policy
 
