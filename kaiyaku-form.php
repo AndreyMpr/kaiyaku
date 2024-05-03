@@ -374,6 +374,8 @@
 
                 </div>
 
+<!--Edit and confirm buttons-->
+
                 <div class="submit-block">
                     <button class="submit-button" id="confirm-button" type="submit">確定</button>
                     <button class="submit-button" id="edit-button" type="button">修正</button>
