@@ -235,7 +235,7 @@
             </form>
         </section>
 
-        <!--Hidden confirmation block-->
+<!--Hidden confirmation block-->
 
         <section> 
 
@@ -385,7 +385,7 @@
 
         </section>
         
-        <!--Hidden lifeline information section-->
+<!--Hidden lifeline information section-->
 
         <section>
 
@@ -500,7 +500,7 @@
         <a id="privacy-policy-link" href="https://saitama-life.com/privacy/" target="_blank">個人情報保護方針</a>
         </div>
 
-        <!--Footer section-->
+<!--Footer section-->
 
         <section>
 
