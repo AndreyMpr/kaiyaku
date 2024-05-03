@@ -113,7 +113,6 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "Please bring your bicycle to the moving destination or dispose of it properly by yourself.";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ We will confirm the meeting date and time from the contractor, so please cooperate.";
         
-
         //Buttons
 
         document.getElementById("confirm-button").textContent = "Confirm entry";
