@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※Người thuê và chủ nhà sẽ cùng nhau xác nhận tình trạng phòng sau khi di dời.\nKiểm tra vết bẩn và vết trầy trên phòng, nếu cần sửa chữa, họ sẽ thảo luận về việc ai sẽ chịu phí sửa chữa.";
         document.getElementById("move-out-time-label").textContent = "Thời gian mong muốn cho cuộc họp";
         document.getElementById("move-out-time-comment").textContent = "※Vui lòng nhập tên tòa nhà được ghi trong hợp đồng của bạn.";
-        document.getElementById("reason-legend").textContent = "Lý do di dời";
+        document.getElementById("reason-legend").textContent = "8. Lý do di dời";
         document.getElementById("reason-comment").textContent = "※Nếu không có vấn đề gì, hãy cho chúng tôi biết lý do bạn chuyển nhà.";
         document.querySelector("label[for='work']").textContent = "Vì công việc";
         document.querySelector("label[for='school']").textContent = "Tốt nghiệp / Tiếp tục học";

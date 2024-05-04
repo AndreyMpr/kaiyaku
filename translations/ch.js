@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※租户和房东将一起确认退房房间的状态。\n检查房间的污渍和划痕，如果需要修理，将讨论谁来承担修理费用。";
         document.getElementById("move-out-time-label").textContent = "期望的现场会议时间";
         document.getElementById("move-out-time-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("reason-legend").textContent = "退房原因";
+        document.getElementById("reason-legend").textContent = "8. 退房原因";
         document.getElementById("reason-comment").textContent = "※如果方便的话，请告诉我们您搬家的原因。";
         document.querySelector("label[for='work']").textContent = "工作原因";
         document.querySelector("label[for='school']").textContent = "毕业/升学";

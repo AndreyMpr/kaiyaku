@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※借主・貸主が退去する部屋の状態を一緒に確認することです。\n部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。";
         document.getElementById("move-out-time-label").textContent = "立会希望時間";
         document.getElementById("move-out-time-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementById("reason-legend").textContent = "退去理由";
+        document.getElementById("reason-legend").textContent = "8. 退去理由";
         document.getElementById("reason-comment").textContent = "※可能であれば、退去立会の時間をご指定ください。 現時点で時間がわからない場合は、このフィールドを空白のままにしておいてください。後ほど時間を確認するために連絡させていただきます。";
         document.querySelector("label[for='work']").textContent = "仕事都合";
         document.querySelector("label[for='school']").textContent = "卒業・進学";
@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("comment-label").textContent = "お住まいいただいていた期間に何か不具合がございましたか。";
         document.getElementById("comment-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementById("satisfaction-legend").textContent = " 13. 管理会社丸山マンションセンターの対応について満足度をお教えください。";
+        document.getElementById("satisfaction-legend").innerText = " 13. 管理会社丸山マンションセンターの対応について満足度をお教えください。";
         document.querySelector("label[for='terrible']").textContent = "不満足";
         document.querySelector("label[for='bad']").textContent = "やや不満足";
         document.querySelector("label[for='ok']").textContent = "普通";
