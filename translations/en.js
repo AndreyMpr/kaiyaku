@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "* Please fill in the name of account holder, as stated in your contract with the bank (usually katakana).";
         document.getElementById("comment-label").textContent = "Did you experience any problems during your stay?";
         document.getElementById("comment-comment").textContent = "* If there is any problems that might affected your decision to move out, please let us know about it.";
-        document.getElementById("satisfaction-legend").textContent = "13. Please let us know how satisfied were you with our services.";
+        document.getElementById("satisfaction-legend").textContent = " 13. Please let us know how satisfied were you with our services.";
         document.querySelector("label[for='terrible']").textContent = "Not satisfied";
         document.querySelector("label[for='bad']").textContent = "Somewhat unsatisfied";
         document.querySelector("label[for='ok']").textContent = "Normal";

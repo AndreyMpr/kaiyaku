@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("comment-label").textContent = "在您居住期间有没有什么问题？";
         document.getElementById("comment-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("satisfaction-legend").textContent = "请告诉我们您对丸山公寓中心管理公司的满意度";
+        document.getElementById("satisfaction-legend").textContent = " 13. 请告诉我们您对丸山公寓中心管理公司的满意度";
         document.querySelector("label[for='terrible']").textContent = "不满意";
         document.querySelector("label[for='bad']").textContent = "有点不满意";
         document.querySelector("label[for='ok']").textContent = "一般";

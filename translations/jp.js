@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("comment-label").textContent = "お住まいいただいていた期間に何か不具合がございましたか。";
         document.getElementById("comment-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementById("satisfaction-legend").textContent = "管理会社丸山マンションセンターの対応について満足度をお教えください。";
+        document.getElementById("satisfaction-legend").textContent = " 13. 管理会社丸山マンションセンターの対応について満足度をお教えください。";
         document.querySelector("label[for='terrible']").textContent = "不満足";
         document.querySelector("label[for='bad']").textContent = "やや不満足";
         document.querySelector("label[for='ok']").textContent = "普通";

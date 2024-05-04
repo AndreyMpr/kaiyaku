@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "* Vui lòng điền tên chủ tài khoản, như được ghi trong hợp đồng của bạn với ngân hàng (thông thường là katakana).";
         document.getElementById("comment-label").textContent = "Có vấn đề gì xảy ra trong thời gian bạn ở không?";
         document.getElementById("comment-comment").textContent = "* Nếu có bất kỳ vấn đề nào có thể ảnh hưởng đến quyết định chuyển đi của bạn, vui lòng cho chúng tôi biết về nó.";
-        document.getElementById("satisfaction-legend").textContent = "Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
+        document.getElementById("satisfaction-legend").textContent = " 13. Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
         document.querySelector("label[for='terrible']").textContent = "Không hài lòng";
         document.querySelector("label[for='bad']").textContent = "Hơi không hài lòng";
         document.querySelector("label[for='ok']").textContent = "Bình thường";
