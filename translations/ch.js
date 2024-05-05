@@ -124,7 +124,7 @@ window.addEventListener("load", function() {
 
         document.getElementById("office-hours").textContent = "营业时间：09:00 〜 18:00; 休息日：星期三";
 
-    }, 100);
+    });
 
 
 });

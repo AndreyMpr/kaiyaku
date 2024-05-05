@@ -123,5 +123,5 @@ window.addEventListener("load", function() {
 
         document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
 
-    }, 100);
+    });
 });

@@ -122,5 +122,5 @@ window.addEventListener("load", function() {
 
         document.getElementById("office-hours").textContent = "Giờ mở cửa: 09:00 〜 18:00; Ngày nghỉ: Thứ Tư";
 
-    }, 100);
+    });
 });
