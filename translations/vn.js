@@ -116,7 +116,7 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").innerText = "個人情報保護方針";
+        document.getElementById("privacy-policy-link").innerText = "Chính sách bảo mật";
 
         //Footer
 
