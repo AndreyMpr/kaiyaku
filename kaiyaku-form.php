@@ -29,7 +29,7 @@
             </p>
         </div>
 
-        <div class="inner explanation">
+        <div class="inner-explanation">
             <p id="explanation-bottom">
                 最短解約日：2ヶ月　or　1ヶ月　（契約書をご確認ください）。
                 <br>
