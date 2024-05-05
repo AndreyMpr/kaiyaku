@@ -19,7 +19,7 @@
 
         <h1 id="formTitle">解約受付フォーム</h1>
 
-        <div class="inner explanation">
+        <div class="inner-explanation">
             <p id="explanation-top">
                 解約をご希望の際は、当フォームより解約申請をお願い致します。
                 <br>   
