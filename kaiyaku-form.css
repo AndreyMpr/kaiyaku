@@ -161,7 +161,7 @@ input[type=radio] {
 .number {
     margin: 0 10px 0 10px;
     display: inline;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
