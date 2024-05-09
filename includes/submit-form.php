@@ -8,7 +8,7 @@ include '../../../kaiyaku_private/kaiyaku_db_config.php';
 
 $dbConnect = new mysqli($kaiyakuDbHost, $kaiyakuDbUser, $kaiyakuDbPass, $kaiyakuDbName);
 
-//If connection errors
+//If connection errorsConnection error
 
 if ($dbConnect-> connect_errno) {
     die("Connection error ". $dbConnect->connect_error);
