@@ -150,6 +150,11 @@ p{
     font-size: 2rem;
     color: aliceblue;
 }
+
+.banner-title p{
+    margin-bottom: 30px;
+}
+
 .mid-title{
     margin: 100px;
     text-align: center;
