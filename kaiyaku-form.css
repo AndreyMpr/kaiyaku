@@ -13,6 +13,10 @@ body {
     margin-bottom: 2vh;
 }
 
+#formTitle {
+  font-size: 28px;
+}
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
