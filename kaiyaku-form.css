@@ -381,7 +381,8 @@ margin: 2em ;
 }
 
 @media screen and (max-width: 768px) {
-  #footer-phone:  {
+  #footer-phone  {
+    display: block;
     text-align: center;
   }
 }
