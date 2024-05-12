@@ -375,3 +375,13 @@ margin: 2em ;
 #go-to-confirmation {
   margin: 1em;
 }
+
+#footer-phone {
+  
+}
+
+@media screen and (max-width: 768px) {
+  #footer-phone:  {
+    text-align: center;
+  }
+}
