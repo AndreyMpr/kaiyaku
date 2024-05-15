@@ -34,7 +34,7 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='far']").textContent = "Inconvinient access";
         document.querySelector("label[for='neighbour']").textContent = "Problem with neighbours";
         document.querySelector("label[for='fieldset-other']").textContent = "Other";
-        document.getElementById("fieldset-other").placeholder = "Moving to a different country";
+        document.getElementById("fieldset-other").placeholder = "Moving abroad";
         document.getElementById("address-label").textContent = "Moving address";
         document.getElementById("address").placeholder = "1-518-2 Onaricho, Omiya Ward, Saitama City, Saitama Prefecture";
         document.getElementById("address-comment").textContent = "* The address mightbe used for sending the documents or cancelation settlement transfer.";
