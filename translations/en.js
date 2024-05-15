@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
         document.getElementById("room-number-comment").textContent = "Please enter the room number as listed on your contract.";
         document.getElementById("parking-number-label").textContent = "Parking space number / storage unit number";
         document.getElementById("parking-number").placeholder = "e.g. 01";
-        document.getElementById("parking-number-comment").textContent = "For customers who rent a parking space or a storage unit.";
+        document.getElementById("parking-number-comment").textContent = "For customers who rent a parking space or a storage unit, please fill this in. If you are not, please leave this field empty";
         document.getElementById("phone-number-label").textContent = "Phone number";
         document.getElementById("phone-number").placeholder = "e.g. +81-80-8743-4126";
         document.getElementById("phone-number-comment").textContent = "Please provide a phone number of the preson that currently lives in the unit. We will contact you to confirm your moving out date and time.";
