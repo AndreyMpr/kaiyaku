@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※租户和房东将一起确认退房房间的状态。\n检查房间的污渍和划痕，如果需要修理，将讨论谁来承担修理费用。";
         document.getElementById("move-out-time-label").textContent = "期望的现场会议时间";
         document.getElementById("move-out-time-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("reason-legend").textContent = "退房原因";
+        document.getElementById("reason-legend").textContent = "8. 退房原因";
         document.getElementById("reason-comment").textContent = "※如果方便的话，请告诉我们您搬家的原因。";
         document.querySelector("label[for='work']").textContent = "工作原因";
         document.querySelector("label[for='school']").textContent = "毕业/升学";
@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("comment-label").textContent = "在您居住期间有没有什么问题？";
         document.getElementById("comment-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("satisfaction-legend").textContent = "请告诉我们您对丸山公寓中心管理公司的满意度";
+        document.getElementById("satisfaction-legend").textContent = " 13. 请告诉我们您对丸山公寓中心管理公司的满意度";
         document.querySelector("label[for='terrible']").textContent = "不满意";
         document.querySelector("label[for='bad']").textContent = "有点不满意";
         document.querySelector("label[for='ok']").textContent = "一般";
@@ -58,11 +58,13 @@ window.addEventListener("load", function() {
         document.getElementById("wishes-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementById("other-label").textContent = "如果您有其他问题，请随意填写。";
         document.getElementById("other-comment").textContent = "※请填写合同中的建筑名称。";
-        document.getElementById("submit-button").textContent = "注册";
+        document.getElementsByClassName("submit-button")[0].textContent = "注册";
         document.getElementById("privacy-policy").textContent = "个人信息保护政策";
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "输入确认";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "请确认您的输入";
         document.getElementById("contractor-name-confirm").textContent = "承包商名称";
         document.getElementById("property-name-confirm").textContent = "物业名";
         document.getElementById("room-number-confirm").textContent = "房间号";
@@ -70,7 +72,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "电话号码";
         document.getElementById("move-out-date-confirm").textContent = "预计退房日期（现场会议日期）";
         document.getElementById("move-out-time-confirm").textContent = "期望的现场会议时间";
-        document.getElementById("reason-legend-confirm").textContent = "退房原因";
+        document.getElementById("reason-confirm").textContent = "退房原因";
         document.getElementById("address-confirm").textContent = "搬迁地址";
         document.getElementById("bank-account-confirm").textContent = "押金等退款账户";
         document.getElementById("bank-name-confirm").textContent = "账户名";
@@ -82,6 +84,8 @@ window.addEventListener("load", function() {
 
         //Lifeline section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "确认入口";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "请在提交前检查信息";
         document.getElementById("lifeline-title").textContent = "搬出和取消的程序";
         document.getElementById("lifeline-section-1-title").textContent = "1. 搬出准备";
         document.getElementById("lifeline-section-1-subtitle").textContent = "我们要求租户联系公用事业供应商以结算电费、燃气费和水费。请在搬出日期前至少4-5天联系公用事业供应商，并在搬出日期当天来到房间以结算使用费。请准备收据或抄表票号码，以便对方立即了解。特别是在2月至4月的期间，请尽早与我们联系。";
@@ -107,14 +111,20 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "请将您的自行车带到搬迁目的地，或者自行适当地处理。";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ 我们将从承包商那里确认会议日期和时间，因此请配合。";
         
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "确定";
+        document.getElementById("edit-button").textContent = "修改";
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+        document.getElementById("privacy-policy-link").innerText = "个人信息保护政策";
 
         //Footer
 
-        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        document.getElementById("office-hours").textContent = "营业时间：09:00 〜 18:00; 休息日：星期三";
 
-    }, 100);
+    });
+
+
 });

@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※借主・貸主が退去する部屋の状態を一緒に確認することです。\n部屋の汚れやキズをチェックし、修繕が必要な場合はどちらが修繕費用を負担するのかを話し合います。";
         document.getElementById("move-out-time-label").textContent = "立会希望時間";
         document.getElementById("move-out-time-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementById("reason-legend").textContent = "退去理由";
+        document.getElementById("reason-legend").textContent = "8. 退去理由";
         document.getElementById("reason-comment").textContent = "※可能であれば、退去立会の時間をご指定ください。 現時点で時間がわからない場合は、このフィールドを空白のままにしておいてください。後ほど時間を確認するために連絡させていただきます。";
         document.querySelector("label[for='work']").textContent = "仕事都合";
         document.querySelector("label[for='school']").textContent = "卒業・進学";
@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementById("comment-label").textContent = "お住まいいただいていた期間に何か不具合がございましたか。";
         document.getElementById("comment-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
-        document.getElementById("satisfaction-legend").textContent = "管理会社丸山マンションセンターの対応について満足度をお教えください。";
+        document.getElementById("satisfaction-legend").innerText = " 13. 管理会社丸山マンションセンターの対応について満足度をお教えください。";
         document.querySelector("label[for='terrible']").textContent = "不満足";
         document.querySelector("label[for='bad']").textContent = "やや不満足";
         document.querySelector("label[for='ok']").textContent = "普通";
@@ -63,6 +63,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "入力確認";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "ご入力を確認してください";
         document.getElementById("contractor-name-confirm").textContent = "契約者氏名";
         document.getElementById("property-name-confirm").textContent = "物件名";
         document.getElementById("room-number-confirm").textContent = "号室";
@@ -70,7 +72,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "電話番号";
         document.getElementById("move-out-date-confirm").textContent = "退去予定日（立会日）";
         document.getElementById("move-out-time-confirm").textContent = "立会希望時間";
-        document.getElementById("reason-legend-confirm").textContent = "退去理由";
+        document.getElementById("reason-confirm").textContent = "退去理由";
         document.getElementById("address-confirm").textContent = "転居先住所";
         document.getElementById("bank-account-confirm").textContent = "敷金等返金先口座";
         document.getElementById("bank-name-confirm").textContent = "口座名義";
@@ -108,13 +110,18 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "自転車は転居先へお持ちいただくか、ご自身で適切に処分して頂くようお願いいたします。";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ 立会日時の確認が業者より入りますのでご対応よろしくお願い致します。";
 
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "確定";
+        document.getElementById("edit-button").textContent = "修正";
+
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+        document.getElementById("privacy-policy-link").innerText =  "個人情報保護方針";
 
         //Footer
 
         document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
 
-    }, 100);
+    });
 });

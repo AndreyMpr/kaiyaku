@@ -26,6 +26,7 @@ h1 {
 @media screen and (max-width: 768px) {
   h1 {
     margin: 30px 0;
+    font-size: 26px;
 }
   }   
 
@@ -92,7 +93,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .question .wide-input {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -161,7 +162,7 @@ input[type=radio] {
 .number {
     margin: 0 10px 0 10px;
     display: inline;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 768px) {
@@ -373,4 +374,24 @@ margin: 2em ;
 
 #go-to-confirmation {
   margin: 1em;
+}
+
+#footer-phone {
+  display: inline-block;
+  color: #000;  
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #footer-phone  {
+    display: block;
+    text-align: center;
+    margin-right: none;
+    margin-bottom: 10px;
+  }
+}
+
+#fieldset-other {
+  font-size: 14px;
 }

@@ -1,4 +1,4 @@
-//New script
+//New new script
 
 const goToConfirmation = document.getElementById("kaiyakuForm");
 
@@ -33,19 +33,19 @@ function confirmInput(confirmationEvent) {
     document.getElementById("confirmation-contractor-name").innerText = contractorName;
     document.getElementById("confirmation-property-name").innerText = propertyName;
     document.getElementById("confirmation-room-number").innerText = roomNumber;
-    document.getElementById("confirmation-parking-number").innerText = parkingNumber ? contractorName : "-";
+    document.getElementById("confirmation-parking-number").innerText = parkingNumber ? parkingNumber : "-";
     document.getElementById("confirmation-phone-number").innerText = phoneNumber;
     document.getElementById("confirmation-move-out-date").innerText = moveOutDate;
-    document.getElementById("confirmation-move-out-time").innerText = moveOutTime ? contractorName : "-";
-    document.getElementById("confirmation-reason").innerText = reason ? contractorName : "-";
-    document.getElementById("confirmation-address").innerText = address ? contractorName : "-";
+    document.getElementById("confirmation-move-out-time").innerText = moveOutTime ? moveOutTime : "-";
+    document.getElementById("confirmation-reason").innerText = reason ? reason : "-";
+    document.getElementById("confirmation-address").innerText = address ? address : "-";
     document.getElementById("confirmation-bank-account").innerText = bankAccount;
     document.getElementById("confirmation-bank-name").innerText = bankAccountName;
-    document.getElementById("confirmation-comment").innerText = comment ? contractorName : "-";
-    document.getElementById("confirmation-satisfaction").innerText = satisfaction ? contractorName : "-";
-    document.getElementById("confirmation-explanation").innerText = explanation ? contractorName : "-";
-    document.getElementById("confirmation-wishes").innerText = wishes ? contractorName : "-";
-    document.getElementById("confirmation-other").innerText = other ? contractorName : "-";
+    document.getElementById("confirmation-comment").innerText = comment ? comment : "-";
+    document.getElementById("confirmation-satisfaction").innerText = satisfaction ? satisfaction : "-";
+    document.getElementById("confirmation-explanation").innerText = explanation ? explanation : "-";
+    document.getElementById("confirmation-wishes").innerText = wishes ? wishes : "-";
+    document.getElementById("confirmation-other").innerText = other ? other : "-";
 
     document.querySelector("#formBody").style.display = "none";
     document.querySelector(".confirmation-parent").style.display = "block";
@@ -115,17 +115,17 @@ function createDataAndFetch(
         roomNumber: roomNumber,
         parkingNumber: parkingNumber,
         phoneNumber: phoneNumber,
-		moveOutDate: moveOutDate,
-		moveOutTime: moveOutTime,
+        moveOutDate: moveOutDate,
+        moveOutTime: moveOutTime,
         reason: reason,
-		address: address,
-		bankAccount: bankAccount,
-		bankAccountName: bankAccountName,
-		comment: comment,
-		satisfaction: satisfaction,
-		explanation: explanation,
-		wishes: wishes,
-		other: other,
+        address: address,
+        bankAccount: bankAccount,
+        bankAccountName: bankAccountName,
+        comment: comment,
+        satisfaction: satisfaction,
+        explanation: explanation,
+        wishes: wishes,
+        other: other,
     };
 
     fetch('includes/submit-form.php', {

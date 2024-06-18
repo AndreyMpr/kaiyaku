@@ -147,9 +147,15 @@ p{
 }
 
 .banner-title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: aliceblue;
 }
+
+.banner-title p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .mid-title{
     margin: 100px;
     text-align: center;

@@ -15,7 +15,7 @@ if ($dbConnect-> connect_errno) {
 
  // Fetch the last row from the database
 
-$result = $db->query("SELECT * FROM kaiyakuForm ORDER BY created_at DESC LIMIT 1");
+$result = $dbConnect->query("SELECT * FROM kaiyakuForm ORDER BY created_at DESC LIMIT 1");
 $data = $result->fetch_assoc();
 
 // Google Sheets API setup

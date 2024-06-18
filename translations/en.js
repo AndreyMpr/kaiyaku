@@ -14,7 +14,7 @@ window.addEventListener("load", function() {
         document.getElementById("room-number-comment").textContent = "Please enter the room number as listed on your contract.";
         document.getElementById("parking-number-label").textContent = "Parking space number / storage unit number";
         document.getElementById("parking-number").placeholder = "e.g. 01";
-        document.getElementById("parking-number-comment").textContent = "For customers who rent a parking space or a storage unit.";
+        document.getElementById("parking-number-comment").textContent = "For customers who rent a parking space or a storage unit, please fill this in. If you are not, please leave this field empty";
         document.getElementById("phone-number-label").textContent = "Phone number";
         document.getElementById("phone-number").placeholder = "e.g. +81-80-8743-4126";
         document.getElementById("phone-number-comment").textContent = "Please provide a phone number of the preson that currently lives in the unit. We will contact you to confirm your moving out date and time.";
@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "On this day our representative will visit the unit to check the overall condition and collect the keys. \nPlease note that after this, you will no longer be able to enter the unit.";
         document.getElementById("move-out-time-label").textContent = "Moving out time";
         document.getElementById("move-out-time-comment").textContent = "If possible, please specify the time, when our representative can visit you on the moving out day. If you not sure about the time at the moment, please leave this field blank and we will contact you later, to confirm the time.";
-        document.getElementById("reason-legend").textContent = "Reason for moving out";
+        document.getElementById("reason-legend").textContent = "8. Reason for moving out";
         document.getElementById("reason-comment").textContent = "This will help us improve our service.";
         document.querySelector("label[for='work']").textContent = "Work circumstances";
         document.querySelector("label[for='school']").textContent = "Graduation";
@@ -34,7 +34,7 @@ window.addEventListener("load", function() {
         document.querySelector("label[for='far']").textContent = "Inconvinient access";
         document.querySelector("label[for='neighbour']").textContent = "Problem with neighbours";
         document.querySelector("label[for='fieldset-other']").textContent = "Other";
-        document.getElementById("fieldset-other").placeholder = "Moving to a different country";
+        document.getElementById("fieldset-other").placeholder = "Moving abroad";
         document.getElementById("address-label").textContent = "Moving address";
         document.getElementById("address").placeholder = "1-518-2 Onaricho, Omiya Ward, Saitama City, Saitama Prefecture";
         document.getElementById("address-comment").textContent = "* The address mightbe used for sending the documents or cancelation settlement transfer.";
@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "* Please fill in the name of account holder, as stated in your contract with the bank (usually katakana).";
         document.getElementById("comment-label").textContent = "Did you experience any problems during your stay?";
         document.getElementById("comment-comment").textContent = "* If there is any problems that might affected your decision to move out, please let us know about it.";
-        document.getElementById("satisfaction-legend").textContent = "Please let us know how satisfied were you with our services.";
+        document.getElementById("satisfaction-legend").textContent = " 13. Please let us know how satisfied were you with our services.";
         document.querySelector("label[for='terrible']").textContent = "Not satisfied";
         document.querySelector("label[for='bad']").textContent = "Somewhat unsatisfied";
         document.querySelector("label[for='ok']").textContent = "Normal";
@@ -67,6 +67,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "Entry confirmation";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Please check the information before submitting";
         document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
         document.getElementById("property-name-confirm").textContent = "Name of the property";
         document.getElementById("room-number-confirm").textContent = "Room number";
@@ -74,7 +76,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Phone number";
         document.getElementById("move-out-date-confirm").textContent = "Moving out date";
         document.getElementById("move-out-time-confirm").textContent = "Moving out time";
-        document.getElementById("reason-legend-confirm").textContent = "Reason for moving out";
+        document.getElementById("reason-confirm").textContent = "Reason for moving out";
         document.getElementById("address-confirm").textContent = "Moving address";
         document.getElementById("bank-account-confirm").textContent = "Bank account number";
         document.getElementById("bank-name-confirm").textContent = "Bank account holder's name.";
@@ -111,14 +113,18 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "Please bring your bicycle to the moving destination or dispose of it properly by yourself.";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ We will confirm the meeting date and time from the contractor, so please cooperate.";
         
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "Confirm entry";
+        document.getElementById("edit-button").textContent = "Edit entry";
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+        document.getElementById("privacy-policy-link").innerText = "Privacy policy";
 
         //Footer
 
-        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        document.getElementById("office-hours").textContent = "Business hours: 09:00 〜 18:00; Day off: Wednesday";
         
-    }, 100);
+    });
 });

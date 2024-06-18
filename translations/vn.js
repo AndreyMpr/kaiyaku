@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
         document.getElementById("move-out-date-comment").innerText = "※Người thuê và chủ nhà sẽ cùng nhau xác nhận tình trạng phòng sau khi di dời.\nKiểm tra vết bẩn và vết trầy trên phòng, nếu cần sửa chữa, họ sẽ thảo luận về việc ai sẽ chịu phí sửa chữa.";
         document.getElementById("move-out-time-label").textContent = "Thời gian mong muốn cho cuộc họp";
         document.getElementById("move-out-time-comment").textContent = "※Vui lòng nhập tên tòa nhà được ghi trong hợp đồng của bạn.";
-        document.getElementById("reason-legend").textContent = "Lý do di dời";
+        document.getElementById("reason-legend").textContent = "8. Lý do di dời";
         document.getElementById("reason-comment").textContent = "※Nếu không có vấn đề gì, hãy cho chúng tôi biết lý do bạn chuyển nhà.";
         document.querySelector("label[for='work']").textContent = "Vì công việc";
         document.querySelector("label[for='school']").textContent = "Tốt nghiệp / Tiếp tục học";
@@ -46,7 +46,7 @@ window.addEventListener("load", function() {
         document.getElementById("bank-name-comment").textContent = "* Vui lòng điền tên chủ tài khoản, như được ghi trong hợp đồng của bạn với ngân hàng (thông thường là katakana).";
         document.getElementById("comment-label").textContent = "Có vấn đề gì xảy ra trong thời gian bạn ở không?";
         document.getElementById("comment-comment").textContent = "* Nếu có bất kỳ vấn đề nào có thể ảnh hưởng đến quyết định chuyển đi của bạn, vui lòng cho chúng tôi biết về nó.";
-        document.getElementById("satisfaction-legend").textContent = "Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
+        document.getElementById("satisfaction-legend").textContent = " 13. Hãy cho chúng tôi biết mức độ hài lòng của bạn với công ty quản lý căn hộ Maruyama";
         document.querySelector("label[for='terrible']").textContent = "Không hài lòng";
         document.querySelector("label[for='bad']").textContent = "Hơi không hài lòng";
         document.querySelector("label[for='ok']").textContent = "Bình thường";
@@ -63,6 +63,8 @@ window.addEventListener("load", function() {
 
         //Confirmation section
 
+        document.getElementsByClassName("confirmation-title")[0].textContent = "Xác nhận nhập cửa";
+        document.getElementsByClassName("confirmation-subtitle")[0].textContent = "Vui lòng kiểm tra thông tin trước khi gửi";
         document.getElementById("contractor-name-confirm").textContent = "Tên nhà thầu";
         document.getElementById("property-name-confirm").textContent = "Tên tài sản";
         document.getElementById("room-number-confirm").textContent = "Số phòng";
@@ -70,7 +72,7 @@ window.addEventListener("load", function() {
         document.getElementById("phone-number-confirm").textContent = "Số điện thoại";
         document.getElementById("move-out-date-confirm").textContent = "Ngày dự kiến ​​di dời (ngày họp)";
         document.getElementById("move-out-time-confirm").textContent = "Thời gian mong muốn cho cuộc họp";
-        document.getElementById("reason-legend-confirm").textContent = "Lý do di dời";
+        document.getElementById("reason-confirm").textContent = "Lý do di dời";
         document.getElementById("address-confirm").textContent = "Địa chỉ di chuyển";
         document.getElementById("bank-account-confirm").textContent = "Tài khoản hoàn trả tiền đặt cọc, v.v.";
         document.getElementById("bank-name-confirm").textContent = "Tên tài khoản";
@@ -107,14 +109,18 @@ window.addEventListener("load", function() {
         document.getElementById("lifeline-section-5-subtitle").textContent = "Vui lòng mang xe đạp của bạn đến điểm đến chuyển đến hoặc tự tiêu hủy nó một cách đúng cách.";
         document.getElementById("moving-out-confirmation-contact").textContent = "※ Chúng tôi sẽ xác nhận ngày và giờ hẹn từ nhà thầu, vì vậy vui lòng hợp tác.";
         
+        //Buttons
+
+        document.getElementById("confirm-button").textContent = "Xác nhận";
+        document.getElementById("edit-button").textContent = "Chỉnh sửa";        
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").textContent = "個人情報保護方針";
+        document.getElementById("privacy-policy-link").innerText = "Chính sách bảo mật";
 
         //Footer
 
-        document.getElementById("office-hours").textContent = "営業時間：09:00 〜 18:00; 定休日：水曜日";
+        document.getElementById("office-hours").textContent = "Giờ mở cửa: 09:00 〜 18:00; Ngày nghỉ: Thứ Tư";
 
-    }, 100);
+    });
 });
