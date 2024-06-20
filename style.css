@@ -170,5 +170,6 @@ p{
 }
 
 #top-logo img{
-    max-height: 3em;
+    max-height: 2.5em;
+    margin: 1em;
 }
