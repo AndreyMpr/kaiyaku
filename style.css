@@ -169,6 +169,10 @@ p{
     
 }
 
+#top-logo{
+    display: contents;
+}
+
 #top-logo img{
     max-height: 2.5em;
     margin: 1em;
