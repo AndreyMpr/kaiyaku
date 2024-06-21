@@ -173,3 +173,7 @@ p{
     max-height: 2.5em;
     margin: 1em;
 }
+
+#top-menu span{
+    margin-left: 3em;
+}
