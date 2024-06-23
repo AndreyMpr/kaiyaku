@@ -178,6 +178,10 @@ p{
     margin: 1em;
 }
 
+#top-menu{
+    display: inline-block;
+}
+
 #top-menu a{
     margin-left: 3em;
     
