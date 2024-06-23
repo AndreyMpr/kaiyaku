@@ -171,6 +171,7 @@ p{
 
 #top-logo{
     display: contents;
+    position: absolute;
 }
 
 #top-logo img{
@@ -180,6 +181,7 @@ p{
 
 #top-menu{
     display: inline-block;
+    position: absolute;
 }
 
 #top-menu a{
