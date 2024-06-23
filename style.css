@@ -8,6 +8,7 @@ html, body {
     background-color: #9dffff;
     height: 80px;
     min-width: 100%;
+    position: absolute;
 }
 
 .mid-head{
@@ -171,7 +172,6 @@ p{
 
 #top-logo{
     display: contents;
-    position: absolute;
 }
 
 #top-logo img{
@@ -182,6 +182,7 @@ p{
 #top-menu{
     display: inline-block;
     position: absolute;
+    top: 30%;
 }
 
 #top-menu a{
