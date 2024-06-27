@@ -6,7 +6,7 @@ html, body {
 
 .top-block{
     background-color: #9dffff;
-    height: 80px;
+    min-height: 80px;
     min-width: 100%;
     position: fixed;
     z-index: 99;
