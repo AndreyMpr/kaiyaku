@@ -146,6 +146,7 @@ p{
     background-position: center;
     padding: 100px;
     text-align: center;
+    min-height: 250px;
 }
 
 .banner-title{
