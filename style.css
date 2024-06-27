@@ -152,6 +152,7 @@ p{
 .banner-title{
     font-size: 2.5rem;
     color: aliceblue;
+    transform: translateY(50%);
 }
 
 .banner-title p{
@@ -169,7 +170,6 @@ p{
     color: #006CB8;
     padding-bottom: 70px;
     border-bottom: 2px dotted #75A8C3;
-    
 }
 
 #top-logo{
@@ -189,5 +189,4 @@ p{
 
 #top-menu a{
     margin-left: 3em;
-    
 }
