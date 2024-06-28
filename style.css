@@ -185,8 +185,11 @@ p{
     display: inline-block;
     position: absolute;
     top: 35%;
+    background-color: #333;
+    overflow: hidden;
 }
 
 #top-menu a{
     margin-left: 3em;
+
 }
