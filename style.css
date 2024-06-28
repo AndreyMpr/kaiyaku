@@ -89,6 +89,7 @@ html, body {
 
 .flow-img{
     padding: 65px 0 40px;
+    max-width: 100%;
 }
 
 .flow-text{
