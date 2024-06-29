@@ -183,19 +183,20 @@ p{
 }
 
 #top-menu{
+    margin-left: 3em;
     display: inline-block;
     position: absolute;
-    /*top: 35%;*/
-    background-color: #333;
+    /*top: 35%;
+    background-color: #333;*/
     overflow: hidden;
 }
 
 #top-menu a{
-    margin-left: 3em;
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 18px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-color: #333;
 }
