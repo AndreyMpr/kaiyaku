@@ -103,7 +103,8 @@ html, body {
 }
 
 .bottom-block{
-    background-color: #9dffc9;
+    /*background-color: #9dffc9;*/
+    background-color: #fff;
     height: 80px;
 }
 
