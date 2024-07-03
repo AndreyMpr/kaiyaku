@@ -5,7 +5,8 @@ html, body {
 }
 
 .top-block{
-    background-color: #9dffff;
+    /*background-color: #9dffff;*/
+    background-color: #fff;
     min-height: 50px;
     min-width: 100%;
     position: fixed;
