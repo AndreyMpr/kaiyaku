@@ -5,8 +5,7 @@ html, body {
 }
 
 .top-block{
-    /*background-color: #9dffff;*/
-    background-color: #fff;
+    background-color: #9dffff;
     min-height: 50px;
     min-width: 100%;
     position: fixed;
@@ -104,8 +103,7 @@ html, body {
 }
 
 .bottom-block{
-    /*background-color: #9dffc9;*/
-    background-color: #fff;
+    background-color: #9dffc9;
     height: 80px;
 }
 
