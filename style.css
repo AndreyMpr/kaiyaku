@@ -199,3 +199,10 @@ p{
     font-size: 17px;
     background-color: #333;
 }
+
+.bottom-block{
+    background-color: #9dffff;
+    min-height: 50px;
+    min-width: 100%;
+    z-index: 99;
+}
