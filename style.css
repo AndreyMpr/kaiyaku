@@ -178,6 +178,12 @@ p{
     display: contents;
 }
 
+@media screen and (max-width: 768px) {
+    #top-logo {
+        display: none;
+  }
+    }   
+
 #top-logo img{
     max-height: 2.5em;
     margin: 1ex;
