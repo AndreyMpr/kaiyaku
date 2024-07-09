@@ -41,7 +41,7 @@ html, body {
 
 .content-left{
     padding-top: 70px;
-    padding-right: 26px;
+    
 }
 
 .badge-image{
@@ -60,12 +60,12 @@ html, body {
 
 .flex-text-left{
     text-align: justify;
-    padding-right: 58px;
     line-height: 35px;
 }
 
 .content-right{
     margin-top: 5.0rem;
+    padding-left: 66px;
 }
 
 @media screen and (max-width: 768px) {
