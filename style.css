@@ -111,6 +111,7 @@ html, body {
 .bottom-block{
     background-color: #9dffc9;
     height: 80px;
+    display: flex;
 }
 
 .but-block{
