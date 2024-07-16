@@ -241,4 +241,10 @@ p{
 
 .bottom-menu{
     max-height: 200px;
+    width: 50%;
+    display: flex;
+}
+
+.bottom-menu-content{
+    display: flex;
 }
