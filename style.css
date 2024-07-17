@@ -247,4 +247,5 @@ p{
 
 .bottom-menu-content{
     display: flex;
+    flex-direction: column;
 }
