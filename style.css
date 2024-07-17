@@ -241,6 +241,7 @@ p{
 
 #bottom-menu{
     display: flex;
+    margin: auto;
 }
 
 .bottom-menu-content{
