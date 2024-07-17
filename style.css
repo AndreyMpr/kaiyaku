@@ -110,7 +110,6 @@ html, body {
 
 .bottom-block{
     background-color: #9dffc9;
-    height: 80px;
     display: flex;
 }
 
@@ -197,6 +196,7 @@ p{
     display: contents;
 }
 
+
 @media screen and (max-width: 768px) {
     #top-logo {
         display: none;
@@ -209,6 +209,7 @@ p{
     margin-left: 3em;
     margin-right: 3em;
 }
+
 
 #top-menu{
     display: inline-block;
