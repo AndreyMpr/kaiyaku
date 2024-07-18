@@ -234,7 +234,6 @@ p{
 .bottom-block{
     background-color: #9dffff;
     min-height: 50px;
-    min-width: 100%;
     z-index: 99;
     margin-top: 8vw;
     display: flex;
