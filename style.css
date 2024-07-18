@@ -238,6 +238,7 @@ p{
     z-index: 99;
     margin-top: 8vw;
     display: flex;
+    padding: 5%;
 }
 
 #bottom-menu{
