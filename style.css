@@ -228,6 +228,12 @@ p{
     border-width: 1px;
 }
 
+@media screen and (max-width: 768px) {
+    #top-menu button {
+        font-size: 14px;
+  }
+}   
+
 #top-menu button:hover {
     background-color: #87f1f1;
   }
