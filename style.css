@@ -122,7 +122,7 @@ html, body {
 }
 
 .apply-button{
-    width: 480px;
+    width: 42vh;
     background: #656565;
     border-radius: 5px;
     margin-bottom: 40px;
