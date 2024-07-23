@@ -138,6 +138,7 @@ html, body {
 #annotation{
     padding: 120px 0 60px 0;
     text-align: center;
+    font-size: large;
 }
 
 .apply-button-text{
