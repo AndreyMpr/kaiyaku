@@ -40,8 +40,7 @@ html, body {
 }
 
 .content-left{
-    padding-top: 70px;
-    
+    padding: 70px 20px;   
 }
 
 .badge-image{
