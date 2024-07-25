@@ -64,7 +64,7 @@ html, body {
 
 .content-right{
     margin-top: 5.0rem;
-    padding-left: 66px;
+    padding-left: 5vh;
 }
 
 @media screen and (max-width: 768px) {
