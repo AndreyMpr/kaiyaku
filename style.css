@@ -107,11 +107,6 @@ html, body {
     padding-inline-start: 0px;
 }
 
-.bottom-block{
-    background-color: #9dffc9;
-    display: flex;
-}
-
 .but-block{
     display: flex;
     flex-wrap: wrap;
