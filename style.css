@@ -234,7 +234,8 @@ p{
   }
 
 .bottom-block{
-    background-color: #9dffff;
+    background-color: #222;
+    color: #e3eef3;
     min-height: 50px;
     z-index: 99;
     margin-top: 8vw;
