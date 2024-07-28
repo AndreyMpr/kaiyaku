@@ -217,6 +217,7 @@ p{
     display: inline-block;
     position: absolute;
     overflow: hidden;
+    min-width: 100%;
 }
 
 #top-menu button{
@@ -232,6 +233,7 @@ p{
 @media screen and (max-width: 768px) {
     #top-menu button {
         font-size: 14px;
+        min-width: 50%
   }
 }   
 
