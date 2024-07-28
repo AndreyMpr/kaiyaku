@@ -129,6 +129,12 @@ html, body {
     justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+    .apply-button {
+        width: 43vh;
+  }
+}   
+
 #annotation{
     padding: 120px 0 60px 0;
     text-align: center;
