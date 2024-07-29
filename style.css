@@ -19,7 +19,7 @@ html, body {
 }
 
 .mid-body{
-    background-color: #e3eef3;
+    background-color: #f0e0d8;
     min-height: 180px;
     padding-top: 100px;
 }
@@ -51,7 +51,7 @@ html, body {
 #flex-title-left{
     display: inline-block;
     padding-left: 15px;
-    color: #75A8C3;
+    color: #eb6321;
     font-size: 2.0rem;
 	font-weight: 700;
 	padding-left: 15px;
