@@ -62,6 +62,10 @@ html, body {
     line-height: 35px;
 }
 
+.flex-text-left a{
+    text-decoration: none;
+}
+
 .content-right{
     margin-top: 2.5rem;
     padding-left: 5vh;
