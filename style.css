@@ -52,11 +52,9 @@ html, body {
 
 #flex-title-left{
     display: inline-block;
-    padding-left: 15px;
     color: #eb6321;
     font-size: 2.0rem;
 	font-weight: 700;
-	padding-left: 15px;
 }
 
 .flex-text-left{
