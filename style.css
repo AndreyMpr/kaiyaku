@@ -136,6 +136,7 @@ html, body {
 @media screen and (max-width: 768px) {
     .apply-button {
         width: 43vh;
+        padding: 20px 0px;
   }
 }   
 
