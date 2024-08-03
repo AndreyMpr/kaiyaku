@@ -94,6 +94,7 @@ html, body {
     text-align: center;
     background-color: #fff;
     margin-top: -25px;
+    border-radius: 1em;
 }
 
 .flow-img{
