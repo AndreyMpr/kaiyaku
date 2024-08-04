@@ -75,9 +75,9 @@ html, body {
     margin-top: 65px;
     position: relative;
     text-align: center;
-    background-color: #DC962E;
+    background-color: #006CB8;
     padding: 15px 30px;
-    border-radius: 30px;
+    border-radius: 10px;
     color: #fff;
     z-index: 2;
     font-weight: 700;
@@ -87,6 +87,7 @@ html, body {
     text-align: center;
     background-color: #fff;
     margin-top: -25px;
+    border-radius: 1em;
 }
 
 .flow-img{
@@ -115,7 +116,7 @@ html, body {
 .apply-button{
     /*width: 50vh;*/
     background: #656565;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 40px;
     text-align: center;
     padding: 20px 12px;
