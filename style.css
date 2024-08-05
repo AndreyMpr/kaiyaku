@@ -64,6 +64,10 @@ html, body {
     padding-left: 5vh;
 }
 
+.content-right img{
+    border-radius: 1em;
+}
+
 @media screen and (max-width: 768px) {
     .content-right {
         display: none;
