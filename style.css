@@ -281,3 +281,7 @@ p{
 .bottom-menu-content p{
     line-height: 1.5em;
 }
+
+.bottom-menu-content p a {
+    text-decoration: none;
+}
