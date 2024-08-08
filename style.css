@@ -209,7 +209,7 @@ p{
 }   
 
 #top-logo img{
-    max-height: 2.5em;
+    max-height: 2em;
     margin: 1ex;
     margin-left: 3em;
     margin-right: 3em;
@@ -221,6 +221,7 @@ p{
     position: absolute;
     overflow: hidden;
     min-width: 100%;
+    min-height: 100%;
 }
 
 #top-menu button{
