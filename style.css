@@ -261,7 +261,7 @@ p{
 }
 
 #bottom-menu{
-    display: flex;
+    /*display: flex;*/
     margin: auto;
 }
 
