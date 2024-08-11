@@ -243,7 +243,8 @@ p{
 
 #top-menu button:hover {
     background-color: #edf2f4;
-  }
+}
+
 
 .bottom-block{
     background-color: #222;
@@ -259,7 +260,6 @@ p{
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
     filter: invert(100%);
 }
-
 
 .bottom-block{
     display: block;
