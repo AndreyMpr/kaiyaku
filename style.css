@@ -260,8 +260,14 @@ p{
     filter: invert(100%);
 }
 
+
+.bottom-block{
+    display: block;
+}
+
+
 #bottom-menu{
-    /*display: flex;*/
+    /*display: flex;*/ 
     margin: auto;
 }
 
