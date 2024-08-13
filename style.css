@@ -44,6 +44,12 @@ html, body {
     padding: 2vh
 }
 
+@media screen and (max-width: 768px) {
+    .content-left {
+        text-align: center;
+  }
+}  
+
 #flex-title-left{
     display: inline-block;
     color: #006cb8;
@@ -55,7 +61,7 @@ html, body {
     #flex-title-left {
         font-size: 2.5vh;
   }
-}   
+}  
 
 .flex-text-left{
     text-align: justify;
