@@ -51,6 +51,12 @@ html, body {
 	font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+    #flex-title-left {
+        font-size: 2.5vh;
+  }
+}   
+
 .flex-text-left{
     text-align: justify;
     line-height: 35px;
