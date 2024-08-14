@@ -117,6 +117,13 @@ html, body {
     padding: 0 70px 70px 55px;
 }
 
+@media screen and (max-width: 768px) {
+    .flow-text {
+        width: 43vh;
+        padding: 2vh;
+  }
+}   
+
 .flow-asterisk-list{
     list-style-type: none;
     padding-inline-start: 0px;
