@@ -60,6 +60,7 @@ window.addEventListener("load", function() {
         document.getElementById("other-comment").textContent = "※请填写合同中的建筑名称。";
         document.getElementsByClassName("submit-button")[0].textContent = "注册";
         document.getElementById("privacy-policy").textContent = "个人信息保护政策";
+        document.getElementById("office-hours").textContent = "(营业时间：09:00 - 18:00；休息时间：每周二、周三)";
 
         //Confirmation section
 
