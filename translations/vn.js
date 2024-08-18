@@ -60,7 +60,7 @@ window.addEventListener("load", function() {
         document.getElementById("other-comment").textContent = "Chúng tôi đánh giá cao phản hồi của bạn.";
         document.getElementsByClassName("submit-button")[0].textContent = "Đăng ký";
         document.getElementById("privacy-policy").textContent = "Chính sách bảo vệ thông tin cá nhân";
-        document.getElementById("office-hours").textContent = "(Giờ làm việc: 09:00 ~ 18:00; Đóng cửa: Thứ Ba và Thứ Tư)";
+        document.getElementById("office-hours").textContent = "(Giờ làm việc: 09:00 ~ 18:00; \nĐóng cửa: Thứ Ba và Thứ Tư)";
 
 
         //Confirmation section
