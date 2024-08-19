@@ -60,7 +60,7 @@ window.addEventListener("load", function() {
         document.getElementById("other-comment").textContent = "※ご契約書に記載されている建物名をご入力ください。";
         document.getElementsByClassName("submit-button")[0].textContent = "登録";
         document.getElementById("privacy-policy").textContent = "個人情報保護方針";
-        document.getElementById("office-hours").textContent = "(営業時間：09:00 〜 18:00; 定休日：火曜日・水曜日)";
+        document.getElementById("office-hours").textContent = "(営業時間：09:00〜18:00; 定休日：火曜日・水曜日)";
 
 
         //Confirmation section
