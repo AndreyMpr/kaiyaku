@@ -64,7 +64,7 @@ window.addEventListener("load", function() {
         document.getElementsByClassName("confirmation-subtitle").textContent = "Please confirm your input to the form.";
         document.getElementById("contractor-name-confirm").textContent = "Contractor Name";
         document.getElementById("property-name-confirm").textContent = "Name of the property (building/parking)";
-        document.getElementById("office-hours").textContent = "(Business hours：09:00AM 〜 6:00PM; Regular holiday：Tuesday・Wednesday)";
+        document.getElementById("office-hours").textContent = "(Business Hours: 9AM - 6PM; Closed: Tue & Wed)";
 
         //Confirmation section
 
