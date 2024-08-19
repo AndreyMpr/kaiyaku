@@ -298,7 +298,7 @@ function createDataAndFetch(
         other: other,
     };
 
-    // Send data to the database (existing code)
+    // Send data to the database
     fetch('includes/submit-form.php', {
         method: 'POST',
         headers: {
