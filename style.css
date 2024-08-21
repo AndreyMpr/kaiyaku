@@ -280,6 +280,12 @@ p{
     filter: invert(100%);
 }
 
+.lang {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 #bottom-menu{
     display: flex;
     margin: auto;
