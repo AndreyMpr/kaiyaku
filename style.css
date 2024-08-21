@@ -216,7 +216,7 @@ p{
 }
 
 #top-logo{
-    display: contents;
+    /*display: contents;*/
     padding-right: 0px;
 }
 
@@ -235,8 +235,8 @@ p{
 }
 
 #top-menu{
-    display: inline-block;
-    position: absolute;
+    /*display: inline-block;
+    position: absolute;*/
     overflow: hidden;
     min-width: 100%;
     min-height: 100%;
