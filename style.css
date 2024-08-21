@@ -284,6 +284,7 @@ p{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+    gap: 1em;
 }
 
 #bottom-menu{
