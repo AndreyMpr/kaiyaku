@@ -12,6 +12,8 @@ html, body {
     min-width: 100%;
     position: fixed;
     z-index: 99;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
 }
 
 .mid-head{
