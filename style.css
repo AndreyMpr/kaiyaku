@@ -293,6 +293,7 @@ p{
         margin-right: 0;
         flex-direction: column;
         margin: auto;
+        gap: 0.5em;
   }
 }   
 
