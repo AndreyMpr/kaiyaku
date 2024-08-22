@@ -288,6 +288,13 @@ p{
     margin-right: 3em;
 }
 
+@media screen and (max-width: 768px) {
+    .lang {
+        margin-right: 0;
+        flex-direction: column;
+  }
+}   
+
 #bottom-menu{
     display: flex;
     margin: auto;
