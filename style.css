@@ -292,6 +292,7 @@ p{
     .lang {
         margin-right: 0;
         flex-direction: column;
+        margin: auto;
   }
 }   
 
