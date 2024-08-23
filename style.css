@@ -251,7 +251,7 @@ p{
     text-decoration: none;
     font-size: 17px;
     background-color: #fff; 
-    border-width: 1px;
+    border-width: 0px;
 }
 
 @media screen and (max-width: 768px) {
