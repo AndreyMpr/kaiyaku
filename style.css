@@ -286,6 +286,10 @@ p{
     margin-right: 3em;
 }
 
+.lang a {
+    padding: 13px 14px;
+}
+
 .lang a:hover {
     background-color: #edf2f4;
   }
