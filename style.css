@@ -286,7 +286,7 @@ p{
     margin-right: 3em;
 }
 
-,lang button:hover {
+.lang a:hover {
     background-color: #edf2f4;
   }
 
