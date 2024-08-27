@@ -11,5 +11,7 @@ window.addEventListener("load", function() {
         document.querySelector("#annotation").textContent = "Please apply using one of the following methods"; 
         document.querySelector(".apply-button span").textContent = "Apply for cancellation via the Internet"; 
         const secondListItem1 = document.querySelector(".apply-button:nth-of-type(2) span").textContent = "Apply for cancellation via paper form";
+        document.querySelector(".bottom-menu-content p").textContent = "Saitama Maruyama Engineering"; 
+        const secondListItem2 = document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "Onari-cho-1-518-2, Omiya, Saitama city, Saitama pref.";
     });
 });
