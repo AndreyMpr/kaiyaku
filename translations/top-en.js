@@ -8,5 +8,6 @@ window.addEventListener("load", function() {
         document.querySelector(".flow-text p").textContent = 'If the period between the [cancellation acceptance date *1] and the "moving date" is less than the [cancellation notice period *2]," you will be responsible for the rent from the [cancellation acceptance date *1] until after the [cancellation notice period *2], so please complete the procedure well in advance. The procedure will be in accordance with the rental contract.';
         document.querySelector(".flow-asterisk-list li").textContent = '*1: "Cancellation acceptance date": If you applied online, it will be the date on which your application is accepted. If you applied in writing, it will be the postmark date of your cancellation notice (postcard).';
         const secondListItem = document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n*2: "Termination notice period": The termination notice period stated in the rental agreement (1 month, 2 months, etc.).';
+        document.querySelector("#annotation").textContent = "Please apply using one of the following methods"; 
     });
 });
