@@ -13,5 +13,7 @@ window.addEventListener("load", function() {
         const secondListItem1 = document.querySelector(".apply-button:nth-of-type(2) span").textContent = "Apply for cancellation via paper form";
         document.querySelector(".bottom-menu-content p").textContent = "Saitama Maruyama Engineering"; 
         const secondListItem2 = document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "Onari-cho-1-518-2, Omiya, Saitama city, Saitama pref.";
+        const secondListItem3 = document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "Business hours: 09:00 〜 18:00";
+        const secondListItem4 = document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "Day off: Tuesday & Wednesday.";
     });
 });
