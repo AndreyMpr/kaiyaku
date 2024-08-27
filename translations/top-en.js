@@ -9,5 +9,7 @@ window.addEventListener("load", function() {
         document.querySelector(".flow-asterisk-list li").textContent = '*1: "Cancellation acceptance date": If you applied online, it will be the date on which your application is accepted. If you applied in writing, it will be the postmark date of your cancellation notice (postcard).';
         const secondListItem = document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n*2: "Termination notice period": The termination notice period stated in the rental agreement (1 month, 2 months, etc.).';
         document.querySelector("#annotation").textContent = "Please apply using one of the following methods"; 
+        document.querySelector(".apply-button span").textContent = "Apply for cancellation via the Internet"; 
+        const secondListItem1 = document.querySelector(".apply-button:nth-of-type(2) span").textContent = "Apply for cancellation via paper form";
     });
 });
