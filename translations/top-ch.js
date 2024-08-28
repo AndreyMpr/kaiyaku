@@ -1,19 +1,19 @@
 window.addEventListener("load", function() {
     document.getElementById("langCh").addEventListener("click", function() {
-        document.querySelector(".mid-title h2").textContent = "Procedures for cancellation and moving out";
-        document.querySelector(".mid-subtitle h3").innerText = "To customers who wish to cancel their contract and move out\n\nThank you very much for choosing to live in a building\nmanaged by Saitama Maruyama engineering.";
-        document.querySelector("#flex-title-left").textContent = "Contract cancellation request"; 
-        document.querySelector(".flex-text-left").innerText = "Once you have decided to move, you will need to apply for contract cancellation. You can apply online (via cancellation application form) or in writing (by mailing the cancellation notice) that you received when you first signed the rental contract.\nUnfortunately, phone requests can not be accepted as cancellation notice.";
-        document.querySelector(".text-badge p").textContent = "Cancellation and moving out procedures"; 
-        document.querySelector(".flow-text p").textContent = 'If the period between the [cancellation acceptance date *¹] and the "moving date" is less than the [cancellation notice period *²]," you will be responsible for the rent from the [cancellation acceptance date *¹] until after the [cancellation notice period *²], so please complete the procedure well in advance. The procedure will be in accordance with the rental contract.';
-        document.querySelector(".flow-asterisk-list li").textContent = '*1: "Cancellation acceptance date": If you applied online, it will be the date on which your application is accepted. If you applied in writing, it will be the postmark date of your cancellation notice (postcard).';
-        document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n*2: "Termination notice period": The termination notice period stated in the rental agreement (1 month, 2 months, etc.).';
-        document.querySelector("#annotation").textContent = "Please apply using one of the following methods"; 
-        document.querySelector(".apply-button span").textContent = "Apply for cancellation via the Internet"; 
-        document.querySelector(".apply-button:nth-of-type(2) span").textContent = "Apply for cancellation via paper form";
-        document.querySelector(".bottom-menu-content p").textContent = "Saitama Maruyama Engineering"; 
-        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "Onari-cho-1-518-2, Omiya, Saitama city, Saitama pref.";
-        document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "Business hours: 09:00 〜 18:00";
-        document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "Day off: Tuesday & Wednesday.";
+        document.querySelector(".mid-title h2").textContent = "取消和搬迁程序";
+        document.querySelector(".mid-subtitle h3").innerText = "致希望取消合同和搬迁的客户\n\n非常感谢您选择住在由埼玉丸山工程管理的大楼中。";
+        document.querySelector("#flex-title-left").textContent = "合同取消申请"; 
+        document.querySelector(".flex-text-left").innerText = "一旦您决定搬迁，您需要申请合同取消。您可以在线申请（通过取消申请表）或书面申请（邮寄您在首次签订租赁合同时收到的取消通知）。\n很遗憾，电话请求不能作为取消通知。";
+        document.querySelector(".text-badge p").textContent = "取消和搬迁程序"; 
+        document.querySelector(".flow-text p").textContent = '如果[取消接受日期 *¹]和"搬迁日期"之间的时间少于[取消通知期 *²]，您将负责从[取消接受日期 *¹]到[取消通知期 *²]之后的租金，因此请提前完成程序。程序将按照租赁合同进行。';
+        document.querySelector(".flow-asterisk-list li").textContent = '*1: "取消接受日期"：如果您在线申请，将是您的申请被接受的日期。如果您书面申请，将是您的取消通知（明信片）的邮戳日期。';
+        document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n*2: "终止通知期"：租赁协议中规定的终止通知期（1个月、2个月等）。';
+        document.querySelector("#annotation").textContent = "请使用以下方法之一申请"; 
+        document.querySelector(".apply-button span").textContent = "通过互联网申请取消"; 
+        document.querySelector(".apply-button:nth-of-type(2) span").textContent = "通过纸质表格申请取消";
+        document.querySelector(".bottom-menu-content p").textContent = "埼玉丸山工程"; 
+        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "埼玉市大宫区御成町1-518-2";
+        document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "营业时间：09:00 〜 18:00";
+        document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "休息日：周二和周三。";
     });
 });
