@@ -11,8 +11,8 @@ window.addEventListener("load", function() {
         document.querySelector("#annotation").textContent = "请使用以下方法之一申请"; 
         document.querySelector(".apply-button span").textContent = "通过互联网申请取消"; 
         document.querySelector(".apply-button:nth-of-type(2) span").textContent = "通过纸质表格申请取消";
-        document.querySelector(".bottom-menu-content p").textContent = "埼玉丸山工程"; 
-        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "埼玉市大宫区御成町1-518-2";
+        document.querySelector(".bottom-menu-content p").textContent = "株式会社 埼玉丸山工務所"; 
+        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "埼玉県さいたま市大宮区大成町1-518-2";
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "营业时间：09:00 〜 18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "休息日：周二和周三。";
     });
