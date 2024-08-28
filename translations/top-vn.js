@@ -1,5 +1,5 @@
 window.addEventListener("load", function() {
-    document.getElementById("langCh").addEventListener("click", function() {
+    document.getElementById("langVn").addEventListener("click", function() {
         document.querySelector(".mid-title h2").textContent = "Thủ tục hủy bỏ và chuyển đi";
         document.querySelector(".mid-subtitle h3").innerText = "Gửi đến khách hàng muốn hủy hợp đồng và chuyển đi\n\nCảm ơn bạn rất nhiều vì đã chọn sống trong tòa nhà do Saitama Maruyama Engineering quản lý.";
         document.querySelector("#flex-title-left").textContent = "Yêu cầu hủy hợp đồng"; 
