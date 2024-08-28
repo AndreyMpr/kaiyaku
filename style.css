@@ -6,7 +6,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-.top-block{
+.top-block {
     background-color: #fff;
     min-height: 50px;
     min-width: 100%;
@@ -22,18 +22,18 @@ html, body {
   }
 }  
 
-.mid-head{
+.mid-head {
     background-color: #fff;
     min-height: 180px;
 }
 
-.mid-body{
+.mid-body {
     background-color: #edf2f4;
     min-height: 180px;
     padding-top: 100px;
 }
 
-.mid-body-inside{
+.mid-body-inside {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -42,13 +42,13 @@ html, body {
     align-items: center;
 }
 
-.mid-content{
+.mid-content {
     position: relative;
     display: flex;
     padding-top: 40px;
 }
 
-.content-left{
+.content-left {
     padding: 2vh
 }
 
@@ -58,7 +58,7 @@ html, body {
   }
 }  
 
-#flex-title-left{
+#flex-title-left {
     display: inline-block;
     color: #006cb8;
     font-size: 2.0rem;
@@ -71,21 +71,21 @@ html, body {
   }
 }  
 
-.flex-text-left{
+.flex-text-left {
     text-align: justify;
     line-height: 35px;
 }
 
-.flex-text-left a{
+.flex-text-left a {
     text-decoration: none;
 }
 
-.content-right{
+.content-right {
     margin-top: 2.5rem;
     padding-left: 5vh;
 }
 
-.content-right img{
+.content-right img {
     border-radius: 1em;
 }
 
@@ -95,7 +95,7 @@ html, body {
   }
 }   
 
-.text-badge{
+.text-badge {
     display: inline-block;
     margin-top: 65px;
     position: relative;
@@ -108,19 +108,19 @@ html, body {
     font-weight: 700;
 }
 
-.cancel-flow{
+.cancel-flow {
     text-align: center;
     background-color: #fff;
     margin-top: -25px;
     border-radius: 1em;
 }
 
-.flow-img{
+.flow-img {
     padding: 75px 0 40px;
     max-width: 90%;
 }
 
-.flow-text{
+.flow-text {
     text-align: justify;
     padding: 0 70px 70px 55px;
 }
@@ -132,12 +132,12 @@ html, body {
   }
 }   
 
-.flow-asterisk-list{
+.flow-asterisk-list {
     list-style-type: none;
     padding-inline-start: 0px;
 }
 
-.but-block{
+.but-block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -145,7 +145,7 @@ html, body {
     justify-content: center
 }
 
-.apply-button{
+.apply-button {
     background: #656565;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -169,22 +169,22 @@ html, body {
     padding-right: 0.5em;
 }
 
-#annotation{
+#annotation {
     padding: 120px 0 60px 0;
     text-align: center;
     font-size: 16px;
 }
 
-.apply-button-text{
+.apply-button-text {
     color: #fff;
     text-decoration: none;
 }
 
-p{
+p {
     margin: 0px;
 }
 
-.top-banner{
+.top-banner {
     background-image: url(includes/cancel_bg.png);
     background-size: cover;
     background-position: center;
@@ -193,11 +193,11 @@ p{
     min-height: 20vh;
 }
 
-#eng-title{
+#eng-title {
     font-size: 24px;
 }
 
-.banner-title{
+.banner-title {
     font-size: 2.5rem;
     color: aliceblue;
     transform: translateY(50%);
@@ -210,24 +210,24 @@ p{
   }
 }   
 
-.banner-title p{
+.banner-title p {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.mid-title{
+.mid-title {
     margin: 10vh 0;
     text-align: center;
 }
 
-.mid-subtitle{
+.mid-subtitle {
     text-align: center;
     color: #006CB8;
     padding-bottom: 70px;
     border-bottom: 2px dotted #75A8C3;
 }
 
-#top-logo{
+#top-logo {
     /*display: contents;*/
     padding-right: 0px;
 }
@@ -239,20 +239,20 @@ p{
   }
 }   
 
-#top-logo img{
+#top-logo img {
     max-height: 2em;
     margin: 1ex;
     margin-left: 3em;
     margin-right: 3em;
 }
 
-#top-menu{
+#top-menu {
     overflow: hidden;
     min-width: 100%;
     min-height: 100%;
 }
 
-#top-menu button{
+#top-menu button {
     float: left;
     text-align: center;
     padding: 13px 14px;
@@ -273,7 +273,7 @@ p{
     background-color: #edf2f4;
   }
 
-.bottom-block{
+.bottom-block {
     background-color: #222;
     color: #e3eef3;
     min-height: 50px;
@@ -318,7 +318,7 @@ p{
   }
 }   
 
-#bottom-menu{
+#bottom-menu {
     display: flex;
     margin: auto;
 }
@@ -329,7 +329,7 @@ p{
   }
 }   
 
-.bottom-menu-content{
+.bottom-menu-content {
     display: flex;
     flex-direction: column;
     margin: 0 3vh;
@@ -349,7 +349,7 @@ p{
   }
 }   
 
-.bottom-menu-content p{
+.bottom-menu-content p {
     line-height: 1.5em;
 }
 
