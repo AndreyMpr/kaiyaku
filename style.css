@@ -165,6 +165,10 @@ html, body {
   }
 }   
 
+.apply-button img {
+    padding-right: 0.5em;
+}
+
 #annotation{
     padding: 120px 0 60px 0;
     text-align: center;
