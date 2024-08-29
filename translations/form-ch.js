@@ -119,7 +119,7 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").innerText = "个人信息保护政策";
+        document.getElementById("privacy-policy-link").innerText = "个人信息保护政策 (日语)";
 
         //Footer
 

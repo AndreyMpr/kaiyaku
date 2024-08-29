@@ -118,7 +118,7 @@ window.addEventListener("load", function() {
 
         //Privacy policy
 
-        document.getElementById("privacy-policy-link").innerText = "Chính sách bảo mật";
+        document.getElementById("privacy-policy-link").innerText = "Chính sách bảo mật (tiếng Nhật)";
 
         //Footer
 
