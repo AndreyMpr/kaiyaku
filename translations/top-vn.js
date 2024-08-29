@@ -17,5 +17,6 @@ window.addEventListener("load", function() {
         document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "tỉnh Saitama, thành phố Saitama, Omiya, Onari-cho-1-518-2";
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "Giờ làm việc: 09:00 〜 18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "Ngày nghỉ: Thứ Ba & Thứ Tư.";
+        document.querySelector(".privacy-policy-link").textContent = "Chính sách bảo mật (tiếng Nhật)";
     });
 });

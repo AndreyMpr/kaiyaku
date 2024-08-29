@@ -17,5 +17,6 @@ window.addEventListener("load", function() {
         document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "埼玉県さいたま市大宮区大成町1-518-2";
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "营业时间：09:00 〜 18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "休息日：周二和周三。";
+        document.querySelector(".privacy-policy-link").textContent = "个人信息保护政策 (日语)";
     });
 });

@@ -17,5 +17,6 @@ window.addEventListener("load", function() {
         document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "埼玉県さいたま市大宮区大成町1-518-2";
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "営業時間 9:00～18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "担当部署（不動産部）定休日：火曜日・水曜日";
+        document.querySelector(".privacy-policy-link").textContent = "個人情報保護方針";
     });
 });
