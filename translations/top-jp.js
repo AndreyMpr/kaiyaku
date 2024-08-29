@@ -1,5 +1,7 @@
 window.addEventListener("load", function() {
     document.getElementById("langJp").addEventListener("click", function() {
+        document.querySelector("#top-menu button").innerText = "埼玉丸山工務所ホームページ";
+        document.querySelector("#top-menu button:nth-of-type(2)").innerText = "24時間問い合わせライン";
         document.querySelector(".mid-title h2").textContent = "解約・退去のお手続き方法";
         document.querySelector(".mid-subtitle h3").innerText = "解約・退去をご希望されるお客様へ\n\n株式会社埼玉丸山工務所の管理建物に\nお住まいいただきまして、\n誠にありがとうございました。";
         document.querySelector("#flex-title-left").textContent = "解約・退去のお申込み"; 
