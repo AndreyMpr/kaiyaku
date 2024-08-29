@@ -1,5 +1,7 @@
 window.addEventListener("load", function() {
     document.getElementById("langVn").addEventListener("click", function() {
+        document.querySelector("#top-menu button").innerText = "Trang chủ";
+        document.querySelector("#top-menu button:nth-of-type(2)").innerText = "Đường dây nóng 24/7";
         document.querySelector(".mid-title h2").textContent = "Thủ tục hủy bỏ và chuyển đi";
         document.querySelector(".mid-subtitle h3").innerText = "Gửi đến khách hàng muốn hủy hợp đồng và chuyển đi\n\nCảm ơn bạn rất nhiều vì đã chọn sống trong tòa nhà do Saitama Maruyama Engineering quản lý.";
         document.querySelector("#flex-title-left").textContent = "Yêu cầu hủy hợp đồng"; 
@@ -12,7 +14,7 @@ window.addEventListener("load", function() {
         document.querySelector(".apply-button span").textContent = "Nộp đơn hủy qua Internet"; 
         document.querySelector(".apply-button:nth-of-type(2) span").textContent = "Nộp đơn hủy qua mẫu giấy";
         document.querySelector(".bottom-menu-content p").textContent = "Saitama Maruyama Engineering"; 
-        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "Onari-cho-1-518-2, Omiya, thành phố Saitama, tỉnh Saitama";
+        document.querySelector(".bottom-menu-content p:nth-of-type(3)").textContent = "tỉnh Saitama, thành phố Saitama, Omiya, Onari-cho-1-518-2";
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "Giờ làm việc: 09:00 〜 18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "Ngày nghỉ: Thứ Ba & Thứ Tư.";
     });
