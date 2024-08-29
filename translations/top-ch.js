@@ -1,7 +1,7 @@
 window.addEventListener("load", function() {
     document.getElementById("langCh").addEventListener("click", function() {
-        document.querySelector("#top-menu button").innerText = "主页";
-        document.querySelector("#top-menu button:nth-of-type(2)").innerText = "24/7服务热线";
+        document.querySelector("#top-menu button").innerText = "主页 (日语)";
+        document.querySelector("#top-menu button:nth-of-type(2)").innerText = "24/7服务热线 (日语)";        
         document.querySelector(".mid-title h2").textContent = "取消和搬迁程序";
         document.querySelector(".mid-subtitle h3").innerText = "致希望取消合同和搬迁的客户\n\n非常感谢您选择住在由埼玉丸山工程管理的大楼中。";
         document.querySelector("#flex-title-left").textContent = "合同取消申请"; 
