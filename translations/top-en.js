@@ -1,5 +1,6 @@
 window.addEventListener("load", function() {
     document.getElementById("langEn").addEventListener("click", function() {
+        document.querySelector("#top-menu button").innerText = "Company home page";
         document.querySelector(".mid-title h2").textContent = "Procedures for cancellation and moving out";
         document.querySelector(".mid-subtitle h3").innerText = "To customers who wish to cancel their contract and move out\n\nThank you very much for choosing to live in a building\nmanaged by Saitama Maruyama engineering.";
         document.querySelector("#flex-title-left").textContent = "Contract cancellation request"; 
