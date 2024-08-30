@@ -363,8 +363,9 @@ p {
     color: #e3eef3;
 }
 
-
-.privacy-policy-link {
-	font-size: 14px;
-	padding: 2% 0;
+@media screen and (max-width: 768px) {
+    .privacy-policy-link {
+        font-size: 14px;
+        padding: 2% 0;
+    }
 }
