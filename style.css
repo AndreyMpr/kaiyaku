@@ -242,8 +242,8 @@ p {
 #top-logo img {
     max-height: 2em;
     margin: 1ex;
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 3vh;
+    margin-right: 3vh;
 }
 
 #top-menu {
