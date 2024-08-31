@@ -244,6 +244,7 @@ p {
     margin: 1ex;
     margin-left: 3vh;
     margin-right: 3vh;
+
 }
 
 #top-menu {
@@ -292,7 +293,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-    margin-right: 3em;
+    margin-right: 3vh;
 }
 
 .lang a {
