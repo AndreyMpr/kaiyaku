@@ -132,6 +132,16 @@ html, body {
     font-size: 1.1em;
 }
 
+.overlay-text-2 {
+    position: absolute;
+    top: 28%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
 .flow-text {
     text-align: justify;
     padding: 0 70px 70px 55px;
