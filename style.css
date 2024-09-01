@@ -113,12 +113,15 @@ html, body {
     background-color: #fff;
     margin-top: -25px;
     border-radius: 1em;
+    position: relative;
+    display: inline-block;
 }
 
 .flow-img {
     padding: 75px 0 40px;
     max-width: 90%;
 }
+
 
 .flow-text {
     text-align: justify;
