@@ -122,6 +122,15 @@ html, body {
     max-width: 90%;
 }
 
+.overlay-text-1 {
+    position: absolute;
+    top: 28%;
+    left: 13.5%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
 
 .flow-text {
     text-align: justify;
