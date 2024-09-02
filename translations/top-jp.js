@@ -7,6 +7,12 @@ window.addEventListener("load", function() {
         document.querySelector("#flex-title-left").textContent = "解約・退去のお申込み"; 
         document.querySelector(".flex-text-left").innerText = "お引越しが決まりましたら「解約・退去」のお申込みが必要となります。お申込み方法は 「インターネット」(当社ご入居者様解約申込みフォーム)からのお申込み、または初回の賃貸契約時にお渡ししている「書面（解約通知書郵送）」によるお申込みとなります。\nお電話・メールによるお申込みは出来ません。";
         document.querySelector(".text-badge p").textContent = "解約・退去のお手続きの流れ"; 
+        document.querySelector("#overlay-text-1").innerText = "Deciding on\nmoving out";
+        document.querySelector("#overlay-text-2").innerText = "Applying for\ncontract cancellation";
+        document.querySelector("#overlay-text-3").innerText = "Application\nregistry";
+        document.querySelector("#overlay-text-4").innerText = "Moove-out\ninspection";
+        document.querySelector("#overlay-text-5").innerText = "Restoration\nsettlement";
+        document.querySelector("#overlay-text-6").innerText = "Contract\ntermination";
         document.querySelector(".flow-text p").textContent = '解約・退去のお申込みは、「解約受付日※1」から「退去日」までが「解約予告期間※2」未満の場合は、\n「解約受付日※1」より「解約予告期間※2」後までの家賃をご負担いただくことになりますので、日にちに余裕をもってのお手続きをお願いいたします。尚、当該手続きは賃貸借契約書に準ずるものといたします。';
         document.querySelector(".flow-asterisk-list li").textContent = '※1：「解約受付日」…インターネットでお申込みされた場合は申込み受付完了した日、書面でお申込みされた場合は\n解約通知書（ハガキ）の消印日となります。';
         document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n※2：「解約予告期間」…賃貸借契約書記載の解約予告期間（1ヶ月、2ヶ月等）。';
