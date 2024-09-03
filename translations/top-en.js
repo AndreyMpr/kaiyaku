@@ -8,7 +8,7 @@ window.addEventListener("load", function() {
         document.querySelector(".flex-text-left").innerText = "Once you have decided to move, you will need to apply for contract cancellation. You can apply online (via cancellation application form) or in writing (by mailing the cancellation notice) that you received when you first signed the rental contract.\nUnfortunately, phone requests can not be accepted as cancellation notice.";
         document.querySelector(".text-badge p").textContent = "Cancellation and moving out procedures"; 
         document.querySelector("#overlay-text-1").innerText = "Deciding on\nmoving out";
-        document.querySelector("#overlay-text-2").innerText = "Applying for\ncontract cancellation";
+        document.querySelector("#overlay-text-2").innerText = "Applying for\ncontract\ncancellation";
         document.querySelector("#overlay-text-3").innerText = "Application\nregistry";
         document.querySelector("#overlay-text-4").innerText = "Moove-out\ninspection";
         document.querySelector("#overlay-text-5").innerText = "Restoration\nsettlement";
