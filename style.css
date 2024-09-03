@@ -178,6 +178,15 @@ html, body {
     padding: 10px 20px;
 }
 
+#overlay-text-7 {
+    position: absolute;
+    top: 45%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    color: #006CB8;
+    padding: 10px 20px;
+}
+
 .flow-text {
     text-align: justify;
     padding: 0 70px 70px 55px;
