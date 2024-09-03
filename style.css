@@ -180,11 +180,12 @@ html, body {
 
 #overlay-text-7 {
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: 72%;
     transform: translate(-50%, -50%);
     color: #006CB8;
     padding: 10px 20px;
+    text-wrap: nowrap;
 }
 
 .flow-text {
