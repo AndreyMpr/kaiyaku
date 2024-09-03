@@ -13,6 +13,7 @@ window.addEventListener("load", function() {
         document.querySelector("#overlay-text-4").innerText = "退去立会い";
         document.querySelector("#overlay-text-5").innerText = "原状回復精算";
         document.querySelector("#overlay-text-6").innerText = "解約・賃料終了日";
+        document.querySelector("#overlay-text-7").innerText = "家賃のかかる期間（解約予告期間：2ヶ月）";
         document.querySelector(".flow-text p").textContent = '解約・退去のお申込みは、「解約受付日※1」から「退去日」までが「解約予告期間※2」未満の場合は、\n「解約受付日※1」より「解約予告期間※2」後までの家賃をご負担いただくことになりますので、日にちに余裕をもってのお手続きをお願いいたします。尚、当該手続きは賃貸借契約書に準ずるものといたします。';
         document.querySelector(".flow-asterisk-list li").textContent = '※1：「解約受付日」…インターネットでお申込みされた場合は申込み受付完了した日、書面でお申込みされた場合は\n解約通知書（ハガキ）の消印日となります。';
         document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n※2：「解約予告期間」…賃貸借契約書記載の解約予告期間（1ヶ月、2ヶ月等）。';
