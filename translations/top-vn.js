@@ -13,6 +13,7 @@ window.addEventListener("load", function() {
         document.querySelector("#overlay-text-4").innerText = "Kiểm tra\nchuyển ra";
         document.querySelector("#overlay-text-5").innerText = "Thanh toán\nphục hồi";
         document.querySelector("#overlay-text-6").innerText = "Ngày kết\nthúchợp đồng\n/tiền thuê";
+        document.querySelector("#overlay-text-7").innerText = "Thời gian thuê (báo trước 2 tháng)";
         document.querySelector(".flow-text p").textContent = 'Nếu khoảng thời gian giữa [ngày chấp nhận hủy *¹] và "ngày chuyển đi" ít hơn [thời gian thông báo hủy *²], bạn sẽ phải chịu trách nhiệm về tiền thuê từ [ngày chấp nhận hủy *¹] cho đến sau [thời gian thông báo hủy *²], vì vậy hãy hoàn thành thủ tục trước thời hạn. Thủ tục sẽ được thực hiện theo hợp đồng thuê.';
         document.querySelector(".flow-asterisk-list li").textContent = '*1: "Ngày chấp nhận hủy": Nếu bạn nộp đơn trực tuyến, đó sẽ là ngày đơn của bạn được chấp nhận. Nếu bạn nộp đơn bằng văn bản, đó sẽ là ngày đóng dấu bưu điện của thông báo hủy (bưu thiếp).';
         document.querySelector('.flow-asterisk-list li:nth-of-type(2)').innerText = '\n*2: "Thời gian thông báo hủy": Thời gian thông báo hủy được ghi trong hợp đồng thuê (1 tháng, 2 tháng, v.v.).';
