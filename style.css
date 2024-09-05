@@ -319,6 +319,7 @@ p {
 
 #top-menu button:hover {
     background-color: #edf2f4;
+    border-bottom: 2px solid  #006CB8;
   }
 
 .bottom-block {
