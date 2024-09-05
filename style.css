@@ -350,6 +350,7 @@ p {
 
 .lang a:hover {
     background-color: #edf2f4;
+    border-bottom: 2px solid  #006CB8;
   }
 
 @media screen and (max-width: 768px) {
