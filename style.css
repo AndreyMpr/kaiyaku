@@ -87,6 +87,7 @@ html, body {
 
 .content-right img {
     border-radius: 1em;
+    max-width: 27em;
 }
 
 @media screen and (max-width: 768px) {
