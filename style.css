@@ -346,6 +346,7 @@ p {
 
 .lang a {
     padding: 13px 14px;
+    min-height: 50%;
 }
 
 .lang a:hover {
