@@ -231,7 +231,7 @@ p {
 }
 
 .top-banner {
-    background-image: url(includes/cancel_bg.png);
+    background-image: url(includes/cancel_bg.webp);
     background-size: cover;
     background-position: center;
     padding: 100px;
