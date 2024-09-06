@@ -73,8 +73,15 @@
             <!--kaiyaku-flow-scheme-->
 
             <div class="cancel-flow">
-                <img class="flow-img" src="includes/kaiyaku-flow-horizontal-no-text.svg">
 
+                <picture class="flow-img">
+                    <source media="(min-width: 768px)" srcset="includes/kaiyaku-flow-horizontal-no-text.svg" />
+                    <img src="includes/kaiyaku-flow-vertical.png" />
+                </picture>
+                
+                <!--<img class="flow-img" src="includes/kaiyaku-flow-horizontal-no-text.svg">
+                -->
+                
                 <span class="overlay-text" id="overlay-step-1">
                     引っ越し<br>予定決定
                 </span>
