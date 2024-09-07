@@ -137,6 +137,16 @@ html, body {
     left: 13.5%;
 }
 
+@media screen and (max-width: 768px) {
+    #overlay-step-1 {
+        left: 36%;
+        top: 13%;
+        text-wrap: nowrap;
+        font-weight: bold;
+        color: #006cb8;
+    }
+}   
+
 #overlay-step-2 {
     left: 29%;
 }
