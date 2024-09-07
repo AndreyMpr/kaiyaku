@@ -194,9 +194,29 @@ html, body {
     left: 73%;
 }
 
+@media screen and (max-width: 768px) {
+    #overlay-step-5 {
+        left: 36%;
+        top: 40%;
+        text-wrap: nowrap;
+        font-weight: bold;
+        color: #006cb8;
+    }
+}   
+
 #overlay-step-6 {
     left: 87%;
 }
+
+@media screen and (max-width: 768px) {
+    #overlay-step-6 {
+        left: 36%;
+        top: 46.5%;
+        text-wrap: nowrap;
+        font-weight: bold;
+        color: #006cb8;
+    }
+}   
 
 #overlay-text-arrow {
     position: absolute;
@@ -207,6 +227,12 @@ html, body {
     padding: 10px 20px;
     text-wrap: nowrap;
 }
+
+@media screen and (max-width: 768px) {
+    #overlay-text-arrow {
+        display: none;
+    }
+}   
 
 .flow-text {
     text-align: justify;
