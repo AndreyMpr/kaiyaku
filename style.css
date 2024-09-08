@@ -149,11 +149,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-1 {
-        left: 36%;
         top: 13%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
@@ -164,11 +160,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-2 {
-        left: 36%;
         top: 19.5%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
@@ -178,11 +170,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-3 {
-        left: 36%;
         top: 26.5%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
@@ -192,11 +180,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-4 {
-        left: 36%;
         top: 33%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
@@ -206,11 +190,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-5 {
-        left: 36%;
         top: 40%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
@@ -220,11 +200,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-6 {
-        left: 36%;
         top: 46.5%;
-        text-wrap: nowrap;
-        font-weight: bold;
-        color: #006cb8;
     }
 }   
 
