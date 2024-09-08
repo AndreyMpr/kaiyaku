@@ -251,6 +251,12 @@ html, body {
     padding-inline-start: 0px;
 }
 
+@media screen and (max-width: 768px) {
+    .overlay-text br {
+        display: none;
+    }
+}   
+
 .but-block {
     display: flex;
     flex-wrap: wrap;
