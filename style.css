@@ -133,9 +133,19 @@ html, body {
     padding: 10px 20px;
 }
 
+@media screen and (max-width: 768px) {
+    #overlay-text {
+        left: 36%;
+        text-wrap: nowrap;
+        font-weight: bold;
+        color: #006cb8;
+    }
+}   
+
 #overlay-step-1 {
     left: 13.5%;
 }
+
 
 @media screen and (max-width: 768px) {
     #overlay-step-1 {
