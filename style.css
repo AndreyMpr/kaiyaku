@@ -402,7 +402,7 @@ p {
 }
 
 .lang {
-	display: flex;
+	display: grid;
 	flex-direction: row;
 	align-items: center;
     margin-right: 3vh;
