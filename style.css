@@ -264,6 +264,11 @@ html, body {
     justify-content: center;
 }
 
+.apply-button:hover {
+    background: #006CB8;
+    transition: 1s;
+}
+
 @media screen and (max-width: 768px) {
     .apply-button {
         width: 43vh;
