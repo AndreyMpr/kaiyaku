@@ -16,12 +16,6 @@ html, body {
     grid-template-columns: 1fr 2fr auto;
 }
 
-@media screen and (max-width: 768px) {
-    .top-block {
-        grid-template-columns: 2fr 1fr auto;
-  }
-}  
-
 .mid-head {
     background-color: #fff;
     min-height: 180px;
@@ -402,7 +396,7 @@ p {
 }
 
 .lang {
-	display: grid;
+	display: flex;
 	flex-direction: row;
 	align-items: center;
     margin-right: 3vh;
