@@ -337,6 +337,11 @@ p {
     padding-right: 0px;
 }
 
+#top-logo a img:hover {
+    filter: invert(43%) sepia(87%) saturate(767%) hue-rotate(343deg) brightness(93%) contrast(99%);
+    transition: 0.5s;
+}
+
 
 @media screen and (max-width: 768px) {
     #top-logo {
@@ -366,6 +371,7 @@ p {
     font-size: 16px;
     background-color: #fff; 
     border-width: 0px;
+    min-height: 100%;
 }
 
 @media screen and (max-width: 768px) {
