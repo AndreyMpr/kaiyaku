@@ -128,7 +128,7 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
-    #overlay-text {
+    .overlay-text {
         left: 36%;
         text-wrap: nowrap;
         font-weight: bold;
