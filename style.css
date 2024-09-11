@@ -382,7 +382,8 @@ p {
 @media screen and (max-width: 768px) {
     #top-menu button {
         font-size: 14px;
-        min-width: 50%
+        min-width: 50%;
+        min-height: auto;
   }
 }   
 
