@@ -154,7 +154,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-2 {
-        top: 19.5%;
+        top: 18.5%;
         left: 36%;
     }
 }   
@@ -165,7 +165,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-3 {
-        top: 26.5%;
+        top: 25%;
         left: 36%;
     }
 }   
@@ -176,7 +176,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-4 {
-        top: 33%;
+        top: 31%;
         left: 36%;
     }
 }   
@@ -187,7 +187,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-5 {
-        top: 40%;
+        top: 37%;
         left: 36%;
     }
 }   
@@ -198,7 +198,7 @@ html, body {
 
 @media screen and (max-width: 768px) {
     #overlay-step-6 {
-        top: 46.5%;
+        top: 43%;
         left: 36%;
     }
 }   
