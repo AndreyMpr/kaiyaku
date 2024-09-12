@@ -9,10 +9,15 @@ window.addEventListener("load", function() {
         document.querySelector(".text-badge p").textContent = "Cancellation and moving out procedures"; 
         document.querySelector("#overlay-step-1").style.fontSize = "0.9em";
         document.querySelector("#overlay-step-2").style.fontSize = "0.9em";
+        document.querySelector("#overlay-step-2").style.left = "48%";
         document.querySelector("#overlay-step-3").style.fontSize = "0.9em";
+        document.querySelector("#overlay-step-3").style.left = "36%";
         document.querySelector("#overlay-step-4").style.fontSize = "0.9em";
+        document.querySelector("#overlay-step-4").style.left = "38%";
         document.querySelector("#overlay-step-5").style.fontSize = "0.9em";
+        document.querySelector("#overlay-step-5").style.left = "39%";
         document.querySelector("#overlay-step-6").style.fontSize = "0.9em";
+        document.querySelector("#overlay-step-6").style.left = "37%";
         document.querySelector("#overlay-step-1").innerText = "Deciding on\nmoving out";
         document.querySelector("#overlay-step-2").innerText = "Applying for\ncontract\ncancellation";
         document.querySelector("#overlay-step-3").innerText = "Application\nregistry";
