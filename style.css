@@ -143,7 +143,7 @@ html, body {
 @media screen and (max-width: 768px) {
     #overlay-step-1 {
         top: 13%;
-        left: 36%;
+        left: 40%;
     }
 }   
 
@@ -166,7 +166,7 @@ html, body {
 @media screen and (max-width: 768px) {
     #overlay-step-3 {
         top: 25%;
-        left: 36%;
+        left: 32%;
     }
 }   
 
@@ -177,7 +177,7 @@ html, body {
 @media screen and (max-width: 768px) {
     #overlay-step-4 {
         top: 31%;
-        left: 36%;
+        left: 34%;
     }
 }   
 
@@ -199,7 +199,7 @@ html, body {
 @media screen and (max-width: 768px) {
     #overlay-step-6 {
         top: 43%;
-        left: 36%;
+        left: 40%;
     }
 }   
 
