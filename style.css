@@ -248,7 +248,9 @@ html, body {
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     padding: 75px 0 40px;
-    background-image: url("includes/kaiyaku-flow-vertical.png");
+    background: url("includes/kaiyaku-flow-vertical.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .but-block {
