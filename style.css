@@ -258,6 +258,7 @@ html, body {
 .mobile-kaiyaku-flow>div:nth-child(3n+1)
 {
   font-weight: 600;
+  color: #006cb8;
 }
 
 .but-block {
