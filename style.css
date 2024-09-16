@@ -245,14 +245,12 @@ html, body {
 .mobile-kaiyaku-flow {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
     grid-auto-rows: minmax(2em, auto);
     padding: 75px 0 40px;
     /*background: url("includes/kaiyaku-flow-vertical.png");
     background-size: contain;
     background-repeat: no-repeat;*/
     margin: 0.5em;
-    padding-left: 1.5em;
 }
 
 .mobile-kaiyaku-flow>div:nth-child(3n+1)
