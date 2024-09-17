@@ -251,7 +251,13 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;*/
     margin: 0.5em;
+}
+
+.mobile-kaiyaku-flow li div {
     display: inline-block;
+}
+.mobile-kaiyaku-flow li  {
+    display: grid;
 }
 
 .mobile-kaiyaku-flow>div:nth-child(3n+1)
