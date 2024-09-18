@@ -257,7 +257,7 @@ html, body {
     display: inline-block;
 }
 .mobile-kaiyaku-flow li  {
-    display: grid;
+    display: block;
 }
 
 .mobile-kaiyaku-flow>div:nth-child(3n+1)
