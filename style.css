@@ -242,6 +242,16 @@ html, body {
     }
 }   
 
+
+
+
+
+/*Redo the new kaiyaku flow styling.*/
+
+
+
+
+
 .mobile-kaiyaku-flow {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
