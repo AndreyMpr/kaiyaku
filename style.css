@@ -261,6 +261,7 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;*/
     margin: 0.5em;
+    min-width: 90%;
 }
 
 .mobile-kaiyaku-flow li div {
