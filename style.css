@@ -266,7 +266,7 @@ html, body {
 
 .mobile-kaiyaku-flow li div {
     display: inline-block;
-    padding-right: 2em;
+    padding: 0.2em 0.5em;
 }
 .mobile-kaiyaku-flow li  {
     display: block;
@@ -282,15 +282,25 @@ html, body {
 }
 
 
-.mobile-kaiyaku-flow>div:nth-child(3n+1)
-{
+.mobile-kaiyaku-flow>div:nth-child(3n+1) {
   font-weight: 600;
   color: #006cb8;
 }
 
-.mobile-kaiyaku-flow>div:nth-child(1n+4)
-{
+.mobile-kaiyaku-flow>div:nth-child(1n+4) {
   background-color: #656565;
+}
+
+.mobile-kaiyaku-flow-number {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #006cb8;
+    background-color: #f0f0f0;
+}
+
+
+.mobile-kaiyaku-flow-number:nth-of-type(2n) {
+    background-color: #dee2e9;
 }
 
 .but-block {
