@@ -299,7 +299,7 @@ html, body {
 }
 
 
-.mobile-kaiyaku-flow-number:nth-child(even) {
+.mobile-kaiyaku-flow li:nth-of-type(even) .mobile-kaiyaku-flow-number {
     background-color: #dee2e9;
 }
 
