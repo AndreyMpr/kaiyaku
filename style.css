@@ -291,6 +291,10 @@ html, body {
     background-color: #dee2e9;
 }
 
+#mobile-kaiyaku-flow-frame {
+    border: dashed #006CB8;
+}
+
 .but-block {
     display: flex;
     flex-wrap: wrap;
