@@ -114,6 +114,12 @@ html, body {
     display: inline-block;
 }
 
+@media screen and (max-width: 768px) {
+    .cancel-flow {
+        text-align:left;
+  }
+}   
+
 .flow-img {
     padding: 75px 0 40px;
     max-width: 90%;
@@ -293,6 +299,7 @@ html, body {
 
 #mobile-kaiyaku-flow-frame {
     border: dashed #006CB8;
+    border-radius: 1em;
 }
 
 .but-block {
