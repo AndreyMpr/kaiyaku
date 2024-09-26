@@ -298,8 +298,10 @@ html, body {
 }
 
 #mobile-kaiyaku-flow-frame {
-    border: dashed #006CB8;
-    border-radius: 1em;
+    /*border: dashed #006CB8;
+    border-radius: 1em;*/
+    outline: 2px dashed #006CB8;
+    outline-offset: -5px;
 }
 
 .but-block {
