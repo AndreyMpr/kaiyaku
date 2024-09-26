@@ -302,7 +302,8 @@ html, body {
     border-radius: 1em;*/
     /*outline: 2px dashed #006CB8;
     outline-offset: -5px;*/
-    
+    border: none;
+    border-radius: 0 0 1em 1em;
     box-shadow: 0 0 0 2pt #006CB8;
 }
 
