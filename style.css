@@ -394,6 +394,7 @@ p {
     .banner-title {
         font-size: 2rem;
         transform: translateY(0%);
+        padding-top: inherit;
   }
 }   
 
