@@ -313,7 +313,11 @@ html, body {
     border: 2px #ff0000 dashed;
     border-radius: 10px;
     z-index: -1;
-  }
+}
+
+#mobile-kaiyaku-flow-frame p {
+    position: absolute;
+}
 
 .but-block {
     display: flex;
