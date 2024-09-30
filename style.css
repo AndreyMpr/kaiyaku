@@ -250,7 +250,7 @@ html, body {
 
 
 .mobile-kaiyaku-flow {
-    display: grid;
+    display: none;
     grid-auto-rows: minmax(1.5em, auto);
     padding: 75px 0 40px;
     margin: 0.5em;
@@ -258,6 +258,12 @@ html, body {
     font-weight: 600;
     color: #006cb8;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-kaiyaku-flow {
+        display: grid;
+    }
+}   
 
 .mobile-kaiyaku-flow li div {
     display: inline-block;
