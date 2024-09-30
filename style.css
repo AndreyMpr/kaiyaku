@@ -318,6 +318,8 @@ html, body {
 #mobile-kaiyaku-flow-frame p {
     float: right;
     writing-mode: tb-rl;
+    padding-right: 3em;
+    padding-top: 3.5em;
 }
 
 .but-block {
