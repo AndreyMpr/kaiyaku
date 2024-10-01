@@ -36,5 +36,13 @@ window.addEventListener("load", function() {
         document.querySelector(".bottom-menu-content p:nth-of-type(4)").textContent = "Business hours: 09:00 〜 18:00";
         document.querySelector(".bottom-menu-content p:nth-of-type(5)").textContent = "Day off: Tuesday & Wednesday.";
         document.querySelector(".privacy-policy-link").textContent = "Privacy policy (japanese)";
+        document.querySelector(".mobile-kaiyaku-flow-two").innerText = "Deciding on moving out";
+        document.querySelector(".mobile-kaiyaku-flow-five").innerText = "Applying for contract cancellation";
+        document.querySelector(".mobile-kaiyaku-flow-eight").innerText = "Application registry";
+        document.querySelector(".mobile-kaiyaku-flow-eleven").innerText = "Moove-out inspection";
+        document.querySelector(".mobile-kaiyaku-flow-fourteen").innerText = "Restoration settlement";
+        document.querySelector(".mobile-kaiyaku-flow-seventeen").innerText = "Contract termination";
+        document.querySelector(".mobile-kaiyaku-flow-frame p").innerText = "Rent period (2 months’ notice)";
+        
     });
 });
