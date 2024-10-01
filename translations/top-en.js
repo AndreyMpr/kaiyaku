@@ -42,7 +42,7 @@ window.addEventListener("load", function() {
         document.querySelector(".mobile-kaiyaku-flow-eleven").innerText = "Moove-out inspection";
         document.querySelector(".mobile-kaiyaku-flow-fourteen").innerText = "Restoration settlement";
         document.querySelector(".mobile-kaiyaku-flow-seventeen").innerText = "Contract termination";
-        document.querySelector(".mobile-kaiyaku-flow-frame p").innerText = "Rent period (2 months’ notice)";
+        document.querySelector("#mobile-kaiyaku-flow-frame p").innerText = "Rent period (2 months’ notice)";
         
     });
 });
