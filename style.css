@@ -138,6 +138,7 @@ html, body {
         text-wrap: nowrap;
         font-weight: bold;
         color: #006cb8;
+        display: none;
     }
 }   
 
