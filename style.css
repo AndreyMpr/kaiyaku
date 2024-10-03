@@ -322,7 +322,7 @@ html, body {
     z-index: -1;
 }
 
-#mobile-kaiyaku-flow-frame p {
+#mobile-kaiyaku-flow-frame .vertical-text {
     float: right;
     writing-mode: tb-rl;
     padding-right: 3em;
